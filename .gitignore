@@ -2,6 +2,8 @@
 incoming/
 *.html
 !nj-dashboard.html
+# Keep data.csv for Streamlit Cloud
+!data.csv
 
 # Python
 __pycache__/

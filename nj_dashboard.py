@@ -132,35 +132,36 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Load data ──
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=3600)
 def load_data():
+    # Try relative path first (Streamlit Cloud), then absolute (local dev)
     paths = [
+        os.path.join(os.path.dirname(__file__), "data.csv"),
         os.path.expanduser("~/cre/incoming/nj-full/nj_all_listings.csv"),
-        os.path.expanduser("~/cre/incoming/filtered/loopnet_nj_listings.csv"),
-        os.path.expanduser("~/cre/incoming/loopnet_listings.csv"),
     ]
     for p in paths:
         if os.path.exists(p):
             df = pd.read_csv(p)
-            # Filter NJ only
-            df = df[df['state'] == 'NJ'].copy()
-            if len(df) > 0:
-                # Parse price numbers
-                def parse_price(p):
-                    if pd.isna(p) or str(p).strip() == '' or p == 'N/A':
-                        return None
-                    m = re.search(r'\$([\d,]+)', str(p))
-                    return int(m.group(1).replace(',','')) if m else None
-                
-                df['price_num'] = df['price'].apply(parse_price)
-                df['sf_num'] = pd.to_numeric(df['sf'].str.replace(',',''), errors='coerce').fillna(0).astype(int)
-                df['price_per_sf'] = df.apply(
-                    lambda r: int(round(r['price_num'] / r['sf_num'])) if pd.notna(r['price_num']) and r['sf_num'] > 0 else None, axis=1
-                )
-                df = df.sort_values('price_num', na_position='last').reset_index(drop=True)
-                df['num'] = range(1, len(df) + 1)
-                return df
-    return pd.DataFrame()
+            break
+    else:
+        st.error("No data file found. Run scraper first.")
+        return pd.DataFrame()
+    
+    # Parse price numbers
+    def parse_price(p):
+        if pd.isna(p) or str(p).strip() == '' or p == 'N/A':
+            return None
+        m = re.search(r'\$([\d,]+)', str(p))
+        return int(m.group(1).replace(',','')) if m else None
+    
+    df['price_num'] = df['price'].apply(parse_price)
+    df['sf_num'] = pd.to_numeric(df['sf'].str.replace(',',''), errors='coerce').fillna(0).astype(int)
+    df['price_per_sf'] = df.apply(
+        lambda r: int(round(r['price_num'] / r['sf_num'])) if pd.notna(r['price_num']) and r['sf_num'] > 0 else None, axis=1
+    )
+    df = df.sort_values('price_num', na_position='last').reset_index(drop=True)
+    df['num'] = range(1, len(df) + 1)
+    return df
 
 df = load_data()
 

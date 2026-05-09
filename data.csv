@@ -1,0 +1,476 @@
+page,id,title,subtitle,address,city,state,type,price,sf
+1,39113497,17-19 Simpson Rd,100% Leased Applegreen Travel Plaza on I-80,"Columbia, NJ",Columbia,NJ,Retail,"$3,000,000","21,780"
+1,39768287,185 Van Winkle Ave,Industrial/IOS Facility in Prime Location,"Hawthorne, NJ",Hawthorne,NJ,Industrial,"$2,000,000","26,721"
+1,38829921,160 Belmont Ave,Income-Generating Multi-Tenant Flex Warehouse,"Garfield, NJ",Garfield,NJ,Industrial,"$750,000","23,750"
+1,30338083,2004-2006 Bergenline Ave,Residential Over Two Ground-Floor Retail,"Union City, NJ",Union City,NJ,Multifamily,"$450,000",
+1,39793575,53 Frontage Rd,Foster Wheeler HQ Reposition/Redevelopment,"Hampton, NJ",Hampton,NJ,Office,"$2,500,000","294,000"
+1,39577671,1150 Route 22 E,Class A NJ Office W/ New Roof & HVAC,"Bridgewater, NJ",Bridgewater,NJ,Office,"$2,000,000","83,447"
+1,40284146,611 River Dr,High-Yield Investment with 5.8-Year WALT,"Elmwood Park, NJ",Elmwood Park,NJ,Office,"$3,500,000","96,000"
+1,40137257,248 Brighton Rd,100% NNN Leased Industrial in Northern NJ,"Andover, NJ",Andover,NJ,Industrial,"$2,000,000","43,000"
+1,40110280,5 Eves Dr,Value-Add Asset with Full-Floor Availability,"Marlton, NJ",Marlton,NJ,Office,"$700,000","45,239"
+1,40175525,950 N Kings Hwy,"Low-Basis, Office/Medical, 15% Occupied","Cherry Hill, NJ",Cherry Hill,NJ,Office,"$500,000","29,029"
+1,37981527,31 Farinella Dr,"East Hanover, NJ 07936","East Hanover, NJ",East Hanover,NJ,Industrial,,"48,235"
+1,38341444,570 Mount Pleasant Ave,"Dover, NJ 07801","Dover, NJ",Dover,NJ,Industrial,,"126,108"
+1,37981494,22 Readington Rd,"Branchburg, NJ 08876","Branchburg, NJ",Branchburg,NJ,Industrial,,"80,000"
+1,38449838,40 Brunswick Ave,Edison Transit Business Center,"Edison, NJ",Edison,NJ,Industrial,"$15,850,000","62,008"
+1,37903418,104 E Park St,"Bordentown, NJ 08505","Bordentown, NJ",Bordentown,NJ,Industrial,,"209,684"
+1,39099858,371 Hoes Ln,"Piscataway, NJ 08854","Piscataway, NJ",Piscataway,NJ,Office,,"133,608"
+1,12026810,Route 563,"Rte. 563, Galloway, NJ 300 ac Industrial Zone","Galloway, NJ",Galloway,NJ,Land,,
+1,39601240,1980 S West Blvd,"Vineland, NJ 08360","Vineland, NJ",Vineland,NJ,Industrial,"$2,800,000","20,000"
+1,40090402,375 Georges Rd,La Taverna Restaurant and Bar,"Dayton, NJ",Dayton,NJ,Retail,"$2,300,000","4,513"
+1,35998270,2 Perry St,,"Morristown, NJ",Morristown,NJ,Office,"$1,500,000","3,010"
+1,39354240,1790 Springfield Ave,New Mixed-Use Asset | Multifamily & Retail,"Maplewood, NJ",Maplewood,NJ,Multifamily,"$5,700,000","16,000"
+1,38227672,"The Pointe at Sparta, NJ",,"Sparta, NJ",Sparta,NJ,,"$7,600,000",
+1,35931594,11 Charlottesburg Rd,,"Boonton, NJ",Boonton,NJ,Sports & Entertainment,,"4,400"
+1,38392653,470 Fairfield Rd,Howell 5 Industrial Warehouse,"Freehold, NJ",Freehold,NJ,Land,,
+1,37171965,1709 State Route 34,,"Wall Township, NJ",Wall Township,NJ,Land,"$3,190,610",
+2,36147929,5 Route 45,Route 5 Business Center,"Mannington, NJ",Mannington,NJ,Office,"$4,500,000","23,030"
+2,38405939,Monmouth Ave,,"Linden, NJ",Linden,NJ,Land,"$2,700,000",
+2,39156861,472 E Westfield Ave,,"Roselle Park, NJ",Roselle Park,NJ,Flex,"$3,250,000","16,854"
+2,38072942,16 Chambers St,,"Princeton, NJ",Princeton,NJ,Office,"$6,500,000","6,314"
+2,40458677,1425 Route 50,,"Woodbine, NJ",Woodbine,NJ,Retail,"$650,000","4,500"
+2,40443541,Newark MLK Portfolio,,"Newark, NJ",Newark,NJ,Multifamily,"$34,000,000",
+2,40443099,2130 Highway 35,Bldg A,"Sea Girt, NJ",Sea Girt,NJ,Office,"$329,000",
+2,40440963,275 Monmouth Rd,,"Freehold, NJ",Freehold,NJ,Retail,"$5,816,000","2,750"
+2,40440956,101 W Nicholson Rd,4800 sq.ft  w/ 500 sq. ft. mezzanine,"Audubon, NJ",Audubon,NJ,Industrial,"$470,000","4,800"
+2,40440051,1076 Ringwood Ave,,"Haskell, NJ",Haskell,NJ,Retail,"$1,229,013","4,542"
+2,40440031,1884 Union Valley Rd,Lakeland Auto Parts,"West Milford, NJ",West Milford,NJ,Retail,"$1,589,486","9,000"
+2,40440011,670 Bergen Blvd,,"Ridgefield, NJ",Ridgefield,NJ,Office,"$2,800,000","9,000"
+2,40438812,65 Park Ave,,"Hillsdale, NJ",Hillsdale,NJ,Industrial,"$950,000","5,760"
+2,40431876,807 E Evesham Rd,,"Runnemede, NJ",Runnemede,NJ,Land,"$399,999",
+2,40427509,1299 Rt 22,,"Mountainside, NJ",Mountainside,NJ,Office,"$1,750,000","5,580"
+2,40425505,328 E Main St,,"Tuckerton, NJ",Tuckerton,NJ,Flex,"$749,900","4,410"
+2,40424294,735-747 Broadway,The Wentworth Building,"Paterson, NJ",Paterson,NJ,Specialty,"$4,999,999","34,000"
+2,40419323,20 Duffield Ave,,"Cedarville, NJ",Cedarville,NJ,Industrial,"$3,400,000","68,300"
+2,40410066,1124 Nj-31,Prime Route 31 Office/Medical Development,"Lebanon, NJ",Lebanon,NJ,Land,"$895,000",
+2,40409913,484 Monmouth Rd,,"Millstone Township, NJ",Millstone Township,NJ,Flex,"$2,100,000","5,758"
+2,40408946,105 Parkview Ave,,"Elmwood Park, NJ",Elmwood Park,NJ,Multifamily,"$650,000",
+2,40408664,66 Pine St,Investment Property 3 units fully occupied,"Mount Holly, NJ",Mount Holly,NJ,Multifamily,"$450,000","2,595"
+2,40405967,35 Brant Ave,,"Clark, NJ",Clark,NJ,Office,"$950,000","4,044"
+2,40403919,200-208 Trumbull St,,"Elizabeth, NJ",Elizabeth,NJ,Retail,"$695,000",500
+2,40402839,20 Leigh St,,"Clinton Township, NJ",Clinton Township,NJ,Multifamily,"$1,390,000",
+3,40402651,45 Bridge St,,"Lambertville, NJ",Lambertville,NJ,Retail,"$1,400,000","3,600"
+3,40402387,1015 Pennsylvania Ave,,"Linden, NJ",Linden,NJ,Industrial,"$2,480,000","6,000"
+3,40393410,355 Buckelew Ave,Dance Stop,"Monroe Township, NJ",Monroe Township,NJ,Retail,"$999,999","2,148"
+3,40393399,487-489 18th Ave,,"Newark, NJ",Newark,NJ,Multifamily,"$1,650,000",
+3,40393366,467 1/2 Martin Luther King Jr Dr,,"Jersey City, NJ",Jersey City,NJ,Retail,"$900,000","5,250"
+3,40393301,2001 NJ-35,Fred's Bait & Tackle,"South Amboy, NJ",South Amboy,NJ,Retail,"$1,250,000","2,996"
+3,40392570,51 Cortlandt St,,"Belleville, NJ",Belleville,NJ,Flex,"$1,300,000","5,200"
+3,40392536,30 Siegel Ave,,"Trenton, NJ",Trenton,NJ,Land,"$650,000",
+3,40392431,137 Ellison St,SCHOOL,"Paterson, NJ",Paterson,NJ,Office,"$3,500,000","28,524"
+3,40391867,1989-2001 Springfield Ave,,"Maplewood, NJ",Maplewood,NJ,Retail,"$1,700,000","3,188"
+3,40390904,363 Broadway,,"Bayonne, NJ",Bayonne,NJ,Retail,"$750,000","2,845"
+3,40389537,342 US Highway 22,Plaqueco,"Green Brook, NJ",Green Brook,NJ,Industrial,"$4,950,000","30,345"
+3,40388755,61 Glenwood Rd,,"Englewood, NJ",Englewood,NJ,Office,"$2,675,000","4,804"
+3,40388541,41 Kings Hwy N,,"Cherry Hill, NJ",Cherry Hill,NJ,Office,"$550,000","3,676"
+3,40388437,1010 Rose Ave,Broadway Business Center,"Runnemede, NJ",Runnemede,NJ,Flex,"$1,698,000","12,220"
+3,40376751,217 Stuyvesant Ave,,"Lyndhurst, NJ",Lyndhurst,NJ,Land,"$2,000,000",
+3,40367885,92 Union Ave,,"Cresskill, NJ",Cresskill,NJ,Office,"$2,198,000","5,000"
+3,40366878,169 Washington St,,"Morristown, NJ",Morristown,NJ,Retail,"$2,500,000","4,300"
+3,40366871,378 George St,,"New Brunswick, NJ",New Brunswick,NJ,Retail,"$2,495,000","6,801"
+3,40366503,90 N Kings Hwy,,"Cherry Hill, NJ",Cherry Hill,NJ,Office,"$850,000","2,800"
+3,40366374,47 Main St,,"Clinton Township, NJ",Clinton Township,NJ,Retail,"$700,000","2,200"
+3,40366113,3176 John F. Kennedy Blvd,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$2,500,000","6,750"
+3,40364177,"2070-2078 State Route 35, South Amboy, NJ 08879",,"South Amboy, NJ",South Amboy,NJ,Retail,"$4,999,900","7,900"
+3,40363040,1423 Corlies Ave,,"Neptune, NJ",Neptune,NJ,Retail,"$899,999","3,358"
+3,40362330,812 Main St,,"Bradley Beach, NJ",Bradley Beach,NJ,Retail,"$1,450,000","3,500"
+4,40353177,226 S Main St,,"Phillipsburg, NJ",Phillipsburg,NJ,Multifamily,"$350,000","2,038"
+4,40353005,78 S Main St,MIXED USE BUILDING 4 APARTMENTS 1 COMMERCIAL,"Phillipsburg, NJ",Phillipsburg,NJ,Multifamily,"$649,000","7,851"
+4,40352721,215-236 Bridge St,,"Metuchen, NJ",Metuchen,NJ,Office,"$550,000",
+4,40351226,88-90 S Main St,100% LEASED MIXED USE BUILDING 7 UNITS,"Phillipsburg, NJ",Phillipsburg,NJ,Retail,"$999,999","8,000"
+4,40350578,97 Sand Shore Rd,The Boat House,"Budd Lake, NJ",Budd Lake,NJ,Retail,"$1,190,000","3,000"
+4,40347475,1820 Lanes Mill Rd,,"Brick, NJ",Brick,NJ,Retail,"$7,300,000","17,467"
+4,40345122,87 Jefferson St,,"Hoboken, NJ",Hoboken,NJ,Retail,"$399,000",
+4,40339693,14-28 Mitchell Pl,Port Newark Truck Repair,"Newark, NJ",Newark,NJ,Industrial,"$3,600,000","14,000"
+4,40338324,3 Front St,CLASSIC VICTORIAN CONVERTED TO 3 UNITS,"Phillipsburg, NJ",Phillipsburg,NJ,Multifamily,"$600,000","3,156"
+4,40336767,Rutgers St Portfolio,,"Belleville, NJ",Belleville,NJ,Industrial,"$2,499,999",
+4,40336415,325 39th St,,"Union City, NJ",Union City,NJ,Multifamily,"$2,250,000",
+4,40336018,Reed Rd & Denow Rd,,"Pennington, NJ",Pennington,NJ,Land,"$4,200,000",
+4,40335785,35 Kensington Ave,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$5,770,000",
+4,40335661,369 E Kinney St,,"Newark, NJ",Newark,NJ,Multifamily,"$1,425,000",
+4,40335655,614-616 Broadway,,"Bayonne, NJ",Bayonne,NJ,Retail,"$2,300,000","6,197"
+4,40335652,180 State Route 35,180 Route 35,"Keyport, NJ",Keyport,NJ,Industrial,"$9,960,000","33,508"
+4,40335579,1045 Sally Ike Rd,,"Brick, NJ",Brick,NJ,Office,"$1,150,000","5,109"
+4,40335506,204 Parkhurst St,,"Newark, NJ",Newark,NJ,Multifamily,"$1,195,000",
+4,40335209,2117 Summit Ave,803 22nd Street,"Union City, NJ",Union City,NJ,Multifamily,"$1,718,000",
+4,40334470,99 Pulaski St,,"Newark, NJ",Newark,NJ,Multifamily,"$2,285,000","6,207"
+4,40334132,237 Astor St,,"Newark, NJ",Newark,NJ,Multifamily,"$1,495,000",
+4,40330638,920 Savitt Pl,,"Union Township, NJ",Union Township,NJ,Industrial,"$2,409,575","9,835"
+4,40325417,272 Pitman Downer Rd,,"Sewell, NJ",Sewell,NJ,Retail,"$999,999","4,000"
+4,40322731,102 Delaware ave,,"Fortescue, NJ",Fortescue,NJ,Retail,"$1,250,000","4,000"
+4,40322650,590 Bergen Ave,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$5,481,000",
+5,40322564,600 Irick Rd,Take 5 Oil Change,"Westampton, NJ",Westampton,NJ,Retail,"$1,666,667","1,720"
+5,40322105,144-153 Route 4,,"Paramus, NJ",Paramus,NJ,Land,"$5,500,000",
+5,40321669,108 Fleming Ave,,"Newark, NJ",Newark,NJ,Multifamily,"$2,000,000","6,000"
+5,40321614,Burlington Mt Holly Rd & Irick rd,QuickChek,"Westampton, NJ",Westampton,NJ,Retail,"$6,818,182","5,670"
+5,40321398,103 Central Ave,,"Orange, NJ",Orange,NJ,Multifamily,"$1,100,000",
+5,40320185,72-76 Market St,,"Clifton, NJ",Clifton,NJ,Retail,"$110,000",
+5,40319902,271 US-202,Mixed Use Property,"Pluckemin, NJ",Pluckemin,NJ,Retail,"$1,650,000","3,100"
+5,40319801,25 Ross St,,"Wharton, NJ",Wharton,NJ,Industrial,"$1,300,000","5,500"
+5,40318544,478 River Styx Rd,,"Hopatcong, NJ",Hopatcong,NJ,Retail,"$1,100,000","2,400"
+5,40317657,2300 Route 35,Twin Oaks Motel,"Manasquan, NJ",Manasquan,NJ,Hospitality,"$3,388,000","7,761"
+5,40316536,932 South Ave W,,"Westfield, NJ",Westfield,NJ,Retail,"$2,999,999","9,000"
+5,40308151,684 W Prospect Ave,,"Fairview, NJ",Fairview,NJ,Industrial,"$1,299,000","5,001"
+5,40307522,Bordentown NNN Retail Center,,"Bordentown, NJ",Bordentown,NJ,Retail,"$10,000,000",
+5,40306854,126 Mount Bethel Rd,,"Warren, NJ",Warren,NJ,Flex,"$1,950,000","8,462"
+5,40306150,216-218 Orange Ave,Irvington 5-Unit Retail & Residential,"Irvington, NJ",Irvington,NJ,Retail,"$799,999","5,262"
+5,40305978,315 Lowell Ave,,"Mercerville, NJ",Mercerville,NJ,Office,"$1,195,000","6,100"
+5,40305941,1028 State Route -23,,"Wayne, NJ",Wayne,NJ,Land,"$925,000",
+5,40305030,104 Readington rd,,"Branchburg, NJ",Branchburg,NJ,Industrial,"$3,900,000","9,875"
+5,40302006,100 Route 70,,"Lakehurst, NJ",Lakehurst,NJ,Industrial,"$950,000","1,880"
+5,40295330,Sheeppenhill Road,104 ACRES - BLUEBERRIES OR CANNABIS,"Pemberton, NJ",Pemberton,NJ,Land,"$525,000",
+5,40284394,371 4th St,Prato,"Jersey City, NJ",Jersey City,NJ,Retail,"$1,495,000",
+5,40284167,351 Broadway,,"Bayonne, NJ",Bayonne,NJ,Retail,"$699,000","1,990"
+5,40284137,Glendale & Midwood Rd,Lincoln Park Hospitality Development Site,"Lincoln Park, NJ",Lincoln Park,NJ,Land,"$250,000",
+5,40283984,451 Communipaw Ave,,"Jersey City, NJ",Jersey City,NJ,Industrial,"$4,500,000","30,000"
+5,40280253,560 Bergen Blvd,,"Ridgefield, NJ",Ridgefield,NJ,Office,"$1,550,000","3,000"
+6,40272286,782-798 Emerson St,,"Lindenwold, NJ",Lindenwold,NJ,Retail,"$3,300,000","13,000"
+6,40269153,4 Walter Foran Blvd,,"Flemington, NJ",Flemington,NJ,Office,"$295,000",
+6,40265177,905 Grand Ave,,"Asbury Park, NJ",Asbury Park,NJ,Multifamily,"$1,200,000","6,350"
+6,40263356,108-114 N 7th St,,"Paterson, NJ",Paterson,NJ,Land,"$1,800,000",
+6,40263311,39 Woodland Rd,,"Roseland, NJ",Roseland,NJ,Office,"$1,299,000","3,200"
+6,40259786,571 E Bay Ave,,"Manahawkin, NJ",Manahawkin,NJ,Retail,"$1,500,000","5,079"
+6,40252324,188 Eagle Rock Ave,,"Roseland, NJ",Roseland,NJ,Office,"$2,200,000","10,000"
+6,40250964,176 State Route 173,,"Asbury, NJ",Asbury,NJ,Retail,"$2,200,000","14,000"
+6,40249025,1017 King Georges Post Rd,Edison HQ,"Edison, NJ",Edison,NJ,Office,"$1,999,999","2,800"
+6,40249006,27 Longview St,,"West Orange, NJ",West Orange,NJ,Multifamily,"$999,999","7,501"
+6,40248916,522 Memorial Pky,,"Phillipsburg, NJ",Phillipsburg,NJ,Office,"$435,000","1,764"
+6,40248622,1705 Burnt Mill Rd,,"Voorhees, NJ",Voorhees,NJ,Retail,"$299,999","1,625"
+6,40248498,3088 State Route 27,,"Kendall Park, NJ",Kendall Park,NJ,Office,"$3,200,000","14,796"
+6,40245363,1160 Stelton Rd,,"Piscataway, NJ",Piscataway,NJ,Office,"$1,200,000","1,888"
+6,40244955,459 Fulton St,,"Elizabeth, NJ",Elizabeth,NJ,Multifamily,"$1,199,000","7,000"
+6,40243914,2 Wilson Dr,,"Sparta, NJ",Sparta,NJ,Industrial,"$649,000",
+6,40243765,2507 US Highway 22,,"Scotch Plains, NJ",Scotch Plains,NJ,Retail,"$3,400,000","7,200"
+6,40238217,1000 Sylvan Ave,,"Englewood Cliffs, NJ",Englewood Cliffs,NJ,Office,"$23,000,000","66,068"
+6,40232738,2273 Highway 33,,"Hamilton, NJ",Hamilton,NJ,Office,"$775,000",
+6,40231351,2270 Harding Hwy,,"Newfield, NJ",Newfield,NJ,Specialty,"$310,000","1,721"
+6,40230230,190 County Ave,Banfield Pet Hospital,"Secaucus, NJ",Secaucus,NJ,Retail,"$1,913,400","4,370"
+6,40227643,100 Union Ave,,"Watchung, NJ",Watchung,NJ,Land,"$1,700,000",
+6,40227439,0 Basin Rd,,"Lawrence Township Mercer, NJ",Lawrence Township Mercer,NJ,Land,"$750,000",
+6,40221271,The Lenox,,"Union City, NJ",Union City,NJ,Multifamily,"$2,375,000",
+6,40218138,347 E 22nd St,Loisel Manufacturing,"Paterson, NJ",Paterson,NJ,Industrial,"$4,200,000","18,872"
+7,40217296,10 W Hanover Ave,,"Randolph, NJ",Randolph,NJ,Office,"$168,300",
+7,40216426,2028 44th St,,"North Bergen, NJ",North Bergen,NJ,Industrial,"$799,000","5,001"
+7,40215897,800 The Plaza,,"Sea Girt, NJ",Sea Girt,NJ,Office,"$575,000",
+7,40215452,225-233 Central Ave,,"East Orange, NJ",East Orange,NJ,Retail,"$1,420,888","2,500"
+7,40214530,1125-1131 New Rd,,"Absecon, NJ",Absecon,NJ,Office,"$1,175,000","10,032"
+7,40214184,82 W Broadway,,"Salem, NJ",Salem,NJ,Multifamily,"$850,000","5,200"
+7,40205529,2540 Nottingham Way,,"Mercerville, NJ",Mercerville,NJ,Office,"$250,000",804
+7,40194894,92 Madison St,,"Hoboken, NJ",Hoboken,NJ,Retail,"$699,000",
+7,40192980,32 Jefferson Plz,,"Princeton, NJ",Princeton,NJ,Office,"$499,000",
+7,40189753,4 N Jefferson Rd,,"Whippany, NJ",Whippany,NJ,Retail,"$1,075,000","2,535"
+7,40179779,49 Broad St,,"Red Bank, NJ",Red Bank,NJ,Retail,"$1,600,000","3,000"
+7,40179576,915-921 22nd St,,"Union City, NJ",Union City,NJ,Multifamily,"$2,327,000",
+7,40178855,40 Ethel Rd,,"Edison, NJ",Edison,NJ,Office,"$3,200,000","11,700"
+7,40175676,522 Bloomfield Ave,,"Verona, NJ",Verona,NJ,Retail,"$1,500,000","5,200"
+7,40174096,130 Browning Ln,Flagship Car Wash,"Brooklawn, NJ",Brooklawn,NJ,Retail,"$6,750,000","4,950"
+7,40173825,219 Sussex St,,"Hackensack, NJ",Hackensack,NJ,Retail,"$1,200,000","2,640"
+7,40173822,5305 Marlton Pike,,"Merchantville, NJ",Merchantville,NJ,Retail,"$1,850,000","16,165"
+7,40165071,1633 NJ-70,Southampton Investment Opportunity | RE + Biz,"Southampton, NJ",Southampton,NJ,Retail,"$1,445,000","3,016"
+7,40164970,75 Main St,High Cash Flow Turnkey 4 Unit Mixed Use,"Sussex, NJ",Sussex,NJ,Retail,"$610,000","2,809"
+7,40164602,208 S Rt 73,,"Hammonton, NJ",Hammonton,NJ,Industrial,"$4,000,000","54,252"
+7,40160396,Main Street,"41,000 SQ FT CANNABIS CULTIVATION","Williamstown, NJ",Williamstown,NJ,Land,"$1,980,000",
+7,40160108,139-141 Wayne Ave,,"Paterson, NJ",Paterson,NJ,Retail,"$1,061,000","3,479"
+7,40159884,6208 Durham Ave,,"North Bergen, NJ",North Bergen,NJ,Multifamily,"$989,000","2,724"
+7,40159651,419 Olive St,,"Branchburg, NJ",Branchburg,NJ,Retail,"$715,000","2,834"
+7,40158136,708 Ginesi Dr,,"Morganville, NJ",Morganville,NJ,Industrial,"$4,400,000","18,000"
+8,40149214,202 Hutton St,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$1,418,000",
+8,40147814,1479 Pennington Rd,New Jersey Institute for Nursing,"Ewing, NJ",Ewing,NJ,Office,"$875,000","5,572"
+8,40147401,528 Station Ave,Prime Restaurant - Liquor License Potential,"Haddon Heights, NJ",Haddon Heights,NJ,Retail,"$1,625,000","7,437"
+8,40143388,901 Route 168,Unit 307,"Blackwood, NJ",Blackwood,NJ,Office,"$525,000",
+8,40143278,1124 Rt 202 S,The Centre @ Raritan,"Raritan, NJ",Raritan,NJ,Office,"$128,900",
+8,40142180,286 Broad St,,"Red Bank, NJ",Red Bank,NJ,Office,"$1,749,000","3,589"
+8,40142164,Sale of Jackson Twp Vacant Land,,"Jackson, NJ",Jackson,NJ,Land,"$16,500,000",
+8,40142127,661 S 18th St,,"Newark, NJ",Newark,NJ,Multifamily,"$949,900","8,500"
+8,40134502,1390 Blackwood Clementon Rd,7-Brew,"Clementon, NJ",Clementon,NJ,Retail,"$2,562,000",510
+8,40133318,640 N Broad St,Former Goodwill Firehouse,"Woodbury, NJ",Woodbury,NJ,Specialty,"$199,900","6,300"
+8,40133063,358-360 S Orange Ave,,"Newark, NJ",Newark,NJ,Multifamily,"$1,300,000",
+8,40132852,226 W State St,State House Historic District Property,"Trenton, NJ",Trenton,NJ,Office,"$575,000","4,290"
+8,40132465,499 Valley St,,"Maplewood, NJ",Maplewood,NJ,Office,"$1,500,000","4,474"
+8,40130208,1 Wilson Dr,,"Sparta, NJ",Sparta,NJ,Office,"$2,950,000","11,098"
+8,40130102,4106 Church Rd,"Kids & Co - Mt. Laurel, NJ","Mount Laurel, NJ",Mount Laurel,NJ,Retail,"$3,097,226","7,726"
+8,40129958,1530 Saint Georges Ave,,"Rahway, NJ",Rahway,NJ,Office,"$1,100,000","3,596"
+8,40129515,700 Cedar Ave,,"Middlesex, NJ",Middlesex,NJ,Industrial,"$5,300,000","14,000"
+8,40122917,467 Middlesex Ave,,"Metuchen, NJ",Metuchen,NJ,Office,"$995,000","2,964"
+8,40111437,119 Memorial Pky,Quicky Lube Plus,"Atlantic Highlands, NJ",Atlantic Highlands,NJ,Retail,"$1,200,000","2,700"
+8,40110712,664 Bergen Ave,Dry Cleaner with 2 unit 3 bed apt,"Jersey City, NJ",Jersey City,NJ,Retail,"$2,300,000","5,000"
+8,40109684,541 Benigno Ave,Truck Parking / Industrial Outdoor Storage,"Bellmawr, NJ",Bellmawr,NJ,Land,"$2,999,000",
+8,40109643,2036 New Jersey 35,,"South Amboy, NJ",South Amboy,NJ,Retail,"$3,000,000","2,290"
+8,40109429,1178-1182 Teaneck Rd,,"Teaneck, NJ",Teaneck,NJ,Office,"$1,450,000","7,534"
+8,40109009,540-548 Broadway,,"Paterson, NJ",Paterson,NJ,Land,"$1,650,000",
+8,40108979,75 Brighton Ave,,"Long Branch, NJ",Long Branch,NJ,Retail,"$2,850,000","4,312"
+9,40106070,1027 Pompton Ave,Triple Net Retail Columbia Bank | Medical,"Cedar Grove, NJ",Cedar Grove,NJ,Office,"$2,999,999","8,194"
+9,40105359,44 Commerce St,,"Springfield, NJ",Springfield,NJ,Industrial,"$1,425,000","4,000"
+9,40105276,43 Commerce St,,"Springfield, NJ",Springfield,NJ,Flex,"$725,000","2,100"
+9,40103941,674 US Highway 202,Bldg 4,"Bridgewater, NJ",Bridgewater,NJ,Office,"$359,900",
+9,40103911,497 Avenue A,,"Bayonne, NJ",Bayonne,NJ,Multifamily,"$969,000","3,600"
+9,40102897,42 Broad St,,"Keyport, NJ",Keyport,NJ,Retail,"$685,000","2,900"
+9,40102741,700 New Rd,,"Linwood, NJ",Linwood,NJ,Office,"$1,495,000","8,600"
+9,40095935,63 Washington St,,"East Orange, NJ",East Orange,NJ,Office,"$799,000","6,041"
+9,40094235,150 River Rd,,"Montville, NJ",Montville,NJ,Office,"$165,000",
+9,40093219,46-48 4th St,,"Passaic, NJ",Passaic,NJ,Industrial,"$999,000","5,000"
+9,40093032,133 Bauer Dr,,"Oakland, NJ",Oakland,NJ,Industrial,"$9,375,000","37,500"
+9,40090847,700 Pennsylvania Ave,,"Lyndhurst, NJ",Lyndhurst,NJ,Industrial,"$5,495,000","16,577"
+9,40087856,417 Mountain Rd,,"Lebanon, NJ",Lebanon,NJ,Specialty,"$995,900","1,460"
+9,40080978,689 Radio Rd,,"Little Egg Harbor, NJ",Little Egg Harbor,NJ,Land,"$499,999",
+9,40080051,153 N Kinderkamack Rd,,"Montvale, NJ",Montvale,NJ,Retail,"$2,800,000","8,500"
+9,40078718,600 White Horse Pike,High Visibility Vacant CRE Asset on Rt 30,"Oaklyn, NJ",Oaklyn,NJ,Retail,"$499,999","1,190"
+9,40078430,59 Market St,,"Newark, NJ",Newark,NJ,Office,"$2,800,000","23,534"
+9,40078361,150 Overlook Ave,Stratford House,"Hackensack, NJ",Hackensack,NJ,Multifamily,"$575,000",
+9,40078223,169 Demorest Ave,,"Avenel, NJ",Avenel,NJ,Office,"$679,900","1,621"
+9,40078216,630 Florida Grove Rd,"630 S Florida Grove Rd, Perth Amboy, NJ 08861","Perth Amboy, NJ",Perth Amboy,NJ,Multifamily,"$1,150,000",
+9,40077948,676 Amboy Ave,,"Woodbridge, NJ",Woodbridge,NJ,Office,"$1,899,000","7,111"
+9,40077692,3261 Route 94,5 Oxbow Lane,"Hardyston, NJ",Hardyston,NJ,Land,"$1,400,000",
+9,40077160,7108 Tonnelle Ave,,"North Bergen, NJ",North Bergen,NJ,Flex,"$3,000,000","2,770"
+9,40072623,58 Madison St,,"Hoboken, NJ",Hoboken,NJ,Multifamily,"$4,200,000",
+9,40071203,1929 Route 35,,"Seaside Heights, NJ",Seaside Heights,NJ,Retail,"$1,299,000","1,482"
+10,40071106,16-20 Main Ave,,"Wallington, NJ",Wallington,NJ,Industrial,"$5,500,000","9,500"
+10,40062282,82 Grove St,,"Montclair, NJ",Montclair,NJ,Multifamily,"$1,995,000",
+10,40061071,123 Dunhams Corner Rd,,"East Brunswick, NJ",East Brunswick,NJ,Office,"$1,600,000","5,504"
+10,40059661,1705 Burnt Mill Rd,,"Voorhees, NJ",Voorhees,NJ,Land,"$299,000",
+10,40058427,407 Brick Blvd,Drum Point Arms,"Brick, NJ",Brick,NJ,Multifamily,"$32,500,000","122,630"
+10,40058084,596-598 Salem Quinton Rd,POSSIBLE 400 RESIDENTIAL UNITS,"Salem, NJ",Salem,NJ,Land,"$10,000,000",
+10,40057454,1153 Marlkress Rd,,"Cherry Hill, NJ",Cherry Hill,NJ,Office,"$339,900","1,428"
+10,40055826,77 S Union St,,"Lambertville, NJ",Lambertville,NJ,Retail,"$999,000","8,844"
+10,40046127,1121 Route 47,,"Rio Grande, NJ",Rio Grande,NJ,Office,"$249,900",
+10,40045457,615 Frelinghuysen Ave,,"Newark, NJ",Newark,NJ,Retail,"$2,335,000","10,158"
+10,40044527,145 Decker Rd,,"Butler, NJ",Butler,NJ,Office,"$1,500,000","3,506"
+10,40044401,279-281 Pine St,Commercial + Vacant Lot,"Jersey City, NJ",Jersey City,NJ,Retail,"$1,950,000","4,500"
+10,40042694,1000 Richmond ave,,"Point Pleasant Beach, NJ",Point Pleasant Beach,NJ,Land,"$1,350,000",
+10,40042449,2170 Route 57,,"Washington, NJ",Washington,NJ,Industrial,"$1,700,000","9,150"
+10,40042141,111 S Broadway,,"Pennsville, NJ",Pennsville,NJ,Office,"$395,000","3,024"
+10,40042124,55 Delaware St,,"Woodbury, NJ",Woodbury,NJ,Office,"$550,000","5,800"
+10,40039169,4 Main St,,"New Egypt, NJ",New Egypt,NJ,Retail,"$319,000","1,100"
+10,40029145,372 Princeton Hightstown Rd,,"West Windsor Township, NJ",West Windsor Township,NJ,Land,"$1,700,000",
+10,40026346,45 Main St,The Stanhope House - Multi-family Opportunity,"Stanhope, NJ",Stanhope,NJ,Retail,"$1,290,000","7,000"
+10,40025698,1284-1286 New Jersey 23,,"Sussex, NJ",Sussex,NJ,Land,"$949,000",
+10,40022563,3 Brendenwood Dr,Prime Medical Building,"Voorhees, NJ",Voorhees,NJ,Office,"$699,900","4,270"
+10,40020192,437-438 Burnside St,,"Orange, NJ",Orange,NJ,Industrial,"$1,100,000","1,500"
+10,40020094,2936 Vauxhall Rd,,"Vauxhall, NJ",Vauxhall,NJ,Land,"$3,000,000",
+10,40020065,597 Morris Ave,Springfield Approved Development Site,"Springfield, NJ",Springfield,NJ,Land,"$4,000,000",
+10,40012170,6112 Park Ave,Park West,"West New York, NJ",West New York,NJ,Multifamily,"$3,621,000",
+11,40011627,1215 Livingston Ave,,"North Brunswick, NJ",North Brunswick,NJ,Office,"$1,875,000","19,000"
+11,40011130,75 Armour Pl,,"Dumont, NJ",Dumont,NJ,Industrial,"$3,200,000","17,500"
+11,40011006,80 Morris Ave,,"Springfield, NJ",Springfield,NJ,Office,"$2,100,000","8,028"
+11,40010720,10 Centre Dr,,"Monroe Township, NJ",Monroe Township,NJ,Office,"$2,250,000","13,400"
+11,40010484,6206 Black Horse Pike,,"Egg Harbor Township, NJ",Egg Harbor Township,NJ,Retail,"$2,750,000","8,910"
+11,40010179,602 US Highway 9,,"Lanoka Harbor, NJ",Lanoka Harbor,NJ,Retail,"$3,250,000",
+11,40006125,735 E Hazelwood Ave,,"Rahway, NJ",Rahway,NJ,Retail,"$859,999",922
+11,40004917,27 Main St,,"Sparta, NJ",Sparta,NJ,Office,"$670,000","1,846"
+11,40004758,130 -144 Murray st,130-144 MURRAY,"Elizabeth, NJ",Elizabeth,NJ,Multifamily,"$4,200,000",
+11,39993744,834 W Browning Rd,,"Bellmawr, NJ",Bellmawr,NJ,Retail,"$450,000","3,700"
+11,39993123,237 Washington Ave,,"Hackensack, NJ",Hackensack,NJ,Industrial,"$1,650,000","6,000"
+11,39989876,153 Atlantic City Blvd,,"Beachwood, NJ",Beachwood,NJ,Office,"$599,000","2,000"
+11,39988491,534 Harvard St,,"Vineland, NJ",Vineland,NJ,Industrial,"$329,900","4,665"
+11,39988366,283 Belmont Ave,,"Haledon, NJ",Haledon,NJ,Retail,"$699,000","3,296"
+11,39978120,62 Lafayette St,,"Paterson, NJ",Paterson,NJ,Multifamily,"$1,435,000",
+11,39977927,416 Scott Mobus Pl,,"East Newark, NJ",East Newark,NJ,Land,"$1,498,888",
+11,39977697,504 S Harding Hwy,,"Buena, NJ",Buena,NJ,Land,"$495,000",
+11,39977584,12-29 River Rd,Childcare Facility | Owner-User / Investment,"Fair Lawn, NJ",Fair Lawn,NJ,Retail,"$1,400,000","4,350"
+11,39975588,344 Main Rd,,"Vineland, NJ",Vineland,NJ,Retail,"$625,000","7,500"
+11,39974972,4018 Quakerbridge Rd,,"Trenton, NJ",Trenton,NJ,Retail,"$1,200,000","5,500"
+11,39974367,48 W Lafayette St,,"Trenton, NJ",Trenton,NJ,Retail,"$324,900","1,560"
+11,39973842,629 W Mount Pleasant Ave,,"Livingston, NJ",Livingston,NJ,Office,"$1,600,000","4,005"
+11,39968866,2087 Burnt Mills Rd,,"Bedminster, NJ",Bedminster,NJ,Retail,"$800,000","2,144"
+11,39964323,993-995 Broadway,,"Bayonne, NJ",Bayonne,NJ,Retail,"$1,490,000","6,000"
+11,39960603,2155 Camplain Rd,MULTI-FAMILY INVESTMENT OPPORTUNITY,"Hillsborough, NJ",Hillsborough,NJ,Multifamily,"$699,999",
+12,39960131,113 Washington St,,"Morristown, NJ",Morristown,NJ,Office,"$2,250,000","1,115"
+12,39958992,120 Millbrook Rd,,"Washington, NJ",Washington,NJ,Land,"$39,900",
+12,39958923,535 Walnut St,,"Norwood, NJ",Norwood,NJ,Office,"$5,975,000","30,400"
+12,39958399,601-607 White Horse Pike,"Office w/ 4,400 sq. ft. Warehouse","Hammonton, NJ",Hammonton,NJ,Office,"$899,000","7,823"
+12,39957848,29 Smull Ave,,"Caldwell, NJ",Caldwell,NJ,Office,"$949,900","2,764"
+12,39957673,1200 S West Blvd,Building 2,"Vineland, NJ",Vineland,NJ,Industrial,"$900,000","8,000"
+12,39956555,369 New Brunswick Ave,,"Fords, NJ",Fords,NJ,Retail,"$1,800,000","4,200"
+12,39949112,30 Gingerbread Castle Rd,,"Hamburg, NJ",Hamburg,NJ,Retail,"$1,500,000","6,000"
+12,39937199,6 Alliotts Pl,,"Palisades Park, NJ",Palisades Park,NJ,Multifamily,"$4,100,000",
+12,39936436,271 US Highway 46,Unit D107,"Fairfield, NJ",Fairfield,NJ,Office,"$155,000",
+12,39936038,198-200 E Main St,,"Bound Brook, NJ",Bound Brook,NJ,Retail,"$1,500,000","7,300"
+12,39934947,2090 Blue Bell Rd,,"Williamstown, NJ",Williamstown,NJ,Flex,"$1,100,000","5,314,320"
+12,39931227,22 US Highway 130,Prime Highway Exposure | Rare 6.87-Acre Site,"Trenton, NJ",Trenton,NJ,Industrial,"$5,830,000","26,855"
+12,39923498,433 52nd St,,"West New York, NJ",West New York,NJ,Multifamily,"$1,400,000",
+12,39922453,220-230 U.S. 46,Approved 86 Unit Multi-Family In Little Ferry,"Little Ferry, NJ",Little Ferry,NJ,Land,"$3,900,000",
+12,39921731,73-75 Glenridge Ave,6-unit Portfolio + Retail & Office,"Montclair, NJ",Montclair,NJ,Multifamily,"$4,200,000","7,266"
+12,39916415,828-838 AVE A 828-838 Avenue A Blvd,BENMORE ESTATES,"Bayonne, NJ",Bayonne,NJ,Land,"$2,499,000",
+12,39907490,120-140 US Highway 46,125 Car Capacity | Route 46 Corridor,"Little Ferry, NJ",Little Ferry,NJ,Retail,"$5,300,000","6,000"
+12,39907332,561 Cranbury Rd,,"East Brunswick, NJ",East Brunswick,NJ,Office,"$625,000",
+12,39907230,499-501 Greenwood Ave,Transit Oriented Development Site,"Trenton, NJ",Trenton,NJ,Land,"$1,950,000",
+12,39906943,31P Mountain Boulevard,,"Warren, NJ",Warren,NJ,Office,"$495,000","3,000"
+12,39906571,78 Court St,,"Freehold, NJ",Freehold,NJ,Office,"$1,395,000","5,945"
+12,39906198,382 S Clinton St,,"East Orange, NJ",East Orange,NJ,Retail,"$1,600,000","1,800"
+12,39904828,6 Park Ave,,"Rutherford, NJ",Rutherford,NJ,Retail,"$650,000","4,116"
+12,39903629,709 N Main St,,"Glassboro, NJ",Glassboro,NJ,Retail,"$819,000","1,800"
+13,39902137,"73-75 Highway 35 Eatontown, NJ",,"Eatontown, NJ",Eatontown,NJ,Retail,"$1,750,000",
+13,39898737,530 E Main St,Unit 5B,"Chester, NJ",Chester,NJ,Office,"$229,000",
+13,39893886,840 New Jersey 33 Hwy,840 Rt 33,"Monroe Township, NJ",Monroe Township,NJ,Land,"$2,900,000",
+13,39893777,1101-1107 W Elizabeth Ave,,"Linden, NJ",Linden,NJ,Industrial,"$9,390,748","43,882"
+13,39888696,2 Timber Ln,Office & Warehouse in Marlboro,"Marlboro, NJ",Marlboro,NJ,Flex,"$710,000",
+13,39887063,2185 Lemoine Ave,Entrance Level Medical Suite 700 SF,"Fort Lee, NJ",Fort Lee,NJ,Multifamily,"$299,999",700
+13,39878906,C2 Brier Hill Ct,,"East Brunswick, NJ",East Brunswick,NJ,Office,"$850,000",
+13,39878779,"21 &  23-25 West Front St.  Red Bank, NJ",,"Red Bank, NJ",Red Bank,NJ,Retail,"$3,950,000",
+13,39878644,24 Cherry Tree Farm Rd,,"Middletown, NJ",Middletown,NJ,Retail,"$1,150,000","5,879"
+13,39876710,500 Mullica Hill Rd,,"Mullica Hill, NJ",Mullica Hill,NJ,Land,"$1,590,000",
+13,39875893,20 N Main St,,"Marlboro, NJ",Marlboro,NJ,Office,"$575,000","1,436"
+13,39875377,201-203 E Broadway,,"Salem, NJ",Salem,NJ,Office,"$325,000","4,225"
+13,39875285,1309 Boardwalk,,"Seaside Heights, NJ",Seaside Heights,NJ,Retail,"$3,999,900","8,000"
+13,39874640,215 E Laurel Rd,,"Stratford, NJ",Stratford,NJ,Office,"$1,125,000","7,500"
+13,39874336,481 William St,,"East Orange, NJ",East Orange,NJ,Multifamily,"$4,299,000",
+13,39871772,491 Amwell Rd,South Building 1,"Hillsborough, NJ",Hillsborough,NJ,Office,"$279,000",
+13,39871701,169-197 E Highland Pkwy,,"Roselle, NJ",Roselle,NJ,Industrial,"$6,720,000",
+13,39854469,801 Palisade Ave,,"Fort Lee, NJ",Fort Lee,NJ,Retail,"$2,950,000","10,000"
+13,39853289,1481 US Highway 22 E,,"Annandale, NJ",Annandale,NJ,Flex,"$1,299,999","1,983"
+13,39852955,312 Belleville Tpke,Bell Pike Professional Building,"North Arlington, NJ",North Arlington,NJ,Office,"$310,880",
+13,39852860,202 22nd Ave,,"Paterson, NJ",Paterson,NJ,Retail,"$399,000","2,100"
+13,39851973,15 Home Ter,,"Roselle, NJ",Roselle,NJ,Industrial,"$3,900,000","13,500"
+13,39849260,1540 State Route 138,Building One - Units 106 & 108,"Wall, NJ",Wall,NJ,Office,"$329,000",
+13,39849097,426 Herbertsville Rd,,"Brick, NJ",Brick,NJ,Office,"$875,000","4,000"
+13,39848006,7 Cherry St,,"Pedricktown, NJ",Pedricktown,NJ,Industrial,"$249,000","4,928"
+14,39840546,728 Bunn Dr,,"Princeton, NJ",Princeton,NJ,Health Care,"$15,075,000","67,000"
+14,39838154,3115 State Route 35,,"Hazlet, NJ",Hazlet,NJ,Retail,"$1,600,000","3,229"
+14,39838031,1900 S 2nd St,,"Millville, NJ",Millville,NJ,Industrial,"$450,000","5,400"
+14,39837427,3120 Route 73 N,Route 73 Development site,"Maple Shade Township, NJ",Maple Shade Township,NJ,Land,"$450,000",
+14,39837059,1100 Clifton Ave,,"Clifton, NJ",Clifton,NJ,Office,"$450,000",
+14,39835531,701-703 Monroe Ave,,"Asbury Park, NJ",Asbury Park,NJ,Retail,"$2,500,011","3,648"
+14,39828324,860 Route 168,,"Blackwood, NJ",Blackwood,NJ,Retail,"$465,000",
+14,39825379,4911 Landis Ave,Beach front restaurant and resident,"Sea Isle City, NJ",Sea Isle City,NJ,Retail,"$1,400,000","2,500"
+14,39821810,301 Old Marlton Pike,,"Marlton, NJ",Marlton,NJ,Office,"$2,100,000","6,000"
+14,39817454,155-157 Clifton Ave,,"Newark, NJ",Newark,NJ,Multifamily,"$3,480,000","9,120"
+14,39817269,156-158 North 1st Street,,"Paterson, NJ",Paterson,NJ,Land,"$1,950,000",
+14,39817140,11 & 17 Union Square,,"Phillipsburg, NJ",Phillipsburg,NJ,Retail,"$989,000",
+14,39810931,4 Market St,,"Passaic, NJ",Passaic,NJ,Retail,"$865,000","3,467"
+14,39807717,583 Middlebush rd,,"Somerset, NJ",Somerset,NJ,Land,"$3,200,000",
+14,39807340,325-329 Newark Ave,,"Jersey City, NJ",Jersey City,NJ,Land,"$4,800,000",
+14,39807279,75 Springside Rd,,"Westampton, NJ",Westampton,NJ,Retail,"$1,100,000","1,800"
+14,39807093,1 Ironside Ct,,"Willingboro, NJ",Willingboro,NJ,Industrial,"$11,500,000","53,970"
+14,39802388,59 E Ridgewood Ave,K & L LLC,"Ridgewood, NJ",Ridgewood,NJ,Retail,"$2,200,000","5,000"
+14,39792945,10 Allen St,"Allen St. Professional Center, 5 Office Condo","Toms River, NJ",Toms River,NJ,Office,"$2,650,000",
+14,39792286,17 Vreeland St,"6,500 SF Ind Warehouse | Office + Parking","Lodi, NJ",Lodi,NJ,Industrial,"$1,400,000","6,500"
+14,39789508,495 Jack Martin Blvd,United Medical Park,"Brick, NJ",Brick,NJ,Office,"$550,000",
+14,39789164,200 Hall Ave,,"Perth Amboy, NJ",Perth Amboy,NJ,Retail,"$999,999","3,000"
+14,39786265,2513 West St,,"Union City, NJ",Union City,NJ,Multifamily,"$1,080,000",
+14,39770502,1741 Princeton Ave,,"Lawrence Township Mercer, NJ",Lawrence Township Mercer,NJ,Retail,"$1,150,000","4,104"
+14,39769908,1307 Stuyvesant Ave,,"Union Township, NJ",Union Township,NJ,Office,"$1,250,000","2,863"
+15,39768860,0 By Palmer Bridge,,"Old Bridge, NJ",Old Bridge,NJ,Land,"$675,000",
+15,39749081,5-7 Washington St,,"Morristown, NJ",Morristown,NJ,Retail,"$2,950,000","5,126"
+15,39748804,800-802 Main St,,"Bradley Beach, NJ",Bradley Beach,NJ,Retail,"$5,999,000","8,855"
+15,39748309,2531 Kennedy Blvd,,"North Bergen, NJ",North Bergen,NJ,Multifamily,"$2,350,000",
+15,39748159,250 Degraw Ave,5900SF250-258 Degraw Ave. Teaneck 2 Buildings,"Teaneck, NJ",Teaneck,NJ,Retail,"$2,500,000",5900
+15,39748134,30 South St,,"Freehold, NJ",Freehold,NJ,Office,"$850,000","5,576"
+15,39748113,682 US-202,CE Tech Building,"Bridgewater, NJ",Bridgewater,NJ,Office,"$1,800,000","9,600"
+15,39747141,910 19th St,,"Union City, NJ",Union City,NJ,Multifamily,"$850,000","2,111"
+15,39743585,39-49 Tucker St,,"Trenton, NJ",Trenton,NJ,Industrial,"$3,300,000","28,000"
+15,39743431,201 Claremont Ave,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$3,295,000",
+15,39741326,115 Rt 46,Office Condos For Sale | Units D28 & D29/D30,"Mountain Lakes, NJ",Mountain Lakes,NJ,Office,"$219,000",
+15,39740406,571-575 Martin Luther King Jr Dr,,"Jersey City, NJ",Jersey City,NJ,Retail,"$6,900,000","8,466"
+15,39740309,315 Changebridge rd,,"Pine Brook, NJ",Pine Brook,NJ,Land,"$139,000",
+15,39739547,919-921 W Route 130,,"Burlington, NJ",Burlington,NJ,Retail,"$2,700,000","16,200"
+15,39739179,1555 Mount Ephraim Ave,,"Camden, NJ",Camden,NJ,Retail,"$375,000","3,840"
+15,39739060,493 Newark ave,,"Jersey City, NJ",Jersey City,NJ,Land,"$3,750,000",
+15,39738538,1985 E State Street Ext,"Jorgenson Realty, LLC Property","Trenton, NJ",Trenton,NJ,Industrial,"$750,000","3,000"
+15,39738385,357 16th Ave,Mixed Use Retail and Residential Opportunity,"Irvington, NJ",Irvington,NJ,Retail,"$399,900","2,293"
+15,39729018,115 US HIGHWAY Route 46 West,Executive Office Condo Bld A - Units A5/A6,"Mountain Lakes, NJ",Mountain Lakes,NJ,Office,"$449,000",
+15,39728160,1 Britton Pl,Echelon Professional Center,"Voorhees, NJ",Voorhees,NJ,Office,"$195,000",
+15,39728079,43 Barley Sheaf Rd,Learning Care Daycare,"Flemington, NJ",Flemington,NJ,Retail,"$1,495,000","6,000"
+15,39728029,1 N Harrison St,,"East Orange, NJ",East Orange,NJ,Retail,"$1,375,000","4,945"
+15,39728017,1017 Market St,,"Gloucester City, NJ",Gloucester City,NJ,Office,"$299,900","1,652"
+15,39724279,990 Highway 36,Julians,"Atlantic Highlands, NJ",Atlantic Highlands,NJ,Specialty,"$1,499,000","2,562"
+15,39723305,16 Industrial Ave,,"Little Ferry, NJ",Little Ferry,NJ,Industrial,"$7,500,000","37,000"
+16,39715346,467 Main St,,"Orange, NJ",Orange,NJ,Retail,"$500,000","3,900"
+16,39713332,33-35 Storms Ave,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$2,915,000",
+16,39713315,430 Commerce Ln,"Unit E, 2,300 SF Office with Warehouse","West Berlin, NJ",West Berlin,NJ,Flex,"$350,000","2,300"
+16,39712584,507 32nd St,,"Union City, NJ",Union City,NJ,Retail,"$1,600,000","5,760"
+16,39706220,952 Broadway,,"Bayonne, NJ",Bayonne,NJ,Multifamily,"$2,215,000","3,750"
+16,39705640,361 Kearny Ave,,"Kearny, NJ",Kearny,NJ,Retail,"$1,600,000","4,500"
+16,39697318,1124 US Highway 130,Robbinsville Town Center Out lot,"Robbinsville, NJ",Robbinsville,NJ,Land,"$3,500,000",
+16,39694246,2 E Passaic Ave,,"Nutley, NJ",Nutley,NJ,Retail,"$2,195,000","6,800"
+16,39693033,118 W Main St,Columbia Bank,"High Bridge, NJ",High Bridge,NJ,Retail,"$599,900","1,947"
+16,39688750,59 Lincoln Ave,,"Fair Lawn, NJ",Fair Lawn,NJ,Office,"$1,750,000","5,000"
+16,39688467,598 Rancocas Rd,7 acres Exit 45 of I-295,"Westampton, NJ",Westampton,NJ,Land,"$3,990,000",
+16,39679972,340 E Northfield Rd,,"Livingston, NJ",Livingston,NJ,Office,"$479,200",
+16,39679684,260-262 Broadway,Residences at 260,"Bayonne, NJ",Bayonne,NJ,Multifamily,"$2,100,000",
+16,39678410,21-25 Willoughby St,Willoughby Apartments,"Newark, NJ",Newark,NJ,Multifamily,"$2,700,000",
+16,39678407,2426 Nottingham Way,,"Hamilton, NJ",Hamilton,NJ,Retail,"$695,000","2,742"
+16,39678256,591 New Brunswick Ave,,"Perth Amboy, NJ",Perth Amboy,NJ,Retail,"$675,000","2,600"
+16,39678112,601 Bayview Ave,Lighthouse Marina,"Barnegat Light, NJ",Barnegat Light,NJ,Land,"$13,000,000",
+16,39675869,184 South Ave,,"Fanwood, NJ",Fanwood,NJ,Retail,"$1,525,000","1,661"
+16,39674734,2431 Route 57 East,,"Washington, NJ",Washington,NJ,Office,"$599,900","3,600"
+16,39673528,119 Watchung Ave,,"Montclair, NJ",Montclair,NJ,Retail,"$1,600,000","1,400"
+16,39673377,58-60 Main St,Centennial Bldg,"Hackensack, NJ",Hackensack,NJ,Office,"$220,000",
+16,39672326,300 S Black Horse Pike,,"Bellmawr, NJ",Bellmawr,NJ,Retail,"$3,250,000","2,734"
+16,39672310,615 E 22nd St,,"Paterson, NJ",Paterson,NJ,Multifamily,"$879,999",
+16,39667060,971 State Route 10,,"Whippany, NJ",Whippany,NJ,Retail,"$1,500,000","2,400"
+16,39662606,149-167 Westwood Ave,,"Westwood, NJ",Westwood,NJ,Retail,"$1,895,000","6,758"
+17,39662186,112 S Raleigh Ave,,"Atlantic City, NJ",Atlantic City,NJ,Multifamily,"$1,199,000","5,385"
+17,39661999,198 Route 202,,"Flemington, NJ",Flemington,NJ,Land,"$2,700,000",
+17,39661914,588 US Highway 46,,"Fairfield, NJ",Fairfield,NJ,Office,"$1,100,000","1,572"
+17,39656840,80 Court St,,"Freehold, NJ",Freehold,NJ,Office,"$689,000","2,440"
+17,39656455,1250 N Black Horse Pike,Zoned for Retail Cannabis / Culltivation,"Williamstown, NJ",Williamstown,NJ,Industrial,"$899,000","4,700"
+17,39646363,2718-2720 Atlantic Ave,,"Atlantic City, NJ",Atlantic City,NJ,Office,"$750,000","18,845"
+17,39645104,312 N White Horse Pike,,"Stratford, NJ",Stratford,NJ,Retail,"$299,000","1,874"
+17,39644963,463 Bloomfield Ave,NEW TO MARKET--PREMIER LOCATION,"Caldwell, NJ",Caldwell,NJ,Retail,"$1,100,000","4,600"
+17,39644073,1989 Jumping Brook Rd,Jumping Brook Office Center,"Tinton Falls, NJ",Tinton Falls,NJ,Office,"$600,000",984
+17,39643808,922 State Route 33,Fully Approved 30K SQ Foot Warehouse | Office,"Monroe Township, NJ",Monroe Township,NJ,Land,"$2,800,000",
+17,39640527,5 Larison Ln,,"Ringoes, NJ",Ringoes,NJ,Retail,"$2,150,000","8,025"
+17,39630180,272 Us Highway 206,Bartley Square,"Flanders, NJ",Flanders,NJ,Office,"$199,000",
+17,39629440,337 MARTIN LUTHER KING JR Dr,,"Jersey City, NJ",Jersey City,NJ,Retail,"$1,400,000","4,294"
+17,39629382,2092 Route 35 N,,"South Amboy, NJ",South Amboy,NJ,Retail,"$1,400,000","4,100"
+17,39628836,120 Jack Martin Blvd,,"Brick, NJ",Brick,NJ,Retail,"$2,250,000","2,824"
+17,39628651,35 Quarry St,The Waxwood,"Princeton, NJ",Princeton,NJ,Multifamily,"$12,600,000",
+17,39628452,85-89 Park Ave,,"Flemington, NJ",Flemington,NJ,Office,"$269,000",
+17,39626076,120-122 S 20th St,"±30,000 SF – Industrial Opportunity","Irvington, NJ",Irvington,NJ,Industrial,"$5,940,000","30,000"
+17,39625983,109-125 S 20th St,"±85,000 SF – Industrial Opportunity","Irvington, NJ",Irvington,NJ,Industrial,"$16,830,000","85,000"
+17,39625261,5201 Atlantic ave,,"Ventnor City, NJ",Ventnor City,NJ,Multifamily,"$2,900,000","4,011"
+17,39625164,2601 Educational Ln,,"Manasquan, NJ",Manasquan,NJ,Retail,"$5,100,000","10,000"
+17,39621242,45 Freeman St,Dillons Tavern,"West Orange, NJ",West Orange,NJ,Retail,"$1,100,000","1,579"
+17,39605109,12000 Long Beach Blvd,,"Long Beach Township, NJ",Long Beach Township,NJ,Retail,"$1,899,000","2,700"
+17,39602999,238 Highway 34,,"Old Bridge, NJ",Old Bridge,NJ,Retail,"$1,999,777","3,200"
+17,39600419,2580 Tilton Rd,Harbor Apartments,"Egg Harbor Township, NJ",Egg Harbor Township,NJ,Multifamily,"$15,500,000",
+18,39600251,117 Fort Lee Rd,,"Leonia, NJ",Leonia,NJ,Office,"$5,250,000","21,945"
+18,39592086,Investment Portfolio Sale,,"Bergenfield, NJ",Bergenfield,NJ,,"$3,900,000",
+18,39590506,523-525 Bay Ave,,"Point Pleasant Beach, NJ",Point Pleasant Beach,NJ,Retail,"$1,499,900","2,870"
+18,39588192,49 Ridgedale Ave,NEW TO MARKET--TURNKEY DENTAL SUITE,"East Hanover, NJ",East Hanover,NJ,Office,"$400,000",
+18,39588164,517-521 Bay Ave,,"Point Pleasant Beach, NJ",Point Pleasant Beach,NJ,Multifamily,"$1,599,900","3,229"
+18,39585807,College Plaza,,"Randolph, NJ",Randolph,NJ,Retail,"$16,250,000",
+18,39581541,235 Liberty Ave,,"Jersey City, NJ",Jersey City,NJ,Multifamily,"$1,350,000","5,064"
+18,39577637,1741 Whitehorse Mercerville Rd,,"Hamilton, NJ",Hamilton,NJ,Office,"$2,400,000","25,511"
+18,39577314,1520 Boulevard,,"Seaside Heights, NJ",Seaside Heights,NJ,Retail,"$3,499,900","7,000"
+18,39566541,118 Hudson St,,"Hackensack, NJ",Hackensack,NJ,Office,"$675,000","1,908"
+18,39560121,1381 Fairview Blvd,,"Delran, NJ",Delran,NJ,Office,"$895,900","2,100"
+18,39557025,146 S Munn Ave,Sterling Estates,"East Orange, NJ",East Orange,NJ,Health Care,"$1,215,000","5,476"
+18,39556941,962 Main Ave,6 Units | With Parking & Advertising,"Passaic, NJ",Passaic,NJ,Multifamily,"$1,600,000",
+18,39556875,1210 Long Beach Blvd,Twelve Ten Condominium Association,"Long Beach Township, NJ",Long Beach Township,NJ,Office,"$315,000",
+18,39556487,273 Monmouth St,,"Jersey City, NJ",Jersey City,NJ,Office,"$875,000",
+18,39548241,1618 Parker Ave,,"Fort Lee, NJ",Fort Lee,NJ,Retail,"$1,650,000","3,500"
+18,39545047,370 Route 35 S,Middletown Medical Arts Plaza,"Red Bank, NJ",Red Bank,NJ,Office,"$3,200,000","10,000"
+18,39539398,250-254 Bellevue Ave,,"Upper Montclair, NJ",Upper Montclair,NJ,Retail,"$2,700,000","5,358"
+18,39523939,186 Mt Bethel Rd,,"Warren, NJ",Warren,NJ,Retail,"$1,975,000","2,597"
+18,39508952,897 Ringwood Ave,Restaurant - Rental Income - Development Site,"Haskell, NJ",Haskell,NJ,Retail,"$1,500,000","2,400"
+18,39508299,368 Mullica Hill Rd,28+/- Acres | Prime Development Site,"Mullica Hill, NJ",Mullica Hill,NJ,Land,"$3,200,000",
+18,39506869,52-66 Henry St,,"Secaucus, NJ",Secaucus,NJ,Industrial,"$3,900,000","4,200"
+18,39503082,118 Lincoln Ave,,"Dover, NJ",Dover,NJ,Industrial,"$399,000","1,500"
+18,39502631,415 Totowa Rd,,"Totowa, NJ",Totowa,NJ,Office,"$1,600,000","5,225"
+18,39498582,467 Hudson St,,"Hackensack, NJ",Hackensack,NJ,Multifamily,"$1,300,000",
+19,39490652,52-66 Henry St,,"Secaucus, NJ",Secaucus,NJ,Land,"$3,900,000",
+19,39487745,35 4th Ave,,"Hawthorne, NJ",Hawthorne,NJ,Industrial,"$3,100,000","12,500"
+19,39481925,113 tindall Rd,,"Middletown, NJ",Middletown,NJ,Office,"$1,250,000","5,700"
+19,39481054,80 Montgomery St,,"Paterson, NJ",Paterson,NJ,Retail,"$560,000","3,200"
+19,39479887,81 Somerset Dr,Burlington Spine & Rehab,"Willingboro, NJ",Willingboro,NJ,Office,"$354,900","1,725"
+19,39479695,4508 Bergen Tpke,,"North Bergen, NJ",North Bergen,NJ,Retail,"$665,000","2,150"
+19,39479659,513 W Westfield Ave,,"Roselle Park, NJ",Roselle Park,NJ,Retail,"$449,000","1,160"
+19,39479476,3 Mapleton Rd,,"Princeton, NJ",Princeton,NJ,Office,"$1,965,000","5,385"
+19,39479202,129 E Broad St,127-129 E Broad St Burlington,"Burlington, NJ",Burlington,NJ,Multifamily,"$600,000","3,000"
+19,39465066,Philadelphia Ave Multi-Family Portfolio,,"Egg Harbor City, NJ",Egg Harbor City,NJ,,"$1,500,000",
+19,39464601,50 Drakestown Rd,,"Hackettstown, NJ",Hackettstown,NJ,Land,"$2,900,000",
+19,39464353,1 High st,2-Lot Development | 2 Luxury Single-Families,"Westwood, NJ",Westwood,NJ,Land,"$650,000",
+19,39463975,9 W Shore Trl,2 Parcels: 9 & 9A W Shore Trl,"Sparta, NJ",Sparta,NJ,Land,"$1,500,000",
+19,39460253,238 Franklin Ave,,"Nutley, NJ",Nutley,NJ,Retail,"$3,500,000","7,980"
+19,39460187,1158 Valley Rd,"Retail Property – 2,939 SF On 1.56 Acres","Stirling, NJ",Stirling,NJ,Retail,"$899,999","2,939"
+19,39453355,107 Old Palisade Rd,8-10 Multi-family Development | R7-A Zoning,"Fort Lee, NJ",Fort Lee,NJ,Land,"$895,000",
+19,39452779,187-203 E 7th St,,"Paterson, NJ",Paterson,NJ,Industrial,"$2,500,000","14,200"
+19,39433137,72-74 Route 46 E,,"Lodi, NJ",Lodi,NJ,Retail,"$1,200,000","3,000"
+19,39432337,1339 River Rd,,"Titusville, NJ",Titusville,NJ,Retail,"$1,950,000","5,630"
+19,39429893,140 W Main St,,"Clinton Township, NJ",Clinton Township,NJ,Office,"$990,000","5,488"
+19,39428698,232 Route 70,,"Toms River, NJ",Toms River,NJ,Retail,"$3,196,893","2,907"
+19,39428631,450 Lacey Rd,Wendy's,"Whiting, NJ",Whiting,NJ,Retail,"$2,407,815","4,272"
+19,39428253,572-574 Newark Ave,Journal Square,"Jersey City, NJ",Jersey City,NJ,Office,"$3,000,000","13,000"
+19,39420095,295 US Highway 46,,"Rockaway, NJ",Rockaway,NJ,Retail,"$14,800,000","100,007"
+19,39419931,101 Baltic Ave,Baltic Marina,"Waretown, NJ",Waretown,NJ,Specialty,"$3,500,000","3,041"
