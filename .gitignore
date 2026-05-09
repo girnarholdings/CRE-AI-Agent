@@ -1,0 +1,15 @@
+# Large data files
+incoming/
+*.html
+!nj-dashboard.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store

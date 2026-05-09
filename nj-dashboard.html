@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NJ CRE Dashboard — LoopNet Listings</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <style>
+    :root {
+      --bg-deep: #08090a;
+      --bg-panel: #0f1011;
+      --bg-surface: #191a1b;
+      --bg-elevated: #23252a;
+      --text-primary: #f7f8f8;
+      --text-secondary: #d0d6e0;
+      --text-tertiary: #8a8f98;
+      --text-muted: #62666d;
+      --accent: #5e6ad2;
+      --accent-hover: #7170ff;
+      --border-subtle: rgba(255,255,255,0.05);
+      --border-std: rgba(255,255,255,0.08);
+      --green: #27a644;
+      --amber: #f59e0b;
+      --red: #ef4444;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      min-height: 100vh;
+      font-feature-settings: 'cv01', 'ss03';
+    }
+    
+    /* Header */
+    .header {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border-std);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .header-logo {
+      width: 8px; height: 8px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    .header-title {
+      font-size: 15px; font-weight: 510;
+      color: var(--text-primary);
+      letter-spacing: -0.165px;
+    }
+    .header-badge {
+      font-size: 11px; font-weight: 510;
+      color: var(--accent-hover);
+      background: rgba(94,106,210,0.12);
+      padding: 2px 8px; border-radius: 9999px;
+    }
+    
+    /* Stats bar */
+    .stats-bar {
+      display: flex;
+      gap: 2px;
+      padding: 0 24px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border-subtle);
+      overflow-x: auto;
+    }
+    .stat-chip {
+      padding: 10px 16px;
+      font-size: 12px; font-weight: 510;
+      color: var(--text-tertiary);
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .stat-chip:hover { color: var(--text-secondary); }
+    .stat-chip.active {
+      color: var(--text-primary);
+      border-bottom-color: var(--accent);
+    }
+    
+    /* Controls */
+    .controls {
+      padding: 12px 24px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .search-box {
+      flex: 1; min-width: 200px; max-width: 320px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-std);
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 13px; font-weight: 400;
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+    }
+    .search-box::placeholder { color: var(--text-muted); }
+    .search-box:focus { outline: none; border-color: var(--accent); }
+    
+    .sort-btn {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border-std);
+      color: var(--text-secondary);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px; font-weight: 510;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.15s;
+    }
+    .sort-btn:hover { background: rgba(255,255,255,0.06); color: var(--text-primary); }
+    .sort-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    
+    /* Grid */
+    .grid {
+      padding: 16px 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 12px;
+    }
+    
+    /* Card */
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-std);
+      border-radius: 8px;
+      padding: 16px;
+      cursor: pointer;
+      transition: all 0.15s;
+      position: relative;
+      overflow: hidden;
+    }
+    .card:hover {
+      border-color: rgba(255,255,255,0.14);
+      background: var(--bg-elevated);
+      transform: translateY(-1px);
+    }
+    .card.selected {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px var(--accent);
+    }
+    
+    .card-num {
+      position: absolute;
+      top: 12px; right: 14px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px; font-weight: 500;
+      color: var(--text-muted);
+    }
+    
+    .card-type {
+      font-size: 10px; font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-tertiary);
+      margin-bottom: 6px;
+    }
+    .card-address {
+      font-size: 14px; font-weight: 510;
+      color: var(--text-primary);
+      margin-bottom: 3px;
+    }
+    .card-city {
+      font-size: 12px; font-weight: 400;
+      color: var(--text-tertiary);
+      margin-bottom: 8px;
+    }
+    
+    .card-stats {
+      display: flex;
+      gap: 16px;
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border-subtle);
+    }
+    .card-stat {
+      display: flex;
+      flex-direction: column;
+    }
+    .card-stat-label {
+      font-size: 10px; font-weight: 500;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .card-stat-value {
+      font-size: 15px; font-weight: 590;
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+    }
+    .card-stat-value.price {
+      color: var(--accent-hover);
+    }
+    
+    .card-subtitle {
+      font-size: 12px; font-weight: 400;
+      color: var(--text-tertiary);
+      line-height: 1.4;
+    }
+    
+    .card-actions {
+      margin-top: 10px;
+      display: flex;
+      gap: 6px;
+    }
+    .card-btn {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border-std);
+      color: var(--text-secondary);
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-size: 11px; font-weight: 510;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.15s;
+    }
+    .card-btn:hover { background: rgba(255,255,255,0.08); }
+    .card-btn.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .card-btn.primary:hover { background: var(--accent-hover); }
+    
+    .card-btn.selected-btn {
+      background: rgba(94,106,210,0.15);
+      border-color: var(--accent);
+      color: var(--accent-hover);
+    }
+    
+    /* Price indicator bar */
+    .price-bar {
+      height: 3px;
+      border-radius: 2px;
+      margin-top: 10px;
+      background: var(--border-subtle);
+      position: relative;
+    }
+    .price-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      background: var(--accent);
+      transition: width 0.3s;
+    }
+    
+    /* Selected panel */
+    .selected-panel {
+      position: fixed;
+      bottom: 0;
+      left: 0; right: 0;
+      background: var(--bg-panel);
+      border-top: 1px solid var(--accent);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 200;
+      transform: translateY(100%);
+      transition: transform 0.2s;
+    }
+    .selected-panel.visible { transform: translateY(0); }
+    .selected-info {
+      font-size: 13px; font-weight: 510;
+      color: var(--text-primary);
+    }
+    .selected-info span { color: var(--text-muted); }
+    
+    /* No results */
+    .no-results {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 48px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .grid { grid-template-columns: 1fr; padding: 12px; }
+      .controls { padding: 12px; }
+      .header { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  
+  <script type="text/babel">
+    const { useState, useMemo, useCallback } = React;
+    
+    // NJ Listing data
+    const LISTINGS = [
+      {num:1,id:"30338083",title:"2004-2006 Bergenline Ave",subtitle:"Residential Over Two Ground-Floor Retail",address:"Union City, NJ",city:"Union City",type:"Multifamily",price:"$450,000",priceNum:450000,sf:"",sfNum:0},
+      {num:2,id:"40175525",title:"950 N Kings Hwy",subtitle:"Low-Basis, Office/Medical, 15% Occupied",address:"Cherry Hill, NJ",city:"Cherry Hill",type:"Office",price:"$500,000",priceNum:500000,sf:"29,029",sfNum:29029},
+      {num:3,id:"40110280",title:"5 Eves Dr",subtitle:"Value-Add Asset with Full-Floor Availability",address:"Marlton, NJ",city:"Marlton",type:"Office",price:"$700,000",priceNum:700000,sf:"45,239",sfNum:45239},
+      {num:4,id:"38829921",title:"160 Belmont Ave",subtitle:"Income-Generating Multi-Tenant Flex Warehouse",address:"Garfield, NJ",city:"Garfield",type:"Industrial",price:"$750,000",priceNum:750000,sf:"23,750",sfNum:23750},
+      {num:5,id:"39577671",title:"1150 Route 22 E",subtitle:"Class A NJ Office W/ New Roof & HVAC",address:"Bridgewater, NJ",city:"Bridgewater",type:"Office",price:"$2,000,000",priceNum:2000000,sf:"83,447",sfNum:83447},
+      {num:6,id:"39768287",title:"185 Van Winkle Ave",subtitle:"Industrial/IOS Facility in Prime Location",address:"Hawthorne, NJ",city:"Hawthorne",type:"Industrial",price:"$2,000,000",priceNum:2000000,sf:"26,721",sfNum:26721},
+      {num:7,id:"40137257",title:"248 Brighton Rd",subtitle:"100% NNN Leased Industrial in Northern NJ",address:"Andover, NJ",city:"Andover",type:"Industrial",price:"$2,000,000",priceNum:2000000,sf:"43,000",sfNum:43000},
+      {num:8,id:"39793575",title:"53 Frontage Rd",subtitle:"Foster Wheeler HQ Reposition/Redevelopment",address:"Hampton, NJ",city:"Hampton",type:"Office",price:"$2,500,000",priceNum:2500000,sf:"294,000",sfNum:294000},
+      {num:9,id:"39113497",title:"17-19 Simpson Rd",subtitle:"100% Leased Applegreen Travel Plaza on I-80",address:"Columbia, NJ",city:"Columbia",type:"Retail",price:"$3,000,000",priceNum:3000000,sf:"21,780",sfNum:21780},
+      {num:10,id:"40284146",title:"611 River Dr",subtitle:"High-Yield Investment with 5.8-Year WALT",address:"Elmwood Park, NJ",city:"Elmwood Park",type:"Office",price:"$3,500,000",priceNum:3500000,sf:"96,000",sfNum:96000},
+      {num:11,id:"38449838",title:"40 Brunswick Ave",subtitle:"Edison Transit Business Center",address:"Edison, NJ",city:"Edison",type:"Industrial",price:"$15,850,000",priceNum:15850000,sf:"62,008",sfNum:62008},
+      {num:12,id:"37903418",title:"104 E Park St",subtitle:"Bordentown, NJ 08505",address:"Bordentown, NJ",city:"Bordentown",type:"Industrial",price:"N/A",priceNum:null,sf:"209,684",sfNum:209684},
+      {num:13,id:"37981494",title:"22 Readington Rd",subtitle:"Branchburg, NJ 08876",address:"Branchburg, NJ",city:"Branchburg",type:"Industrial",price:"N/A",priceNum:null,sf:"80,000",sfNum:80000},
+      {num:14,id:"37981527",title:"31 Farinella Dr",subtitle:"East Hanover, NJ 07936",address:"East Hanover, NJ",city:"East Hanover",type:"Industrial",price:"N/A",priceNum:null,sf:"48,235",sfNum:48235},
+      {num:15,id:"39099858",title:"371 Hoes Ln",subtitle:"Piscataway, NJ 08854",address:"Piscataway, NJ",city:"Piscataway",type:"Office",price:"N/A",priceNum:null,sf:"133,608",sfNum:133608},
+      {num:16,id:"38341444",title:"570 Mount Pleasant Ave",subtitle:"Dover, NJ 07801",address:"Dover, NJ",city:"Dover",type:"Industrial",price:"N/A",priceNum:null,sf:"126,108",sfNum:126108},
+      {num:17,id:"12026810",title:"Route 563",subtitle:"Rte. 563, Galloway, NJ 300 ac Industrial Zone",address:"Galloway, NJ",city:"Galloway",type:"Land",price:"N/A",priceNum:null,sf:"",sfNum:0},
+    ];
+    
+    const TYPES = [...new Set(LISTINGS.map(l => l.type))];
+    const MAX_PRICE = Math.max(...LISTINGS.filter(l => l.priceNum).map(l => l.priceNum));
+    
+    function fmtPrice(n) {
+      if (!n) return 'N/A';
+      if (n >= 1000000) return '$' + (n/1000000).toFixed(2) + 'M';
+      if (n >= 1000) return '$' + (n/1000).toFixed(0) + 'K';
+      return '$' + n.toLocaleString();
+    }
+    
+    function fmtSF(n) {
+      if (!n) return '—';
+      return n.toLocaleString() + ' SF';
+    }
+    
+    function App() {
+      const [search, setSearch] = useState('');
+      const [typeFilter, setTypeFilter] = useState('ALL');
+      const [sort, setSort] = useState('price');
+      const [selected, setSelected] = useState(null);
+      
+      const filtered = useMemo(() => {
+        let items = [...LISTINGS];
+        
+        if (search) {
+          const q = search.toLowerCase();
+          items = items.filter(l => 
+            l.title.toLowerCase().includes(q) || 
+            l.city.toLowerCase().includes(q) ||
+            l.address.toLowerCase().includes(q) ||
+            l.subtitle.toLowerCase().includes(q)
+          );
+        }
+        
+        if (typeFilter !== 'ALL') {
+          items = items.filter(l => l.type === typeFilter);
+        }
+        
+        switch(sort) {
+          case 'price':
+            items.sort((a,b) => (a.priceNum ?? 1e12) - (b.priceNum ?? 1e12));
+            break;
+          case 'price-desc':
+            items.sort((a,b) => (b.priceNum ?? 0) - (a.priceNum ?? 0));
+            break;
+          case 'sf':
+            items.sort((a,b) => (b.sfNum || 0) - (a.sfNum || 0));
+            break;
+          case 'city':
+            items.sort((a,b) => a.city.localeCompare(b.city));
+            break;
+          case 'type':
+            items.sort((a,b) => a.type.localeCompare(b.type) || (a.priceNum ?? 1e12) - (b.priceNum ?? 1e12));
+            break;
+        }
+        
+        return items;
+      }, [search, typeFilter, sort]);
+      
+      const stats = useMemo(() => {
+        const withPrice = filtered.filter(l => l.priceNum);
+        return {
+          total: filtered.length,
+          avgPrice: withPrice.length ? withPrice.reduce((s,l) => s + l.priceNum, 0) / withPrice.length : 0,
+          minPrice: withPrice.length ? Math.min(...withPrice.map(l => l.priceNum)) : 0,
+          maxPrice: withPrice.length ? Math.max(...withPrice.map(l => l.priceNum)) : 0,
+        };
+      }, [filtered]);
+      
+      const copyListingNum = useCallback((num) => {
+        setSelected(num === selected ? null : num);
+        if (num !== selected) {
+          navigator.clipboard?.writeText(`Deep dive listing #${num}`);
+        }
+      }, [selected]);
+      
+      return (
+        <div>
+          {/* Header */}
+          <div className="header">
+            <div className="header-left">
+              <div className="header-logo" />
+              <span className="header-title">NJ CRE Pipeline</span>
+              <span className="header-badge">{stats.total} listings</span>
+            </div>
+            <div style={{fontSize:12,color:'var(--text-muted)',fontWeight:400}}>
+              LoopNet · ssid=5779590 · {new Date().toLocaleDateString()}
+            </div>
+          </div>
+          
+          {/* Stats Tabs */}
+          <div className="stats-bar">
+            {['ALL', ...TYPES].map(t => (
+              <div 
+                key={t}
+                className={`stat-chip ${typeFilter === t ? 'active' : ''}`}
+                onClick={() => setTypeFilter(t)}
+              >
+                {t === 'ALL' ? 'All Types' : t}
+                {t === 'ALL' ? ` (${LISTINGS.length})` : ` (${LISTINGS.filter(l => l.type === t).length})`}
+              </div>
+            ))}
+          </div>
+          
+          {/* Controls */}
+          <div className="controls">
+            <input 
+              className="search-box"
+              placeholder="Search by address, city, or description..."
+              value={search}
+              onChange={e => setSearch(e.target.value)}
+            />
+            <button className={`sort-btn ${sort === 'price' ? 'active' : ''}`} onClick={() => setSort('price')}>$ ↑</button>
+            <button className={`sort-btn ${sort === 'price-desc' ? 'active' : ''}`} onClick={() => setSort('price-desc')}>$ ↓</button>
+            <button className={`sort-btn ${sort === 'sf' ? 'active' : ''}`} onClick={() => setSort('sf')}>SF ↓</button>
+            <button className={`sort-btn ${sort === 'city' ? 'active' : ''}`} onClick={() => setSort('city')}>City</button>
+            <button className={`sort-btn ${sort === 'type' ? 'active' : ''}`} onClick={() => setSort('type')}>Type</button>
+            <span style={{fontSize:11,color:'var(--text-muted)',marginLeft:'auto'}}>
+              Avg {fmtPrice(stats.avgPrice)} · Range {fmtPrice(stats.minPrice)}–{fmtPrice(stats.maxPrice)}
+            </span>
+          </div>
+          
+          {/* Grid */}
+          <div className="grid">
+            {filtered.length === 0 ? (
+              <div className="no-results">No listings match your filters</div>
+            ) : filtered.map(l => {
+              const maxP = MAX_PRICE;
+              const pct = l.priceNum ? (l.priceNum / maxP) * 100 : 0;
+              const isSel = selected === l.num;
+              
+              return (
+                <div key={l.num} className={`card ${isSel ? 'selected' : ''}`}>
+                  <div className="card-num">#{l.num}</div>
+                  <div className="card-type">{l.type}</div>
+                  <div className="card-address">{l.title}</div>
+                  <div className="card-city">{l.address}</div>
+                  <div className="card-subtitle">{l.subtitle}</div>
+                  
+                  <div className="card-stats">
+                    <div className="card-stat">
+                      <span className="card-stat-label">Price</span>
+                      <span className="card-stat-value price">{l.price}</span>
+                    </div>
+                    <div className="card-stat">
+                      <span className="card-stat-label">Size</span>
+                      <span className="card-stat-value">{fmtSF(l.sfNum)}</span>
+                    </div>
+                    <div className="card-stat">
+                      <span className="card-stat-label">$/SF</span>
+                      <span className="card-stat-value">
+                        {l.priceNum && l.sfNum ? '$' + Math.round(l.priceNum / l.sfNum).toLocaleString() : '—'}
+                      </span>
+                    </div>
+                  </div>
+                  
+                  <div className="price-bar">
+                    <div className="price-bar-fill" style={{width: pct + '%'}} />
+                  </div>
+                  
+                  <div className="card-actions">
+                    <button 
+                      className={`card-btn ${isSel ? 'selected-btn' : 'primary'}`}
+                      onClick={() => copyListingNum(l.num)}
+                    >
+                      {isSel ? '✓ Selected #' + l.num : 'Deep Dive #' + l.num}
+                    </button>
+                    <button className="card-btn" onClick={() => window.open('https://www.loopnet.com/Listing/' + l.id, '_blank')}>
+                      View on LoopNet ↗
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          
+          {/* Selected panel */}
+          <div className={`selected-panel ${selected ? 'visible' : ''}`}>
+            <div className="selected-info">
+              Listing <strong>#{selected}</strong> selected — 
+              <span> say "Deep dive #N" to analyze</span>
+            </div>
+            <button className="card-btn primary" onClick={() => setSelected(null)}>
+              Clear Selection
+            </button>
+          </div>
+        </div>
+      );
+    }
+    
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
