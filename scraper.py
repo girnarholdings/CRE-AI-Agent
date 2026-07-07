@@ -3,7 +3,11 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
-import time, re, os, csv, json
+import time
+import re
+import os
+import csv
+import json
 
 SAVE_DIR = os.path.expanduser("~/cre/incoming/nj-full")
 os.makedirs(SAVE_DIR, exist_ok=True)
@@ -74,7 +78,7 @@ for page_num in range(1, MAX_PAGES + 1):
     # Check for next page
     next_link = soup.select_one('a[aria-label="Go to next page"]')
     if page_num > 1 and not next_link:
-        print(f"  No next page — stopping")
+        print("  No next page — stopping")
         break
     
     time.sleep(1.5)

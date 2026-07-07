@@ -11,13 +11,21 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REBUILD_SCRIPT = REPO_ROOT / "rebuild_all.py"
+# rebuild_all.py names its inputs by absolute path on the production box;
+# remap that prefix onto this checkout so the guard also runs in CI/clones.
+DEPLOYED_ROOT = "/home/nima/cre"
 
 
 def dashboard_inputs():
     """Extract the "input" paths from the DASHBOARDS list in rebuild_all.py."""
     text = REBUILD_SCRIPT.read_text()
     paths = re.findall(r'"input":\s*"([^"]+)"', text)
-    return [Path(p) for p in paths]
+    return [
+        REPO_ROOT / Path(p).relative_to(DEPLOYED_ROOT)
+        if p.startswith(DEPLOYED_ROOT + "/")
+        else Path(p)
+        for p in paths
+    ]
 
 
 class TestRebuildInputsTracked(unittest.TestCase):
