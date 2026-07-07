@@ -1,0 +1,1013 @@
+{
+  "listing_id": "40159875",
+  "address": "3904-3914 Augusta Rd, Greenville, SC 29605",
+  "city": "Greenville",
+  "state": "SC",
+  "property_type": "Retail",
+  "ask_price": 825000,
+  "analysis_date": "2026-05-14",
+  "valuation_triangulation": {
+    "land": {
+      "lot_acres": 1.4,
+      "lot_sf": 60984,
+      "value_per_sf_low": 4.8,
+      "value_per_sf_high": 12.0,
+      "value_low": 293000.0,
+      "value_mid": 512000.0,
+      "value_high": 732000.0,
+      "methodology": "Land value by acreage: 1.4 acres \u00d7 $4-10/SF corridor land \u00d7 1.2x zoning multiplier",
+      "zoning_multiplier": 1.2,
+      "corridor_type": "Augusta Road Corridor \u2014 Greenville, SC"
+    },
+    "building": {
+      "building_sf": 7500,
+      "property_type": "Retail",
+      "building_class": "C",
+      "year_built": 1970,
+      "year_renovated": 2017,
+      "replacement_cost_psf_low": 80,
+      "replacement_cost_psf_high": 130,
+      "replacement_cost_low": 600000,
+      "replacement_cost_mid": 788000.0,
+      "replacement_cost_high": 975000,
+      "depreciation_pct": 39.0,
+      "depreciated_value_low": 366000.0,
+      "depreciated_value_mid": 480000.0,
+      "depreciated_value_high": 595000.0,
+      "methodology": "Replacement cost $80-130/SF \u00d7 7,500 SF, depreciated 39% (effective age from 2017)."
+    },
+    "equipment": {
+      "equipment_psf_low": 3,
+      "equipment_psf_high": 8,
+      "value_low": 22000,
+      "value_mid": 41000.0,
+      "value_high": 60000,
+      "special_equipment": [],
+      "special_equipment_value": 0,
+      "total_equipment_low": 22000,
+      "total_equipment_mid": 41000.0,
+      "total_equipment_high": 60000
+    },
+    "licenses_detected": [],
+    "license_total_value": 0,
+    "hard_asset_value_low": 681000.0,
+    "hard_asset_value_mid": 1033000.0,
+    "hard_asset_value_high": 1387000.0,
+    "asset_coverage_low_pct": 82.5,
+    "asset_coverage_mid_pct": 125.2,
+    "asset_coverage_high_pct": 168.1,
+    "verdict": "STRONG COVERAGE",
+    "narrative": "Hard assets (land + depreciated building + equipment) valued at $681,000\u2013$1,387,000 (mid: $1,033,000). This covers 125% of the $825,000 ask price. The downside is well-protected by physical assets."
+  },
+  "comps": {},
+  "home_price_appreciation": {
+    "greenville_msa": {
+      "hpi_1yr_pct": 5.2,
+      "hpi_3yr_annualized_pct": 5.8,
+      "hpi_5yr_annualized_pct": 6.1,
+      "vs_national": "above",
+      "source": "FHFA HPI Greenville-Anderson MSA (estimated from public data)"
+    },
+    "zip_29605": {
+      "median_home_value": 240000,
+      "median_home_value_1yr_change_pct": 4.8,
+      "source": "ACS 2023 / Zillow ZHVI (estimated)"
+    },
+    "greenville_county": {
+      "median_home_value": 285000,
+      "median_home_value_1yr_change_pct": 5.5,
+      "median_home_value_5yr_change_pct": 35.0
+    },
+    "hpa_tailwind_score": 7,
+    "narrative": "Greenville MSA HPI up 5.2% YoY, 6.1% annualized over 5 years. Strong residential appreciation creates retail demand tailwind with typical 12-24 month lag. Zip 29605 median home $240 \u2014 affordable relative to national median.",
+    "data_quality": "estimated \u2014 needs FRED API key for precise data"
+  },
+  "pro_forma": {
+    "purchase_price": 550000,
+    "exit_cap_rate": 0.08,
+    "exit_value": 552000.0,
+    "yearly_projections": [
+      {
+        "year": 1,
+        "avg_rent_psf": 9.99,
+        "pgi": 74925,
+        "vacancy_pct": 15.0,
+        "egi": 63686,
+        "opex": 12737,
+        "property_tax": 17325,
+        "noi": 20277,
+        "cap_rate_implied": 3.7
+      },
+      {
+        "year": 2,
+        "avg_rent_psf": 10.98,
+        "pgi": 82375,
+        "vacancy_pct": 10.5,
+        "egi": 73725,
+        "opex": 14745,
+        "property_tax": 17325,
+        "noi": 27906,
+        "cap_rate_implied": 5.1
+      },
+      {
+        "year": 3,
+        "avg_rent_psf": 12.01,
+        "pgi": 90050,
+        "vacancy_pct": 8.0,
+        "egi": 82846,
+        "opex": 16569,
+        "property_tax": 17325,
+        "noi": 34838,
+        "cap_rate_implied": 6.3
+      },
+      {
+        "year": 4,
+        "avg_rent_psf": 13.39,
+        "pgi": 100425,
+        "vacancy_pct": 8.0,
+        "egi": 92391,
+        "opex": 18478,
+        "property_tax": 17325,
+        "noi": 42092,
+        "cap_rate_implied": 7.7
+      },
+      {
+        "year": 5,
+        "avg_rent_psf": 13.79,
+        "pgi": 103438,
+        "vacancy_pct": 8.0,
+        "egi": 95163,
+        "opex": 19033,
+        "property_tax": 17325,
+        "noi": 44199,
+        "cap_rate_implied": 8.0
+      }
+    ],
+    "total_5yr_noi": 169312,
+    "equity_multiple": 1.31,
+    "simple_irr_pct": 5.6,
+    "cash_on_cash_yr1_pct": 3.7
+  },
+  "business_levers": {
+    "property_type": "Retail",
+    "total_levers_catalogued": 11,
+    "top_levers": [
+      {
+        "name": "Add cell tower lease",
+        "category": "ancillary",
+        "revenue_impact_annual": 24000,
+        "capex": 0,
+        "zoning_risk": "medium",
+        "timeline_months": 12,
+        "probability": 0.15,
+        "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+        "score": 25.8,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Push rents to market",
+        "category": "operational",
+        "revenue_impact_annual": 18060,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 12,
+        "probability": 0.7,
+        "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+        "score": 21.5,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Add drive-thru",
+        "category": "structural",
+        "revenue_impact_annual": 15000,
+        "capex": 75000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.25,
+        "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+        "score": 16.6,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add apartment unit (if zoning allows)",
+        "category": "structural",
+        "revenue_impact_annual": 12000,
+        "capex": 80000,
+        "zoning_risk": "high",
+        "timeline_months": 12,
+        "probability": 0.1,
+        "description": "Convert portion to residential. C2 zoning likely needs variance.",
+        "score": 13.0,
+        "roi_year1_pct": 15.0
+      },
+      {
+        "name": "Subdivide large bay",
+        "category": "structural",
+        "revenue_impact_annual": 10000,
+        "capex": 40000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.4,
+        "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+        "score": 12.1,
+        "roi_year1_pct": 25.0
+      }
+    ],
+    "all_levers": [
+      {
+        "name": "Add cell tower lease",
+        "category": "ancillary",
+        "revenue_impact_annual": 24000,
+        "capex": 0,
+        "zoning_risk": "medium",
+        "timeline_months": 12,
+        "probability": 0.15,
+        "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+        "score": 25.8,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Push rents to market",
+        "category": "operational",
+        "revenue_impact_annual": 18060,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 12,
+        "probability": 0.7,
+        "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+        "score": 21.5,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Add drive-thru",
+        "category": "structural",
+        "revenue_impact_annual": 15000,
+        "capex": 75000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.25,
+        "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+        "score": 16.6,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add apartment unit (if zoning allows)",
+        "category": "structural",
+        "revenue_impact_annual": 12000,
+        "capex": 80000,
+        "zoning_risk": "high",
+        "timeline_months": 12,
+        "probability": 0.1,
+        "description": "Convert portion to residential. C2 zoning likely needs variance.",
+        "score": 13.0,
+        "roi_year1_pct": 15.0
+      },
+      {
+        "name": "Subdivide large bay",
+        "category": "structural",
+        "revenue_impact_annual": 10000,
+        "capex": 40000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.4,
+        "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+        "score": 12.1,
+        "roi_year1_pct": 25.0
+      },
+      {
+        "name": "Acquire neighboring rental house",
+        "category": "expansion",
+        "revenue_impact_annual": 9600,
+        "capex": 150000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.2,
+        "description": "Listing mentions 'neighboring rental house can potentially be included.'",
+        "score": 11.1,
+        "roi_year1_pct": 6.4
+      },
+      {
+        "name": "Convert to smoke shop / specialty retail",
+        "category": "tenant_mix",
+        "revenue_impact_annual": 8000,
+        "capex": 10000,
+        "zoning_risk": "medium",
+        "timeline_months": 3,
+        "probability": 0.3,
+        "description": "Reposition one bay as smoke shop or specialty retail. Higher rent tolerance.",
+        "score": 10.0,
+        "roi_year1_pct": 80.0
+      },
+      {
+        "name": "Convert storage to rentable SF",
+        "category": "operational",
+        "revenue_impact_annual": 5000,
+        "capex": 15000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.6,
+        "description": "Convert 500-800 SF of storage/utility space to rentable area.",
+        "score": 7.9,
+        "roi_year1_pct": 33.3
+      },
+      {
+        "name": "Add vending machines",
+        "category": "ancillary",
+        "revenue_impact_annual": 3000,
+        "capex": 2000,
+        "zoning_risk": "none",
+        "timeline_months": 1,
+        "probability": 0.9,
+        "description": "Place 2-3 vending machines in common area. $1-3K/yr net.",
+        "score": 6.8,
+        "roi_year1_pct": 150.0
+      },
+      {
+        "name": "Add outdoor seating/patio",
+        "category": "improvement",
+        "revenue_impact_annual": 4000,
+        "capex": 20000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.5,
+        "description": "Add outdoor seating for restaurant tenant. Increases rent premium.",
+        "score": 6.7,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add ATM",
+        "category": "ancillary",
+        "revenue_impact_annual": 1800,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 1,
+        "probability": 0.85,
+        "description": "ATM surcharge revenue sharing. ~$150/mo net.",
+        "score": 5.5,
+        "roi_year1_pct": 999
+      }
+    ],
+    "recommended_phasing": {
+      "phase_1_immediate": [
+        {
+          "name": "Add vending machines",
+          "category": "ancillary",
+          "revenue_impact_annual": 3000,
+          "capex": 2000,
+          "zoning_risk": "none",
+          "timeline_months": 1,
+          "probability": 0.9,
+          "description": "Place 2-3 vending machines in common area. $1-3K/yr net.",
+          "score": 6.8,
+          "roi_year1_pct": 150.0
+        },
+        {
+          "name": "Add ATM",
+          "category": "ancillary",
+          "revenue_impact_annual": 1800,
+          "capex": 0,
+          "zoning_risk": "none",
+          "timeline_months": 1,
+          "probability": 0.85,
+          "description": "ATM surcharge revenue sharing. ~$150/mo net.",
+          "score": 5.5,
+          "roi_year1_pct": 999
+        }
+      ],
+      "phase_2_medium": [
+        {
+          "name": "Subdivide large bay",
+          "category": "structural",
+          "revenue_impact_annual": 10000,
+          "capex": 40000,
+          "zoning_risk": "medium",
+          "timeline_months": 6,
+          "probability": 0.4,
+          "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+          "score": 12.1,
+          "roi_year1_pct": 25.0
+        },
+        {
+          "name": "Convert to smoke shop / specialty retail",
+          "category": "tenant_mix",
+          "revenue_impact_annual": 8000,
+          "capex": 10000,
+          "zoning_risk": "medium",
+          "timeline_months": 3,
+          "probability": 0.3,
+          "description": "Reposition one bay as smoke shop or specialty retail. Higher rent tolerance.",
+          "score": 10.0,
+          "roi_year1_pct": 80.0
+        },
+        {
+          "name": "Convert storage to rentable SF",
+          "category": "operational",
+          "revenue_impact_annual": 5000,
+          "capex": 15000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.6,
+          "description": "Convert 500-800 SF of storage/utility space to rentable area.",
+          "score": 7.9,
+          "roi_year1_pct": 33.3
+        },
+        {
+          "name": "Add outdoor seating/patio",
+          "category": "improvement",
+          "revenue_impact_annual": 4000,
+          "capex": 20000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.5,
+          "description": "Add outdoor seating for restaurant tenant. Increases rent premium.",
+          "score": 6.7,
+          "roi_year1_pct": 20.0
+        }
+      ],
+      "phase_3_structural": [
+        {
+          "name": "Add cell tower lease",
+          "category": "ancillary",
+          "revenue_impact_annual": 24000,
+          "capex": 0,
+          "zoning_risk": "medium",
+          "timeline_months": 12,
+          "probability": 0.15,
+          "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+          "score": 25.8,
+          "roi_year1_pct": 999
+        },
+        {
+          "name": "Push rents to market",
+          "category": "operational",
+          "revenue_impact_annual": 18060,
+          "capex": 0,
+          "zoning_risk": "none",
+          "timeline_months": 12,
+          "probability": 0.7,
+          "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+          "score": 21.5,
+          "roi_year1_pct": 999
+        },
+        {
+          "name": "Add drive-thru",
+          "category": "structural",
+          "revenue_impact_annual": 15000,
+          "capex": 75000,
+          "zoning_risk": "medium",
+          "timeline_months": 6,
+          "probability": 0.25,
+          "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+          "score": 16.6,
+          "roi_year1_pct": 20.0
+        },
+        {
+          "name": "Add apartment unit (if zoning allows)",
+          "category": "structural",
+          "revenue_impact_annual": 12000,
+          "capex": 80000,
+          "zoning_risk": "high",
+          "timeline_months": 12,
+          "probability": 0.1,
+          "description": "Convert portion to residential. C2 zoning likely needs variance.",
+          "score": 13.0,
+          "roi_year1_pct": 15.0
+        },
+        {
+          "name": "Acquire neighboring rental house",
+          "category": "expansion",
+          "revenue_impact_annual": 9600,
+          "capex": 150000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.2,
+          "description": "Listing mentions 'neighboring rental house can potentially be included.'",
+          "score": 11.1,
+          "roi_year1_pct": 6.4
+        }
+      ]
+    },
+    "total_potential_revenue_uplift": 110460
+  },
+  "demographics": {
+    "zip_29605": {
+      "population": 35000,
+      "median_household_income": 55000,
+      "poverty_rate_pct": 15.0,
+      "bachelor_degree_pct": 28.0
+    },
+    "greenville_county": {
+      "population": 558000,
+      "population_growth_1yr_pct": 2.1,
+      "median_household_income": 68000,
+      "poverty_rate_pct": 11.0,
+      "bachelor_degree_pct": 35.0,
+      "unemployment_rate_pct": 3.2
+    },
+    "migration": {
+      "net_domestic_migration": "strongly positive (+15,000-20,000/yr)",
+      "top_inflow_states": [
+        "NC",
+        "GA",
+        "NY",
+        "CA",
+        "FL"
+      ],
+      "migration_score": 8,
+      "narrative": "Greenville County is among the fastest-growing in the Southeast. Strong inbound migration from high-cost states (NY, CA) driving housing and retail demand."
+    },
+    "retail_demand": {
+      "score": 7,
+      "narrative": "Population growth (2.1%) + income growth = retail spending growth. Undersupplied retail per capita in this corridor."
+    },
+    "data_quality": "estimated from ACS/Census public data \u2014 API key would improve precision"
+  },
+  "effective_frontier": {
+    "points": [
+      {
+        "purchase_price": 412500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 3.2,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 437500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 3.02,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 462500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.85,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 487500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.71,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 512500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.58,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 537500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.46,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 562500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.35,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 587500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.25,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 612500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.16,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 637500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 2.07,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 662500,
+        "worst_pct_capital": 100.0,
+        "best_moic": 1.99,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 687500,
+        "worst_pct_capital": 99.1,
+        "best_moic": 1.92,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 712500,
+        "worst_pct_capital": 95.6,
+        "best_moic": 1.85,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 737500,
+        "worst_pct_capital": 92.3,
+        "best_moic": 1.79,
+        "zone": "Pass unless portfolio reason"
+      },
+      {
+        "purchase_price": 762500,
+        "worst_pct_capital": 89.3,
+        "best_moic": 1.73,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 787500,
+        "worst_pct_capital": 86.5,
+        "best_moic": 1.68,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 812500,
+        "worst_pct_capital": 83.8,
+        "best_moic": 1.62,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 837500,
+        "worst_pct_capital": 81.3,
+        "best_moic": 1.58,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 862500,
+        "worst_pct_capital": 79.0,
+        "best_moic": 1.53,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 887500,
+        "worst_pct_capital": 76.7,
+        "best_moic": 1.49,
+        "zone": "Acceptable selectively"
+      }
+    ],
+    "attractiveness_threshold": 762500,
+    "ask_price": 825000,
+    "ask_zone": "Unknown",
+    "target_zone": "Pass unless portfolio reason"
+  },
+  "scenarios": {
+    "Worst Case \u2014 E-commerce Disruption + Tenant Loss": {
+      "value": 220000.0,
+      "moic_5yr": 0.4,
+      "noi": 14226,
+      "description": "Tenants vacate. Vacancy hits 40%. Exit cap +200bps. MOIC 0.40x."
+    },
+    "Worst Case \u2014 Rate Shock / Cap Rate Expansion": {
+      "value": 302000.0,
+      "moic_5yr": 0.55,
+      "noi": 21340,
+      "description": "Fed raises rates. Cap rates expand 150bps. Exit cap 9.5%. MOIC 0.55x."
+    },
+    "Baseline \u2014 Tax-Adjusted Status Quo (As-Is)": {
+      "value": 356000.0,
+      "moic_5yr": 0.65,
+      "noi": 28453,
+      "description": "Tax-adjusted baseline. NOI $28,453. Exit cap 8.0%. Modest growth."
+    },
+    "Phase 1 Optimize \u2014 Rent Push + Low-Capex Levers (Best Case)": {
+      "value": 493000.0,
+      "moic_5yr": 0.9,
+      "noi": 36989,
+      "description": "Push rents to market. NOI $36,989. Exit cap 7.5%."
+    },
+    "Phase 2 Expand \u2014 Renovate + Tenant Upgrade": {
+      "value": 630000.0,
+      "moic_5yr": 1.15,
+      "noi": 44102,
+      "description": "Renovation to Class B. NOI $44,102. Exit cap 7.0%."
+    },
+    "Phase 3 Strategic \u2014 Parcel Assembly / Redevelop": {
+      "value": 2080000.0,
+      "moic_5yr": 3.78,
+      "noi": null,
+      "description": "Assemble adjacent parcels. Redevelopment play. Moonshot."
+    }
+  },
+  "property_specific_scenarios": {
+    "Worst Case \u2014 E-commerce Disruption + Tenant Loss": {
+      "value": 220000.0,
+      "moic_5yr": 0.4,
+      "noi": 14226,
+      "description": "Tenants vacate. Vacancy hits 40%. Exit cap +200bps. MOIC 0.40x."
+    },
+    "Worst Case \u2014 Rate Shock / Cap Rate Expansion": {
+      "value": 302000.0,
+      "moic_5yr": 0.55,
+      "noi": 21340,
+      "description": "Fed raises rates. Cap rates expand 150bps. Exit cap 9.5%. MOIC 0.55x."
+    },
+    "Baseline \u2014 Tax-Adjusted Status Quo (As-Is)": {
+      "value": 356000.0,
+      "moic_5yr": 0.65,
+      "noi": 28453,
+      "description": "Tax-adjusted baseline. NOI $28,453. Exit cap 8.0%. Modest growth."
+    },
+    "Phase 1 Optimize \u2014 Rent Push + Low-Capex Levers (Best Case)": {
+      "value": 493000.0,
+      "moic_5yr": 0.9,
+      "noi": 36989,
+      "description": "Push rents to market. NOI $36,989. Exit cap 7.5%."
+    },
+    "Phase 2 Expand \u2014 Renovate + Tenant Upgrade": {
+      "value": 630000.0,
+      "moic_5yr": 1.15,
+      "noi": 44102,
+      "description": "Renovation to Class B. NOI $44,102. Exit cap 7.0%."
+    },
+    "Phase 3 Strategic \u2014 Parcel Assembly / Redevelop": {
+      "value": 2080000.0,
+      "moic_5yr": 3.78,
+      "noi": null,
+      "description": "Assemble adjacent parcels. Redevelopment play. Moonshot."
+    }
+  },
+  "convexity": {
+    "divergence": {
+      "absolute_spread": -195000.0,
+      "capital_normalized_spread": -0.35,
+      "convexity_ratio": Infinity,
+      "convexity_verdict": "HIGH",
+      "worst_scenario_value": 220000.0,
+      "hard_floor_mid": 825000,
+      "effective_worst": 825000,
+      "base_scenario_value": 356000.0,
+      "best_scenario_value": 630000.0,
+      "worst_case_pct_capital": 150.0,
+      "best_case_moic": 1.15,
+      "best_case_moic_5yr": 1.15,
+      "risk_reward_ratio": 0.8
+    },
+    "pwev": {
+      "pwev": 498300.0,
+      "pwev_vs_ask_pct": -39.6,
+      "is_underpriced": false
+    },
+    "frontier": {
+      "x": 150.0,
+      "y": 1.15,
+      "zone": "Walk away"
+    },
+    "verdict": {
+      "verdict": "CONDITIONAL",
+      "target_offer": 1113750.0,
+      "walk_away": 709500.0,
+      "convexity_ratio": Infinity,
+      "reasoning": [
+        "Frontier: Walk away \u2014 worst 150%, best MOIC 1.15x. BUT convexity high (ratio inf).",
+        "CONDITIONAL \u2014 pursue at \u2264$1,113,750, walk above $709,500."
+      ],
+      "risk_reward_summary": "Risk: $550,000, worst 150% of capital. Best MOIC 1.15x. Convexity inf (HIGH). Conditional \u2014 requires price discipline."
+    }
+  },
+  "enhanced": {
+    "moats": {
+      "framework": "RETAIL-SPECIFIC (not the generic 8-dimension template)",
+      "property_type": "Retail \u2014 Class C Strip Center",
+      "location": "Augusta Road Corridor, Greenville SC",
+      "dimensions": [
+        {
+          "name": "Traffic & Visibility",
+          "score": 3,
+          "max": 3,
+          "rationale": "229' frontage on Augusta Rd. Dedicated turn lane. Freeway visibility from I-85 (100/100 traffic score). Pylon sign. 30,000+ VPD on Augusta Rd."
+        },
+        {
+          "name": "Corridor Growth Trajectory",
+          "score": 3,
+          "max": 3,
+          "rationale": "Augusta Road described as 'blooming retail corridor.' Greenville is one of the fastest-growing metros in the Southeast. Near I-85 \u2014 the primary commercial artery between Atlanta and Charlotte."
+        },
+        {
+          "name": "Parking Ratio",
+          "score": 3,
+          "max": 3,
+          "rationale": "30 spaces / 7,500 SF = 4.0 spaces per 1,000 SF. Retail standard is 3-4/1,000. Above standard \u2014 rare for Class C."
+        },
+        {
+          "name": "Rent-to-Market Gap",
+          "score": 3,
+          "max": 3,
+          "rationale": "In-place rents at $9.99/SF vs market $13-14/SF. 30-40% mark-to-market upside. Greenville retail rent growth 3-5% annually."
+        },
+        {
+          "name": "Land Banking Value",
+          "score": 3,
+          "max": 3,
+          "rationale": "1.40 acres on Augusta Rd with I-85 proximity. Land value in this corridor is appreciating. 0.12 FAR means significant redevelopment optionality (could build up to ~7,300 SF more)."
+        },
+        {
+          "name": "Tenant Stickiness",
+          "score": 2,
+          "max": 3,
+          "rationale": "Equilibrium Zen Gym (fitness \u2014 sticky, hard to relocate) + Gaston Security Group (B2B services \u2014 stable). Both are destination-based, not impulse. But only 2 confirmed tenants of 4."
+        },
+        {
+          "name": "Price-to-Replacement",
+          "score": 3,
+          "max": 3,
+          "rationale": "At $110/SF ask ($73/SF at $550K target), well below replacement cost of $120-150/SF for comparable retail construction in Greenville. Replacement would cost $900K-$1.125M."
+        },
+        {
+          "name": "Zoning Optionality",
+          "score": 2,
+          "max": 3,
+          "rationale": "C2 zoning allows broad commercial uses \u2014 retail, office, service, restaurant. But no residential or mixed-use by-right. Would need variance for higher-value use."
+        }
+      ],
+      "total_score": 22,
+      "max_score": 24,
+      "percentage": 91.7,
+      "classification": "STRONG MOAT",
+      "strongest": [
+        "Traffic & Visibility",
+        "Corridor Growth Trajectory",
+        "Parking Ratio",
+        "Rent-to-Market Gap",
+        "Land Banking Value",
+        "Price-to-Replacement"
+      ],
+      "weakest": [
+        "Tenant Stickiness"
+      ],
+      "verdict_text": "STRONG MOAT \u2014 22/24. The property sits on a high-visibility, high-growth corridor with rare parking abundance and a 30-40% rent upside. The moat is location-driven: Augusta Rd frontage with I-85 access is not replicable. Main vulnerability is tenant concentration risk with only 2 confirmed occupants.",
+      "moat_narrative": "This is a LOCATION moat, not a tenant moat. The value isn't in the current rent roll ($9.99/SF below-market tenants) \u2014 it's in the 1.40 acres on Augusta Road with 229' of frontage, freeway visibility, and ample parking. The play is: buy below replacement cost, push rents to market, and let the corridor's growth compound the land value. The tenants are placeholders, not the thesis."
+    },
+    "offers": {
+      "points": [
+        {
+          "price": 1114000.0,
+          "price_per_sf": 149.0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 14.9,
+          "cash_on_cash_pct": 0.0,
+          "label": "AGGRESSIVE TARGET"
+        },
+        {
+          "price": 1238000.0,
+          "price_per_sf": 165.0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 16.5,
+          "cash_on_cash_pct": 0.0,
+          "label": ""
+        },
+        {
+          "price": 1361000.0,
+          "price_per_sf": 181.0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 18.2,
+          "cash_on_cash_pct": 0.0,
+          "label": "TARGET MIDPOINT"
+        },
+        {
+          "price": 710000.0,
+          "price_per_sf": 95.0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 9.5,
+          "cash_on_cash_pct": 0.0,
+          "label": "WALK AWAY"
+        },
+        {
+          "price": 825000,
+          "price_per_sf": 110.0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 11.0,
+          "cash_on_cash_pct": 0.0,
+          "label": "ASK \u2014 NO VERIFIED FINANCIALS"
+        }
+      ],
+      "target_low": 1113750.0,
+      "target_high": 1361250.0,
+      "walk_away": 709500.0,
+      "ask_price": 825000,
+      "rationale": "Anchor at hard floor ($825,000) + premium for stabilized income. At $1,113,750-1,361,250, cap rates 0.0-0.0%. Walk above $709,500."
+    },
+    "demographics": {
+      "population": 0,
+      "population_growth_5yr_pct": 0,
+      "median_household_income": 0,
+      "poverty_rate_pct": 0,
+      "bachelor_degree_pct": 0,
+      "total_employment": 0,
+      "employment_growth_5yr_pct": 0,
+      "unemployment_rate_pct": 0,
+      "median_home_value": 0,
+      "home_price_appreciation_1yr_pct": 0,
+      "rental_vacancy_rate_pct": 0,
+      "top_employers": [],
+      "tailwinds": [],
+      "headwinds": [],
+      "tailwind_score": 0,
+      "headwind_score": 0,
+      "verdict": ""
+    },
+    "environmental": {
+      "flood_zone": "",
+      "in_floodplain": false,
+      "flood_risk_level": "unknown",
+      "ust_risk": "unknown",
+      "ust_sites_nearby": 0,
+      "known_contamination": false,
+      "phase_i_recommended": false,
+      "red_flags": []
+    },
+    "comps": {
+      "comps": [
+        {
+          "source": "Synthesized (Below)",
+          "address": "105 Main St, Greenville, SC",
+          "sale_price": 659000,
+          "sf": 8036,
+          "price_per_sf": 82.0,
+          "price": 659000,
+          "building_size_sf": 8036,
+          "price_psf": 82.0,
+          "property_type": "Retail",
+          "type": "Retail"
+        },
+        {
+          "source": "Synthesized (Par)",
+          "address": "63 Park Ave, Greenville, SC",
+          "sale_price": 791000,
+          "sf": 7994,
+          "price_per_sf": 99.0,
+          "price": 791000,
+          "building_size_sf": 7994,
+          "price_psf": 99.0,
+          "property_type": "Retail",
+          "type": "Retail"
+        },
+        {
+          "source": "Synthesized (Above)",
+          "address": "233 Broadway, Greenville, SC",
+          "sale_price": 735000,
+          "sf": 6332,
+          "price_per_sf": 116.0,
+          "price": 735000,
+          "building_size_sf": 6332,
+          "price_psf": 116.0,
+          "property_type": "Retail",
+          "type": "Retail"
+        },
+        {
+          "source": "Synthesized (Premium)",
+          "address": "438 Commerce Blvd, Greenville, SC",
+          "sale_price": 1120000,
+          "sf": 8482,
+          "price_per_sf": 132.0,
+          "price": 1120000,
+          "building_size_sf": 8482,
+          "price_psf": 132.0,
+          "property_type": "Retail",
+          "type": "Retail"
+        },
+        {
+          "source": "Synthesized (Premium)",
+          "address": "233 Market St, Greenville, SC",
+          "sale_price": 1179000,
+          "sf": 7965,
+          "price_per_sf": 148.0,
+          "price": 1179000,
+          "building_size_sf": 7965,
+          "price_psf": 148.0,
+          "property_type": "Retail",
+          "type": "Retail"
+        }
+      ],
+      "price_per_sf_range": [
+        0,
+        0
+      ],
+      "subject_psf": 110,
+      "comp_count": 5
+    },
+    "legal_risk": {
+      "legal_risk_score": 0,
+      "legal_risk_severity": "MINIMAL",
+      "concealment_flags": [],
+      "concealment_count": 0,
+      "env_liability_adjustment": 0.0,
+      "tax_bomb_analysis": {
+        "current_tax_estimated": 0,
+        "post_sale_tax_estimated": 0,
+        "tax_increase_pct": 0,
+        "tax_increase_per_sf": 0,
+        "verdict": "",
+        "tenant_impact": ""
+      },
+      "missing_data": [
+        "Tenant names and lease expiration dates",
+        "Environmental Phase I status",
+        "Property tax bill amount"
+      ],
+      "missing_data_count": 3,
+      "narrative": ""
+    },
+    "analysis_date": "2026-05-14"
+  },
+  "hard_floor_mid": 825000
+}

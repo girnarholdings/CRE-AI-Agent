@@ -1,0 +1,47 @@
+[
+  {
+    "listing_id": "NJ-2025-0047",
+    "address": "744 Broad Street",
+    "city": "Newark",
+    "state": "NJ",
+    "property_type": "Office",
+    "ask_price": 4250000,
+    "hard_floor": 3400000,
+    "convexity_ratio": 1.18,
+    "verdict": "PURSUE",
+    "cap_rate": 7.8,
+    "days_on_market": 22,
+    "tax_bomb_pct": 12.4,
+    "analysis_date": "2025-05-08"
+  },
+  {
+    "listing_id": "NJ-2025-0089",
+    "address": "218 Newark Avenue",
+    "city": "Jersey City",
+    "state": "NJ",
+    "property_type": "Retail",
+    "ask_price": 1850000,
+    "hard_floor": 1480000,
+    "convexity_ratio": 0.94,
+    "verdict": "CONDITIONAL",
+    "cap_rate": 6.2,
+    "days_on_market": 47,
+    "tax_bomb_pct": 28.7,
+    "analysis_date": "2025-05-10"
+  },
+  {
+    "listing_id": "NJ-2025-0123",
+    "address": "55 Parsonage Road",
+    "city": "Edison",
+    "state": "NJ",
+    "property_type": "Industrial",
+    "ask_price": 6100000,
+    "hard_floor": 5700000,
+    "convexity_ratio": 0.71,
+    "verdict": "PASS",
+    "cap_rate": 5.1,
+    "days_on_market": 93,
+    "tax_bomb_pct": 6.8,
+    "analysis_date": "2025-05-02"
+  }
+]
