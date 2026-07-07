@@ -1,0 +1,155 @@
+{
+  "property": {
+    "listing_id": "40480939",
+    "address": "6 Crown Point Rd, West Deptford, NJ 08086",
+    "city": "West Deptford",
+    "state": "NJ",
+    "property_type": "Retail",
+    "price": 99000,
+    "sf": 2500,
+    "lot_acres": 0.34,
+    "year_built": 1920,
+    "year_renovated": null,
+    "building_class": "C",
+    "zoning": "M-2 / R-4 overlay",
+    "description": "Former gas station in an overlay zone in West Deptford Township. Zoned both M-2 and R-4. Tanks have been pumped when the gas station was shut down per Seller. Building needs structural work. On a highly trafficked road that connects Paulsboro and West Deptford, with many approved uses. 2 Garage bays with existing structure. Water views in rear of property. Vacant and ready for next owner. Sale Conditions: Distress Sale. Frontage: 42' on Crown Point Rd. Parking: 5 spaces. Fee Simple.",
+    "days_on_market": 2,
+    "property_subtype": "Service Station",
+    "tenancy": "Single",
+    "sale_type": "Investment",
+    "parking": "5 Spaces",
+    "frontage": "42 ft on Crown Point Rd"
+  },
+  "tax": {
+    "current_assessment": 30000,
+    "land_assessment": 28000,
+    "improvement_assessment": 2000,
+    "effective_rate_pct": 2.5,
+    "current_tax_estimated": 50,
+    "post_sale": {
+      "annual_tax_estimated": 2475
+    },
+    "tax_bomb_pct": 4850,
+    "verdict": "MASSIVE — assessment severely stale (2.0% of ask)"
+  },
+  "leases": {
+    "current_rent_psf": 0,
+    "market_rent_psf": 10.00,
+    "occupancy": 0,
+    "lease_type": "NNN",
+    "vacant": true
+  },
+  "hard_asset_floor": {
+    "low": 50000,
+    "mid": 75000,
+    "high": 110000
+  },
+  "purchase_price": 99000,
+  "capital_invested": 114000,
+  "real_estate_value": 75000,
+  "exit_cap_rate": 0.085,
+  "exit_year": 5,
+  "scenarios": {
+    "Worst Case — UST Remediation Nightmare + Demo": {
+      "value": 20000,
+      "moic_5yr": 0.20,
+      "gross_rent": 0,
+      "expenses": 7500,
+      "noi": -7500,
+      "description": "UST remediation costs exceed $100K. Building condemned, demolition required. Holding costs (taxes $2,475/yr + insurance $1,500/yr × 5yr). Exit value: land minus demo/remediation liability. Total loss."
+    },
+    "Baseline — Vacant Holding (As-Is)": {
+      "value": 60000,
+      "moic_5yr": 0.61,
+      "gross_rent": 0,
+      "expenses": 5000,
+      "noi": -5000,
+      "description": "Hold vacant. Pay taxes ($2,475) + insurance/maintenance (~$2,500/yr). 5-year carrying cost: $25K. Exit at land value only. No environmental remediation attempted."
+    },
+    "Phase 1 Optimize — Lease as Auto Repair/Contractor Yard": {
+      "value": 232647,
+      "moic_5yr": 2.04,
+      "gross_rent": 25000,
+      "expenses": 5225,
+      "noi": 19775,
+      "description": "$15K capex for cosmetic cleanup + Phase I environmental (clean report). Lease to auto repair or contractor at $10/SF NNN. 2 existing garage bays are ideal. Exit at 8.5% cap on stabilized NOI $19,775."
+    },
+    "Phase 2 Expand — M-2 Industrial Redevelopment": {
+      "value": 275000,
+      "moic_5yr": 2.41,
+      "gross_rent": 30000,
+      "expenses": 6000,
+      "noi": 24000,
+      "description": "Leverage M-2 zoning for industrial conversion — storage yard, distribution point, or contractor facility. $25K capex for lot improvements + building stabilization. Rent at $12/SF. Exit at 8.25% cap."
+    },
+    "Phase 3 Strategic — R-4 Residential Land Play": {
+      "value": 360000,
+      "moic_5yr": 3.16,
+      "gross_rent": 0,
+      "expenses": 0,
+      "noi": null,
+      "description": "Assemble adjacent parcels. Rezone fully to residential under R-4 overlay. Sell to multi-family developer at $25/SF land value. Environmental cleared. High risk, high optionality, long timeline."
+    }
+  },
+  "valuations": {
+    "cap_rate_method": {
+      "value": 19775,
+      "cap_rate": 0.085,
+      "description": "Based on Phase 1 NOI, no current income"
+    },
+    "probability_weighted_ev": {
+      "value": 140000,
+      "weights": {
+        "worst": 0.20,
+        "base": 0.35,
+        "best": 0.35,
+        "moonshot": 0.10
+      }
+    }
+  },
+  "income": {
+    "gross_rent": 0,
+    "expenses": 5000,
+    "noi": -5000,
+    "description": "Vacant — no current income. Baseline holding cost shown."
+  },
+  "red_flags": [
+    {"severity": "CRITICAL", "flag": "Former gas station with USTs — Phase I/II environmental assessment REQUIRED before purchase. Remediation liability could exceed property value."},
+    {"severity": "CRITICAL", "flag": "Building needs structural work per listing — 1920 construction, 106 years old, may not be insurable in current condition."},
+    {"severity": "HIGH", "flag": "MASSIVE tax bomb: assessment is 2% of ask ($30K vs $99K). Post-sale tax jumps 4,850% from $50 to $2,475/yr."},
+    {"severity": "HIGH", "flag": "Distress sale — seller motivated. Vacant with zero income. No operating history to verify."},
+    {"severity": "MEDIUM", "flag": "0.34 AC lot is small for industrial redevelopment. Frontage only 42 ft limits visibility/truck access."},
+    {"severity": "MEDIUM", "flag": "UST 'pumped' claim unverified — tank removal and soil testing needed. NJDEP case may already be open."}
+  ],
+  "positives": [
+    {"severity": "HIGH", "flag": "Dual M-2/R-4 overlay zoning provides significant optionality — industrial or residential redevelopment paths."},
+    {"severity": "HIGH", "flag": "Highly trafficked Crown Point Rd (100/100 drivability score) — connects Paulsboro to West Deptford."},
+    {"severity": "MEDIUM", "flag": "2 existing garage bays — plug-and-play for auto repair, contractor, or service business."},
+    {"severity": "MEDIUM", "flag": "Fee simple ownership — no condo complications, full land rights."},
+    {"severity": "MEDIUM", "flag": "Low absolute price ($99K / $39.60/SF) — potential for high equity multiple if environmental clears."},
+    {"severity": "LOW", "flag": "Water views — minor amenity premium for certain end uses."}
+  ],
+  "market": {
+    "tier": 3,
+    "submarket": "Crown Point Road Corridor",
+    "msa": "Philadelphia-Camden-Wilmington MSA",
+    "county": "Gloucester County",
+    "min_cap_stabilized": 0.075,
+    "population_growth": "flat",
+    "median_household_income": 85000
+  },
+  "retail_moats": {
+    "dimensions": [
+      {"name": "Traffic & Visibility", "score": 8, "note": "42' frontage on highly trafficked connector road. 100/100 drivability."},
+      {"name": "Corridor Growth", "score": 4, "note": "Stable but slow-growth corridor. Philadelphia metro suburban fringe."},
+      {"name": "Parking Ratio", "score": 3, "note": "5 spaces for 2,500 SF = 2.0/1000 SF. Below the 3.0/1000 ideal for retail."},
+      {"name": "Rent-to-Market Gap", "score": 9, "note": "Currently vacant — maximum upside. Market rent ~$10/SF NNN achievable for service use."},
+      {"name": "Land Banking", "score": 7, "note": "0.34 AC with R-4 residential overlay — optionality for housing redevelopment."},
+      {"name": "Tenant Stickiness", "score": 1, "note": "Vacant. No existing tenant base or lease income."},
+      {"name": "Price-to-Replacement", "score": 9, "note": "$39.60/SF vs replacement $100-150/SF. BUT needs structural work and environmental clearance."},
+      {"name": "Zoning Optionality", "score": 8, "note": "M-2 (industrial) + R-4 (residential) overlay. Multiple redevelopment paths — rare flexibility."}
+    ],
+    "total_score": 49,
+    "classification": "HIGH-OPTIONALITY DISTRESS"
+  }
+}

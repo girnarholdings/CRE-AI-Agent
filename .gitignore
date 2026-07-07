@@ -1,7 +1,14 @@
-# Large data files
-incoming/
+# Large data files (but keep the deal-analysis JSONs rebuild_all.py needs)
+incoming/*
+!incoming/39473852_analysis.json
+!incoming/listing_40306150_analysis.json
+!incoming/40345122_pipeline_v4.json
+!incoming/40480939_analysis.json
+!incoming/40159875_analysis.json
+!incoming/39810931_pipeline_v4.json
 *.html
 !nj-dashboard.html
+!dashboards/**/*.html
 # Keep data.csv for Streamlit Cloud
 !data.csv
 

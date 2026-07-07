@@ -1,0 +1,290 @@
+{
+  "property": {
+    "listing_id": "40159875",
+    "address": "3904-3914 Augusta Rd, Greenville, SC 29605",
+    "city": "Greenville",
+    "municipality": "Greenville",
+    "state": "SC",
+    "property_type": "Retail",
+    "price": 825000,
+    "sf": 7500,
+    "price_per_sf": 110,
+    "lot_acres": 1.4,
+    "year_built": 1970,
+    "year_renovated": 2017,
+    "building_class": "C",
+    "zoning": "C2",
+    "cap_rate_claimed": 0.08,
+    "noi_claimed": 66000,
+    "tenants": 4,
+    "parking_spaces": 30,
+    "date_on_market": "2026-04-15",
+    "days_on_market": 28,
+    "url": "https://www.loopnet.com/Listing/3904-3914-Augusta-Rd-Greenville-SC/40159875/",
+    "description": "Value-add retail investment at 3904-3914 Augusta Rd, Greenville SC. Four tenants currently in place at ~$9.99/SF."
+  },
+  "tax": {
+    "jurisdiction": "South Carolina \u2014 Greenville County",
+    "legal_basis": {
+      "assessment_ratio": "6% of fair market value (SC Code \u00a712-43-220(e))",
+      "point_of_sale_trigger": "Conveyance by deed constitutes assessable transfer of interest (SC Code \u00a712-37-3150(A)(1))",
+      "reassessment_cap": "15% per 5 years does NOT apply to assessable transfers (SC Code \u00a712-37-3140(B))",
+      "reassessment_schedule": "Every 5th year, county-wide (SC Code \u00a712-43-217)"
+    },
+    "current": {
+      "appraised_value_implied": 360333,
+      "assessment_ratio": 0.06,
+      "assessed_value": 21620,
+      "estimated_millage": 0.35,
+      "estimated_millage_note": "ESTIMATED \u2014 Greenville County combined millage (county ops + school + other). Needs county confirmation. Range: 0.320-0.380.",
+      "annual_tax_estimated": 7567,
+      "breakdown": "Improvements $16,110 + Land $5,510 = $21,620 assessed"
+    },
+    "post_sale": {
+      "sale_price": 825000,
+      "assessment_ratio": 0.06,
+      "new_assessed_value": 49500,
+      "estimated_millage": 0.35,
+      "annual_tax_estimated": 17325,
+      "tax_increase": 9758,
+      "tax_increase_pct": 129,
+      "verdict": "MODERATE \u2014 tax roughly doubles (2.3x, not 50x as NJ model incorrectly predicted)",
+      "impact_on_noi": "Claimed NOI $66,000 \u2212 tax increase $9,758 = adjusted NOI ~$56,242"
+    },
+    "comparison_to_nj_model": {
+      "nj_model_predicted_tax": 20625,
+      "sc_correct_tax": 17325,
+      "nj_model_error": "NJ model used 2.5% on 100% of FMV. SC uses 6% assessment ratio \u00d7 millage rate. The NJ model overstated post-sale tax by $3,300 (19%)."
+    }
+  },
+  "leases": {
+    "type": "Gross (estimated \u2014 NNN not specified)",
+    "tenants_in_place": 4,
+    "occupancy_pct": 0,
+    "occupancy_note": "Listed as Vacant but mentions 4 tenants \u2014 contradiction",
+    "current_rent_psf": 9.99,
+    "market_rent_psf": 13.0,
+    "rent_upside_pct": 30
+  },
+  "hard_asset_floor": {
+    "low": 400000,
+    "mid": 500000,
+    "high": 600000,
+    "methodology": "Land: 1.40 acres @ $5-8/SF retail corridor = $305-490K. Building: 7,500 SF Class C insured @ $30-45/SF = $225-338K. Combined low/mid/high."
+  },
+  "purchase_price": 550000,
+  "capital_invested": 575000,
+  "real_estate_value": 500000,
+  "exit_year": 5,
+  "exit_cap_rate": 0.08,
+  "scenarios": {
+    "Worst Case \u2014 Tax Bomb + Tenant Exodus": {
+      "value": 333000,
+      "moic_5yr": 0.58,
+      "gross_rent": 45000,
+      "expenses": 15000,
+      "noi": 30000,
+      "description": "Post-sale taxes double to ~$17.3K. 2 tenants leave. NOI drops to $30K. Exit cap 9%. MOIC 0.58x at $575K invested."
+    },
+    "Baseline \u2014 Tax-Adjusted Status Quo": {
+      "value": 625000,
+      "moic_5yr": 1.09,
+      "gross_rent": 74925,
+      "expenses": 18683,
+      "noi": 56242,
+      "description": "All 4 tenants stay at $9.99/SF. SC reassesses at sale \u2192 NOI $56.2K (down from $66K claimed). Exit cap 8% after 5yr. Value $625K."
+    },
+    "Phase 1 Optimize \u2014 Rent Bumps + Tax Appeal": {
+      "value": 833000,
+      "moic_5yr": 1.45,
+      "gross_rent": 97500,
+      "expenses": 35000,
+      "noi": 62500,
+      "description": "Push rents from $9.99 to $13/SF market. Appeal tax assessment down to ~$500K (60% of FMV). NOI recovers to $62.5K. Exit cap 7.5%.",
+      "probability_note": "25% \u2014 achievable with active management in growing corridor"
+    },
+    "Phase 2 Expand \u2014 Renovate to Class B": {
+      "value": 1040000,
+      "moic_5yr": 1.73,
+      "gross_rent": 105000,
+      "expenses": 27000,
+      "noi": 78000,
+      "description": "$50K renovation. Full occupancy at $14/SF Class B. Exit cap 7%. Capital invested $625K."
+    },
+    "Phase 3 Strategic \u2014 Parcel Assembly / Redevelop": {
+      "value": 1300000,
+      "moic_5yr": 2.08,
+      "gross_rent": 0,
+      "expenses": 0,
+      "noi": null,
+      "description": "1.40 acres on Augusta Rd. Assemble adjacent parcels. Moonshot redevelopment value. Not counted in best-case convexity."
+    },
+    "Phase 1 Optimize \u2014 Rent Bumps to Market": {
+      "value": 900000,
+      "moic_5yr": 1.57,
+      "gross_rent": 97500,
+      "expenses": 25500,
+      "noi": 72000,
+      "description": "Push rents to $13/SF. Tax settles at ~$15K/yr. NOI $72K. Exit cap 7.5% on improved property. Value $900K."
+    }
+  },
+  "valuations": {
+    "cap_rate_method": {
+      "value": 703000,
+      "method": "Post-tax NOI / Market Cap Rate (SC Tier 3)",
+      "calculation": "$56,242 / 8.0% = $703,025"
+    },
+    "price_per_sf_method": {
+      "value": 637500,
+      "method": "Market $/SF comparables",
+      "calculation": "7,500 SF \u00d7 $85/SF (Class C retail Greenville) = $637,500"
+    },
+    "grm_method": {
+      "value": 500000,
+      "method": "Gross Rent Multiplier",
+      "calculation": "$74,925 gross rent \u00d7 6.7x GRM = ~$500,000"
+    },
+    "probability_weighted_ev": {
+      "value": 694000,
+      "weights": {
+        "worst": 0.15,
+        "base": 0.4,
+        "best": 0.33,
+        "moonshot": 0.08,
+        "other": 0.04
+      },
+      "calculation": "15%\u00d7$333K + 40%\u00d7$625K + 25%\u00d7$900K + 12%\u00d7$1.04M + 8%\u00d7$1.3M"
+    },
+    "replacement_cost_method": {
+      "value": 625000,
+      "method": "Land + Depreciated Replacement Cost",
+      "calculation": "$400K land + ($100/SF \u00d7 7,500 \u00d7 30% depreciation) = $400K + $225K"
+    }
+  },
+  "red_flags": [
+    {
+      "severity": "HIGH",
+      "flag": "Tax doubles on sale \u2014 SC reassesses at conveyance ($7.6K \u2192 $17.3K/yr). Wipes out $9.8K from NOI."
+    },
+    {
+      "severity": "HIGH",
+      "flag": "Contradictory occupancy \u2014 listed as Vacant but mentions Four tenants in place"
+    },
+    {
+      "severity": "MEDIUM",
+      "flag": "Tier 3 market (Greenville SC) \u2014 6.5% min cap rate. Post-tax cap at ask is 6.8%, at target $550K is 10.2%."
+    },
+    {
+      "severity": "MEDIUM",
+      "flag": "Class C building \u2014 1970 original. Tenant quality may limit rent growth."
+    },
+    {
+      "severity": "LOW",
+      "flag": "Rent roll gated behind broker contact. 2 of 4 tenants unconfirmed."
+    },
+    {
+      "severity": "LOW",
+      "flag": "Millage rate estimated at 0.350 \u2014 needs Greenville County confirmation. Range 0.320-0.380."
+    }
+  ],
+  "positives": [
+    "229' frontage on Augusta Road with dedicated turn lane + freeway visibility",
+    "1.40 acres in blooming retail corridor near I-85 \u2014 land banking thesis",
+    "30 parking spaces (4/1,000 SF) \u2014 well above retail standard",
+    "30-40% mark-to-market rent upside ($9.99 \u2192 $13-14/SF)",
+    "$110/SF ask is 60% below the $277/SF comp at Saluda Lake Rd",
+    "At $550K target, $73/SF is well below replacement cost ($120-150/SF)",
+    "STRONG MOAT (22/24) \u2014 location-driven: frontage + visibility + parking + land",
+    "Renovated 2017 \u2014 HVAC/roof likely updated",
+    "Pylon sign, C2 zoning allows broad commercial uses"
+  ],
+  "market": {
+    "tier": 3,
+    "min_cap_stabilized": 0.065,
+    "min_cap_value_add": 0.09,
+    "submarket": "Augusta Road Corridor \u2014 Greenville, SC",
+    "metro_growth": "Greenville is among fastest-growing Southeast metros",
+    "corridor_context": "Augusta Rd described as blooming retail corridor near I-85",
+    "traffic_vpd_est": 30000,
+    "walk_score": 40,
+    "transit_score": 30,
+    "traffic_score": 100
+  },
+  "income": {
+    "gross_rent": 74925,
+    "expenses": 29147,
+    "noi": 45778
+  },
+  "retail_moats": {
+    "framework": "RETAIL-SPECIFIC (not the generic 8-dimension template)",
+    "property_type": "Retail \u2014 Class C Strip Center",
+    "location": "Augusta Road Corridor, Greenville SC",
+    "dimensions": [
+      {
+        "name": "Traffic & Visibility",
+        "score": 3,
+        "max": 3,
+        "rationale": "229' frontage on Augusta Rd. Dedicated turn lane. Freeway visibility from I-85 (100/100 traffic score). Pylon sign. 30,000+ VPD on Augusta Rd."
+      },
+      {
+        "name": "Corridor Growth Trajectory",
+        "score": 3,
+        "max": 3,
+        "rationale": "Augusta Road described as 'blooming retail corridor.' Greenville is one of the fastest-growing metros in the Southeast. Near I-85 \u2014 the primary commercial artery between Atlanta and Charlotte."
+      },
+      {
+        "name": "Parking Ratio",
+        "score": 3,
+        "max": 3,
+        "rationale": "30 spaces / 7,500 SF = 4.0 spaces per 1,000 SF. Retail standard is 3-4/1,000. Above standard \u2014 rare for Class C."
+      },
+      {
+        "name": "Rent-to-Market Gap",
+        "score": 3,
+        "max": 3,
+        "rationale": "In-place rents at $9.99/SF vs market $13-14/SF. 30-40% mark-to-market upside. Greenville retail rent growth 3-5% annually."
+      },
+      {
+        "name": "Land Banking Value",
+        "score": 3,
+        "max": 3,
+        "rationale": "1.40 acres on Augusta Rd with I-85 proximity. Land value in this corridor is appreciating. 0.12 FAR means significant redevelopment optionality (could build up to ~7,300 SF more)."
+      },
+      {
+        "name": "Tenant Stickiness",
+        "score": 2,
+        "max": 3,
+        "rationale": "Equilibrium Zen Gym (fitness \u2014 sticky, hard to relocate) + Gaston Security Group (B2B services \u2014 stable). Both are destination-based, not impulse. But only 2 confirmed tenants of 4."
+      },
+      {
+        "name": "Price-to-Replacement",
+        "score": 3,
+        "max": 3,
+        "rationale": "At $110/SF ask ($73/SF at $550K target), well below replacement cost of $120-150/SF for comparable retail construction in Greenville. Replacement would cost $900K-$1.125M."
+      },
+      {
+        "name": "Zoning Optionality",
+        "score": 2,
+        "max": 3,
+        "rationale": "C2 zoning allows broad commercial uses \u2014 retail, office, service, restaurant. But no residential or mixed-use by-right. Would need variance for higher-value use."
+      }
+    ],
+    "total_score": 22,
+    "max_score": 24,
+    "percentage": 91.7,
+    "classification": "STRONG MOAT",
+    "strongest": [
+      "Traffic & Visibility",
+      "Corridor Growth Trajectory",
+      "Parking Ratio",
+      "Rent-to-Market Gap",
+      "Land Banking Value",
+      "Price-to-Replacement"
+    ],
+    "weakest": [
+      "Tenant Stickiness"
+    ],
+    "verdict_text": "STRONG MOAT \u2014 22/24. The property sits on a high-visibility, high-growth corridor with rare parking abundance and a 30-40% rent upside. The moat is location-driven: Augusta Rd frontage with I-85 access is not replicable. Main vulnerability is tenant concentration risk with only 2 confirmed occupants.",
+    "moat_narrative": "This is a LOCATION moat, not a tenant moat. The value isn't in the current rent roll ($9.99/SF below-market tenants) \u2014 it's in the 1.40 acres on Augusta Road with 229' of frontage, freeway visibility, and ample parking. The play is: buy below replacement cost, push rents to market, and let the corridor's growth compound the land value. The tenants are placeholders, not the thesis."
+  }
+}

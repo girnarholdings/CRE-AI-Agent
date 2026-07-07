@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>4 Market St — Passaic, NJ — CRE Underwriting — CRE Underwriting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0c0e;
+  --card: #101214;
+  --border: #1a1e24;
+  --text: #b8c8d8;
+  --sub: #6a7a8a;
+  --muted: #3a4a5a;
+  --green: #6aba8a;
+  --greenS: #8bc98b;
+  --red: #ba6a5a;
+  --redS: #c88888;
+  --blue: #4a6a8a;
+  --blueL: #8ab8da;
+  --gold: #a88a6a;
+  --olive: #8aaa8a;
+  --yellow: #d4a843;
+  --orange: #c8864a;
+  --purple: #8a6aaa;
+  --mono: 'DM Mono', 'IBM Plex Mono', 'JetBrains Mono', 'Fira Code', monospace;
+  --serif: 'Source Serif 4', 'Cormorant Garamond', 'Crimson Pro', Georgia, serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scrollbar-gutter: stable; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--serif);
+  line-height: 1.6;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+.container { max-width: 960px; margin: auto; padding: 24px 20px 48px; }
+
+/* Header */
+.header {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.header-top {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.header h1 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text);
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+.header-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--sub);
+  letter-spacing: 0.5px;
+}
+.header-price {
+  font-family: var(--mono);
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--gold);
+  font-variant-numeric: tabular-nums;
+  margin-top: 12px;
+}
+
+/* Verdict block */
+.verdict {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--amber);
+  padding: 12px 14px;
+  margin: 16px 0;
+}
+.verdict.pursue { border-left-color: var(--green); }
+.verdict.pass { border-left-color: var(--red); }
+.verdict-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.verdict-text {
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.3px;
+}
+.verdict-sub {
+  font-family: var(--serif);
+  font-size: 12.5px;
+  color: var(--sub);
+  margin-top: 6px;
+  line-height: 1.55;
+  max-width: 780px;
+}
+
+/* KPI strip */
+.kpi-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.kpi-cell {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 10px 12px;
+}
+.kpi-label {
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.kpi-value {
+  font-family: var(--mono);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.kpi-sub {
+  font-family: var(--mono);
+  font-size: 8px;
+  color: var(--sub);
+  margin-top: 2px;
+  letter-spacing: 0.3px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+.tab-btn {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  padding: 10px 14px;
+  background: transparent;
+  color: var(--sub);
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.tab-btn.active {
+  color: var(--text);
+  border-bottom-color: var(--green);
+}
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* Section label */
+.section-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--muted);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+.section-label:first-child { margin-top: 0; }
+
+/* Cards */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+}
+.card-worst { border-left: 3px solid var(--red); }
+.card-base { border-left: 3px solid var(--blue); }
+.card-best { border-left: 3px solid var(--green); }
+.card-moonshot { border-left: 3px solid var(--purple); }
+.card-header {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.card-metrics {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--sub);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.card-metrics span { font-variant-numeric: tabular-nums; }
+.card-desc {
+  font-family: var(--serif);
+  font-size: 12.5px;
+  color: var(--sub);
+  line-height: 1.55;
+  max-width: 780px;
+}
+
+/* Metric row (label + value inline) */
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.metric-row:last-child { border-bottom: none; }
+.metric-key {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--sub);
+  letter-spacing: 0.5px;
+}
+.metric-val {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Offer table */
+.offer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: 10px;
+  margin-bottom: 16px;
+}
+.offer-table th {
+  color: var(--muted);
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 8px;
+}
+.offer-table td {
+  color: var(--text);
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+}
+.offer-table tr.best { background: rgba(106,186,138,0.05); }
+.offer-table tr.walk { background: rgba(186,106,90,0.05); }
+
+/* Moat bars */
+.moat-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.moat-row:last-child { border-bottom: none; }
+.moat-name {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--sub);
+  width: 180px;
+  flex-shrink: 0;
+  letter-spacing: 0.3px;
+}
+.moat-bar-bg {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.moat-bar-fill {
+  height: 100%;
+  border-radius: 1px;
+}
+.moat-score {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text);
+  width: 32px;
+  text-align: right;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+.moat-rationale {
+  font-family: var(--serif);
+  font-size: 11.5px;
+  color: var(--sub);
+  margin-left: 190px;
+  margin-top: -4px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  max-width: 700px;
+}
+
+/* Flags */
+.flag {
+  display: inline-block;
+  padding: 3px 8px;
+  font-family: var(--mono);
+  font-size: 9px;
+  border-radius: 2px;
+  margin: 2px 4px 2px 0;
+  letter-spacing: 0.3px;
+}
+.flag-red { background: rgba(186,106,90,0.12); color: var(--redS); border: 1px solid rgba(186,106,90,0.25); }
+.flag-amber { background: rgba(212,168,67,0.08); color: var(--yellow); border: 1px solid rgba(212,168,67,0.2); }
+.flag-green { background: rgba(106,186,138,0.08); color: var(--greenS); border: 1px solid rgba(106,186,138,0.2); }
+
+/* Prose */
+.prose {
+  font-family: var(--serif);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  max-width: 780px;
+}
+.prose-small {
+  font-family: var(--serif);
+  font-size: 12px;
+  line-height: 1.55;
+  color: var(--sub);
+  max-width: 780px;
+}
+
+/* Two-column */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+@media (max-width: 720px) {
+  .two-col { grid-template-columns: 1fr; }
+  .moat-name { width: 140px; }
+  .moat-rationale { margin-left: 150px; }
+}
+
+/* Footer */
+.footer {
+  font-family: var(--mono);
+  font-size: 8px;
+  color: var(--muted);
+  text-align: center;
+  padding: 24px 0 16px;
+  border-top: 1px solid var(--border);
+  margin-top: 32px;
+  letter-spacing: 0.5px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div class="header-top">LISTING 39810931 · PASSAIC · NJ · Retail</div>
+  <h1>4 Market St, Passaic, NJ 07055</h1>
+  <div class="header-meta">Analysis date: 2026-05-14</div>
+  <div class="header-price">$865,000</div>
+</div>
+
+<div class="verdict conditional">
+  <div class="verdict-label">VERDICT</div>
+  <div class="verdict-text">CONDITIONAL</div>
+  <div class="verdict-sub">Risk: $750,000, worst 40% of capital. Best MOIC 1.62x. Convexity 1.53 (POSITIVE). Conditional — requires price discipline.</div>
+</div>
+
+<div class="kpi-strip"><div class="kpi-cell">
+  <div class="kpi-label">HARD FLOOR</div>
+  <div class="kpi-value">$169,000</div>
+  <div class="kpi-sub">19.5% of ask</div>
+</div><div class="kpi-cell">
+  <div class="kpi-label">CONVEXITY</div>
+  <div class="kpi-value">1.53x</div>
+  <div class="kpi-sub">POSITIVE</div>
+</div><div class="kpi-cell">
+  <div class="kpi-label">PWEV</div>
+  <div class="kpi-value">$756,100</div>
+  <div class="kpi-sub">-12.6% vs ask</div>
+</div><div class="kpi-cell">
+  <div class="kpi-label">RISK/REWARD</div>
+  <div class="kpi-value">4.0</div>
+  <div class="kpi-sub">Ratio</div>
+</div><div class="kpi-cell">
+  <div class="kpi-label">MOAT SCORE</div>
+  <div class="kpi-value">12/24</div>
+  <div class="kpi-sub">NARROW MOAT</div>
+</div><div class="kpi-cell">
+  <div class="kpi-label">FRONTIER</div>
+  <div class="kpi-value">Walk away</div>
+  <div class="kpi-sub"></div>
+</div></div>
+
+<div class="tabs">
+<button class="tab-btn active" onclick="showTab('overview')">OVERVIEW</button>
+<button class="tab-btn" onclick="showTab('valuation')">VALUATION</button>
+<button class="tab-btn" onclick="showTab('scenarios')">SCENARIOS</button>
+<button class="tab-btn" onclick="showTab('divergence')">DIVERGENCE</button>
+<button class="tab-btn" onclick="showTab('offers')">OFFERS</button>
+<button class="tab-btn" onclick="showTab('moats')">MOATS</button>
+<button class="tab-btn" onclick="showTab('legal')">LEGAL</button>
+<button class="tab-btn" onclick="showTab('demographics')">DEMOGRAPHICS</button>
+<button class="tab-btn" onclick="showTab('environmental')">ENVIRONMENTAL</button>
+<button class="tab-btn" onclick="showTab('comps')">COMPS</button>
+<button class="tab-btn" onclick="showTab('recommendation')">RECOMMENDATION</button>
+</div>
+
+<div class="tab-content active" id="overview"><div class="section-label">Deal Summary</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Ask Price</span><span class="metric-val">$865,000</span></div>
+<div class="metric-row"><span class="metric-key">Hard Floor (mid)</span><span class="metric-val">$169,000</span></div>
+<div class="metric-row"><span class="metric-key">Floor Coverage</span><span class="metric-val">19.5%</span></div>
+<div class="metric-row"><span class="metric-key">Convexity Ratio</span><span class="metric-val">1.53x</span></div>
+<div class="metric-row"><span class="metric-key">Convexity Verdict</span><span class="metric-val">POSITIVE</span></div>
+<div class="metric-row"><span class="metric-key">Effective Worst</span><span class="metric-val">$300,000</span></div>
+<div class="metric-row"><span class="metric-key">Best Case MOIC</span><span class="metric-val">0.00x</span></div>
+<div class="metric-row"><span class="metric-key">PWEV</span><span class="metric-val">$756,100</span></div>
+<div class="metric-row"><span class="metric-key">PWEV vs Ask</span><span class="metric-val">-12.6%</span></div>
+<div class="metric-row"><span class="metric-key">Frontier Zone</span><span class="metric-val">Walk away</span></div></div>
+<div class="section-label">Reasoning</div>
+<div class="card"><div class="prose-small">Frontier: Walk away — worst 40%, best MOIC 1.62x. BUT convexity positive (ratio 1.53).</div></div>
+<div class="card"><div class="prose-small">CONDITIONAL — pursue at ≤$228,150, walk above $304,200.</div></div></div>
+<div class="tab-content" id="valuation"><div class="section-label">Valuation Triangulation</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Land Value</span><span class="metric-val">$4,000 – $13,000</span></div>
+<div class="metric-row"><span class="metric-key">Building (depreciated)</span><span class="metric-val">$108,000 – $176,000</span></div>
+<div class="metric-row"><span class="metric-key">Equipment/FF&E</span><span class="metric-val">$10,000 – $28,000</span></div>
+<div class="metric-row"><span class="metric-key">Licenses</span><span class="metric-val">$0</span></div>
+<div class="metric-row"><span class="metric-key">Hard Asset Total (low)</span><span class="metric-val">$122,000</span></div>
+<div class="metric-row"><span class="metric-key">Hard Asset Total (mid)</span><span class="metric-val">$169,000</span></div>
+<div class="metric-row"><span class="metric-key">Hard Asset Total (high)</span><span class="metric-val">$217,000</span></div>
+<div class="metric-row"><span class="metric-key">Asset Coverage</span><span class="metric-val">19.5%</span></div>
+<div class="metric-row"><span class="metric-key">Verdict</span><span class="metric-val">WEAK COVERAGE</span></div></div>
+<div class="card"><div class="prose-small">Hard assets (land + depreciated building + equipment) valued at $122,000–$217,000 (mid: $169,000). This covers 20% of the $865,000 ask price. Hard asset coverage is below comfort — the premium is for income/intangibles.</div></div></div>
+<div class="tab-content" id="scenarios"><div class="section-label">Scenario Analysis</div>
+<div class="card card-worst">
+  <div class="card-header">Worst Case — E-commerce Disruption + Tenant Loss</div>
+  <div class="card-metrics">
+    <span>Exit: $300,000</span>
+    <span>MOIC: 0.40x</span>
+  </div>
+  <div class="card-desc">Amazon effect accelerates. Two tenants close. Vacancy hits 40%. Exit cap 10% (distressed). MOIC 0.40x.</div>
+</div>
+<div class="card card-worst">
+  <div class="card-header">Worst Case — Rate Shock / Cap Rate Expansion</div>
+  <div class="card-metrics">
+    <span>Exit: $413,000</span>
+    <span>MOIC: 0.55x</span>
+  </div>
+  <div class="card-desc">Fed raises rates. Cap rates expand 150bps. Exit cap 9.5%. Property value compression. MOIC 0.55x.</div>
+</div>
+<div class="card card-base">
+  <div class="card-header">Baseline — Tax-Adjusted Status Quo (As-Is)</div>
+  <div class="card-metrics">
+    <span>Exit: $662,000</span>
+    <span>MOIC: 0.88x</span>
+  </div>
+  <div class="card-desc">Tenants stay. SC post-sale tax applied ($17.3K). NOI $56.2K. Exit cap 8.5%. Modest growth.</div>
+</div>
+<div class="card card-best">
+  <div class="card-header">Phase 1 Optimize — Rent Push + Low-Capex Levers (Best Case)</div>
+  <div class="card-metrics">
+    <span>Exit: $953,000</span>
+    <span>MOIC: 1.27x</span>
+  </div>
+  <div class="card-desc">Push rents to market (+$15K). Add vending + ATM (+$5K). NOI $76K. Exit cap 8%. Active management pays.</div>
+</div>
+<div class="card card-best">
+  <div class="card-header">Phase 2 Expand — Renovate + Tenant Upgrade</div>
+  <div class="card-metrics">
+    <span>Exit: $1,217,000</span>
+    <span>MOIC: 1.62x</span>
+  </div>
+  <div class="card-desc">$50K renovation to Class B. Full occupancy at $14/SF. Exit cap 7.5%. Higher quality tenant mix.</div>
+</div>
+<div class="card card-moonshot">
+  <div class="card-header">Phase 3 Strategic — Parcel Assembly / Redevelop</div>
+  <div class="card-metrics">
+    <span>Exit: $326,000</span>
+    <span>MOIC: 0.43x</span>
+  </div>
+  <div class="card-desc">Assemble adjacent parcels. 1.40 acres on Augusta Rd with I-85 access. Redevelopment play. Moonshot.</div>
+</div></div>
+<div class="tab-content" id="divergence"><div class="section-label">Divergence & Convexity</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Absolute Spread</span><span class="metric-val">$917,000</span></div>
+<div class="metric-row"><span class="metric-key">Capital-Normalized Spread</span><span class="metric-val">1.22</span></div>
+<div class="metric-row"><span class="metric-key">Convexity Ratio</span><span class="metric-val">1.53x</span></div>
+<div class="metric-row"><span class="metric-key">Convexity Verdict</span><span class="metric-val">POSITIVE</span></div>
+<div class="metric-row"><span class="metric-key">Worst Scenario Value</span><span class="metric-val">$300,000</span></div>
+<div class="metric-row"><span class="metric-key">Hard Floor (mid)</span><span class="metric-val">$0</span></div>
+<div class="metric-row"><span class="metric-key">Effective Worst</span><span class="metric-val">$300,000</span></div>
+<div class="metric-row"><span class="metric-key">Base Scenario Value</span><span class="metric-val">$0</span></div>
+<div class="metric-row"><span class="metric-key">Best Scenario Value</span><span class="metric-val">$0</span></div>
+<div class="metric-row"><span class="metric-key">Worst Case % Capital</span><span class="metric-val">40.0%</span></div>
+<div class="metric-row"><span class="metric-key">Best Case MOIC</span><span class="metric-val">0.00x</span></div>
+<div class="metric-row"><span class="metric-key">Risk/Reward Ratio</span><span class="metric-val">4.0</span></div></div></div>
+<div class="tab-content" id="offers"><div class="section-label">Offer Ladder</div>
+<table class="offer-table">
+<thead><tr><th>Label</th><th>Price</th><th>$/SF</th><th>Cap Rate</th><th>GRM</th><th>CoC</th></tr></thead>
+<tbody><tr class="best"><td>AGGRESSIVE TARGET</td><td>$228,000</td><td>$0</td><td>0.0%</td><td>2.5x</td><td>0.0%</td></tr><tr class=""><td>—</td><td>$254,000</td><td>$0</td><td>0.0%</td><td>2.7x</td><td>0.0%</td></tr><tr class="best"><td>TARGET MIDPOINT</td><td>$279,000</td><td>$0</td><td>0.0%</td><td>3.0x</td><td>0.0%</td></tr><tr class="walk"><td>WALK AWAY</td><td>$304,000</td><td>$0</td><td>0.0%</td><td>3.3x</td><td>0.0%</td></tr><tr class=""><td>ASK — NO VERIFIED FINANCIALS</td><td>$865,000</td><td>$0</td><td>0.0%</td><td>9.4x</td><td>0.0%</td></tr></tbody>
+</table>
+<div class="card"><div class="prose-small">Anchor at hard floor ($169,000) + premium for stabilized income. At $228,150-278,850, cap rates 0.0-0.0%. Walk above $304,200.</div></div></div>
+<div class="tab-content" id="moats"><div class="section-label">Moat Analysis</div>
+<div class="card"><div class="metric-row"><span class="metric-key">TOTAL SCORE</span><span class="metric-val">12/24</span></div></div>
+<div class="moat-row">
+  <div class="moat-name">Scarce Transferable License</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:33%;background:var(--yellow)"></div></div>
+  <div class="moat-score">1/3</div>
+</div>
+<div class="moat-rationale">No liquor license. Restaurant permits are procedural but not scarce.</div>
+<div class="moat-row">
+  <div class="moat-name">Tourism Corridor Position</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:33%;background:var(--yellow)"></div></div>
+  <div class="moat-score">1/3</div>
+</div>
+<div class="moat-rationale">Mixed-use corridor, not a tourism destination. Local traffic only.</div>
+<div class="moat-row">
+  <div class="moat-name">Multi-Revenue-Stream Parcel</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:67%;background:var(--green)"></div></div>
+  <div class="moat-score">2/3</div>
+</div>
+<div class="moat-rationale">Restaurant + 2 apartments = 3 revenue streams. Diverse income base.</div>
+<div class="moat-row">
+  <div class="moat-name">Zoning Optionality</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:100%;background:var(--green)"></div></div>
+  <div class="moat-score">3/3</div>
+</div>
+<div class="moat-rationale">MSRA redevelopment zone + Opportunity Zone. Maximum flexibility.</div>
+<div class="moat-row">
+  <div class="moat-name">Rent-to-Market Gap</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:67%;background:var(--green)"></div></div>
+  <div class="moat-score">2/3</div>
+</div>
+<div class="moat-rationale">Below-market rents in improving corridor. Upside through lease renewal.</div>
+<div class="moat-row">
+  <div class="moat-name">Brand Longevity & Goodwill</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:33%;background:var(--yellow)"></div></div>
+  <div class="moat-score">1/3</div>
+</div>
+<div class="moat-rationale">No established operating business included. Vacant delivery risk.</div>
+<div class="moat-row">
+  <div class="moat-name">Asset Stack Coverage</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:33%;background:var(--yellow)"></div></div>
+  <div class="moat-score">1/3</div>
+</div>
+<div class="moat-rationale">Hard floor ~$169,000 vs $865,000 ask. Limited downside protection.</div>
+<div class="moat-row">
+  <div class="moat-name">Seller Asymmetry</div>
+  <div class="moat-bar-bg"><div class="moat-bar-fill" style="width:33%;background:var(--yellow)"></div></div>
+  <div class="moat-score">1/3</div>
+</div>
+<div class="moat-rationale">Recent renovation suggests motivated seller. Limited distress signal.</div></div>
+<div class="tab-content" id="legal"><div class="section-label">Legal & Concealment Risk</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Legal Risk Score</span><span class="metric-val"><span style="color:var(--green)">0/10</span></span></div>
+<div class="metric-row"><span class="metric-key">Severity</span><span class="metric-val">MINIMAL</span></div>
+<div class="metric-row"><span class="metric-key">Env Liability Adj</span><span class="metric-val">$0</span></div>
+<div class="metric-row"><span class="metric-key">Missing Data Points</span><span class="metric-val">3</span></div></div>
+<div class="section-label">Missing Data</div>
+<span class="flag flag-amber">Tenant names and lease expiration dates</span>
+<span class="flag flag-amber">Environmental Phase I status</span>
+<span class="flag flag-amber">Property tax bill amount</span></div>
+<div class="tab-content" id="demographics"><div class="section-label">Demographics & Economics</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Population Growth</span><span class="metric-val">stable</span></div>
+<div class="metric-row"><span class="metric-key">Median Hhi</span><span class="metric-val">$75,000</span></div></div></div>
+<div class="tab-content" id="environmental"><div class="section-label">Environmental Risk</div>
+<div class="card"><div class="metric-row"><span class="metric-key">Flood Zone</span><span class="metric-val"></span></div>
+<div class="metric-row"><span class="metric-key">In Floodplain</span><span class="metric-val">False</span></div>
+<div class="metric-row"><span class="metric-key">Flood Risk Level</span><span class="metric-val">unknown</span></div>
+<div class="metric-row"><span class="metric-key">Ust Risk</span><span class="metric-val">unknown</span></div>
+<div class="metric-row"><span class="metric-key">Ust Sites Nearby</span><span class="metric-val">0</span></div>
+<div class="metric-row"><span class="metric-key">Known Contamination</span><span class="metric-val">False</span></div>
+<div class="metric-row"><span class="metric-key">Phase I Recommended</span><span class="metric-val">False</span></div></div></div>
+<div class="tab-content" id="comps"><div class="section-label">Comparable Sales</div>
+<table class="offer-table">
+<thead><tr><th>Address</th><th>Price</th><th>SF</th><th>$/SF</th><th>Type</th></tr></thead>
+<tbody><tr><td>22 Main Ave, Passaic, NJ</td><td>$702,559</td><td>3,757</td><td>$187</td><td>Retail</td></tr><tr><td>135 Passaic St, Passaic, NJ</td><td>$893,025</td><td>3,969</td><td>$225</td><td>Retail</td></tr><tr><td>387 Market St, Passaic, NJ</td><td>$757,442</td><td>2,891</td><td>$262</td><td>Retail</td></tr><tr><td>389 Broadway, Passaic, NJ</td><td>$789,360</td><td>2,640</td><td>$299</td><td>Retail</td></tr><tr><td>54 Monroe St, Passaic, NJ</td><td>$1,443,034</td><td>4,282</td><td>$337</td><td>Retail</td></tr></tbody>
+</table></div>
+<div class="tab-content" id="recommendation"><div class="section-label">Recommendation & Term Sheet</div>
+<div class="card card-best"><div class="card-header">TARGET OFFER</div><div class="kpi-value" style="font-size:22px">$228,150</div></div>
+<div class="card card-worst"><div class="card-header">WALK AWAY</div><div class="kpi-value" style="font-size:22px">$304,200</div></div></div>
+
+<div class="footer">
+  CRE Underwriting Dashboard · Generated 2026-05-14<br>
+  Data sources: LoopNet, Census ACS, FEMA, NJDEP · Not investment advice
+</div>
+
+</div>
+<script>
+function showTab(id) {
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

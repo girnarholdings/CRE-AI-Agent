@@ -1,0 +1,222 @@
+{
+  "property": {
+    "address": "216-218 Orange Ave, Irvington, NJ 07111",
+    "listing_id": "40306150",
+    "price": 799999,
+    "price_per_sf": 152.03,
+    "building_size_sf": 5262,
+    "building_class": "C",
+    "year_built": 1948,
+    "year_renovated": 2013,
+    "lot_size_ac": 0.1,
+    "lot_size_sf": 4356,
+    "units": 5,
+    "parking": 3,
+    "zoning": "B-2 General Business (ESTIMATED - Orange Ave commercial corridor)",
+    "zoning_source": "ESTIMATED",
+    "parcel": "09-00076-0000-00006",
+    "assessment_total": 427300,
+    "assessment_land": 185900,
+    "assessment_improvements": 241400,
+    "annual_taxes_estimated": 17092,
+    "tax_rate_estimated_pct": 4.0,
+    "tax_source": "ESTIMATED \u2014 Irvington NJ effective rate ~4.0%"
+  },
+  "income": {
+    "gross_rent": 94992,
+    "noi_reported_facts": 60800,
+    "noi_reported_description": 60882,
+    "cap_rate_pct": 7.6,
+    "pct_leased": 100.0,
+    "expense_ratio_pct": 35.9,
+    "noi_per_sf": 11.57,
+    "noi_per_unit": 12176.4,
+    "price_per_unit": 159999.8
+  },
+  "hard_asset_floor": {
+    "low": 713740,
+    "mid": 910045,
+    "high": 1125060,
+    "premium_over_hard_assets_pct": -12.1
+  },
+  "scenarios": {
+    "Bear Case": {
+      "noi": 47488,
+      "cap_rate_pct": 9.1,
+      "value": 521846,
+      "value_per_sf": 99,
+      "irr_pct": 2.0,
+      "narrative": "One retail tenant vacates; re-leasing at lower rent. Cap rate expands 150bps."
+    },
+    "Base Case": {
+      "noi": 60882,
+      "cap_rate_pct": 7.6,
+      "value": 801079,
+      "value_per_sf": 152,
+      "irr_pct": 7.0,
+      "narrative": "Stable occupancy with 2% annual rent growth. Cap rate stable at 7.6%."
+    },
+    "Bull Case": {
+      "noi": 70014,
+      "cap_rate_pct": 7.0,
+      "value": 1000204,
+      "value_per_sf": 190,
+      "irr_pct": 12.0,
+      "narrative": "Rent growth 3-4% annually, cap rate compresses to 7.0% on market appreciation."
+    },
+    "Black Swan": {
+      "noi": 27397,
+      "cap_rate_pct": 10.6,
+      "value": 258461,
+      "value_per_sf": 49,
+      "irr_pct": -5.0,
+      "narrative": "Anchor grocery tenant defaults. 50% vacancy. Cap rate blows to 10.6%. Land value provides downside floor."
+    },
+    "Optimistic / Value-Add": {
+      "noi": 79147,
+      "cap_rate_pct": 6.5,
+      "value": 1217640,
+      "value_per_sf": 231,
+      "irr_pct": 16.0,
+      "narrative": "Reposition residential units, upgrade retail. Cap rate compresses to 6.5%. ~$150K renovation investment."
+    }
+  },
+  "expected_value_prob_weighted": 823501,
+  "expected_irr_pct": 7.8,
+  "valuations": {
+    "Direct Cap": {
+      "low": 737964,
+      "mid": 801079,
+      "high": 869743,
+      "low_sf": 140,
+      "mid_sf": 152,
+      "high_sf": 165
+    },
+    "Sales Comp": {
+      "low": 631440,
+      "mid": 815610,
+      "high": 999780,
+      "low_sf": 120,
+      "mid_sf": 155,
+      "high_sf": 190
+    },
+    "Replacement Cost": {
+      "low": 713740,
+      "mid": 910045,
+      "high": 1125060,
+      "low_sf": 136,
+      "mid_sf": 173,
+      "high_sf": 214
+    },
+    "DCF (5yr)": {
+      "low": 768462,
+      "mid": 853846,
+      "high": 939231,
+      "low_sf": 146,
+      "mid_sf": 162,
+      "high_sf": 178
+    }
+  },
+  "composite_valuation": {
+    "low": 712901,
+    "mid": 845145,
+    "high": 983453
+  },
+  "moat": {
+    "total_score": 14,
+    "max_score": 24,
+    "classification": "NARROW MOAT",
+    "dimensions": {
+      "Location / Barriers": {
+        "score": 2,
+        "rationale": "Orange Ave is Irvington primary corridor. Walk Score 80/100. Good visibility, corner lot. BUT: Irvington is a challenged submarket within Tier 1 Essex County. Limited barriers to entry. New construction can compete. Zoning allows similar development nearby."
+      },
+      "Tenant Quality": {
+        "score": 2,
+        "rationale": "Grocery anchor on 7-year lease provides some stability. But 4 of 5 units on YTY leases. Tenants are local small businesses, not credit-rated. Residential tenants easily replaceable. 100% occupancy masks lease duration fragility."
+      },
+      "Asset Quality": {
+        "score": 2,
+        "rationale": "Class C building, 1948 construction. Renovated 2013 and refreshed 2025. 3 parking spaces only (0.57/1,000 SF - low). 2-story walkup. Functional but not premium. FAR 1.24 means some development upside."
+      },
+      "Market Position": {
+        "score": 2,
+        "rationale": "Corner location with street frontage on Orange Ave. Mixed-use format serves neighborhood needs. BUT: Competing retail on same corridor. No dominant market position. Small property ($800K) means limited institutional interest = less competition for this size."
+      },
+      "Cash Flow Stability": {
+        "score": 3,
+        "rationale": "100% leased, in-place income. 5 diverse tenants (grocery, services, residential) = diversification. $94,992 gross with $60,882 NOI = 64% margin. 7.6% cap is healthy for Class C. BUT: YTY leases mean cash flow can shift quickly. Grocery is 7yr anchor but small tenant risk."
+      },
+      "Value-Add / Optionality": {
+        "score": 3,
+        "rationale": "FAR 1.24 on 0.10 AC lot = some development upside (could add density). 2025 renovation means capex needs are low near-term. Residential units could be upgraded for rent growth. Corner lot = potential for redevelopment long-term. Separate utilities = easy to bill back."
+      }
+    }
+  },
+  "lawyer_brain": {
+    "risks": [
+      {
+        "risk": "Anchor Tenant Default (Grocery)",
+        "severity": "HIGH",
+        "probability": "Low-Medium",
+        "detail": "Grocery store on 7-year lease is ~40-50% of rent roll. If they fail, NOI could drop 35-50%. Finding replacement grocery tenant for Class C space is difficult. Personal guarantee strength unknown.",
+        "mitigant": "Verify lease guarantees. Request tenant financials. Negotiate security deposit equal to 3-6 months rent."
+      },
+      {
+        "risk": "YTY Lease Non-Renewal Clustering",
+        "severity": "MEDIUM",
+        "probability": "Medium",
+        "detail": "4 of 5 units on year-to-year leases. Simultaneous non-renewal could create 60-80% vacancy. Re-leasing costs and downtime would compress NOI significantly.",
+        "mitigant": "Incentivize conversion to 2-3 year leases post-acquisition. Build $15K vacancy reserve."
+      },
+      {
+        "risk": "Irvington Submarket Deterioration",
+        "severity": "MEDIUM",
+        "probability": "Low-Medium",
+        "detail": "Irvington has higher crime rates and lower median income than Essex County average. Any further deterioration could depress rents and cap rates.",
+        "mitigant": "Orange Ave corridor is designated for revitalization. NJ Transit access provides floor. Low price point ($800K) limits absolute downside."
+      },
+      {
+        "risk": "Deferred Maintenance / Capex Surprise",
+        "severity": "MEDIUM",
+        "probability": "Medium",
+        "detail": "1948 building. Even with 2013/2025 renovations, Class C assets carry hidden issues: roof, HVAC, plumbing, electrical. Inspection may reveal $30-75K in near-term capex.",
+        "mitigant": "Thorough property condition assessment. Budget $25K reserve for year 1-2 capex."
+      },
+      {
+        "risk": "Property Tax Reassessment",
+        "severity": "MEDIUM",
+        "probability": "Medium-High",
+        "detail": "Sale at $800K vs assessment of $427K triggers reassessment risk. If reassessed to ~$800K at 4% rate, taxes jump from ~$17,092 to ~$32,000 - an increase that could consume ~$15K of NOI annually.",
+        "mitigant": "Model post-acquisition tax at 80-100% of purchase price. Appeal if assessment exceeds market."
+      },
+      {
+        "risk": "Environmental / Phase I Issues",
+        "severity": "LOW",
+        "probability": "Low",
+        "detail": "Convenience store/grocery may have underground storage tanks or dry cleaning history. 1948 construction = potential asbestos, lead paint.",
+        "mitigant": "Phase I ESA recommended. Budget $3-5K for environmental due diligence."
+      },
+      {
+        "risk": "Liquidity / Exit Risk",
+        "severity": "MEDIUM",
+        "probability": "Medium",
+        "detail": "Small Class C mixed-use in Irvington has limited buyer pool. Exit may take 6-12 months. Financing-dependent buyers may struggle with rate environment.",
+        "mitigant": "Price at entry provides margin of safety. 7.6% cap rate is attractive to cash buyers. Seller financing could expand buyer pool on exit."
+      }
+    ],
+    "aggregate_risk_score": 29
+  },
+  "convexity": {
+    "ratio": 0.75,
+    "classification": "NEGATIVE CONVEXITY (downside > upside)",
+    "downside_pct": -51.3,
+    "upside_pct": 38.4
+  },
+  "effective_frontier": {
+    "risk_score": 4.0,
+    "expected_return_pct": 9.0,
+    "cap_rate_pct": 7.6,
+    "sharpe_proxy": 1.12
+  }
+}

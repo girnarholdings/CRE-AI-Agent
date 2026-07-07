@@ -1,0 +1,807 @@
+{
+  "listing_id": "39810931",
+  "address": "4 Market St, Passaic, NJ 07055",
+  "city": "Passaic",
+  "state": "NJ",
+  "property_type": "Retail",
+  "ask_price": 865000,
+  "analysis_date": "2026-05-14",
+  "valuation_triangulation": {
+    "land": {
+      "lot_acres": 0.06,
+      "lot_sf": 2614,
+      "value_per_sf_low": 1.6,
+      "value_per_sf_high": 4.8,
+      "value_low": 4000.0,
+      "value_mid": 8000.0,
+      "value_high": 13000.0,
+      "methodology": "Land value by acreage: 0.06 acres \u00d7 $2-6/SF corridor land \u00d7 0.8x zoning multiplier",
+      "zoning_multiplier": 0.8,
+      "corridor_type": "Passaic Urban Core"
+    },
+    "building": {
+      "building_sf": 3467,
+      "property_type": "Retail",
+      "building_class": "C",
+      "year_built": 1930,
+      "year_renovated": 2018,
+      "replacement_cost_psf_low": 80,
+      "replacement_cost_psf_high": 130,
+      "replacement_cost_low": 277000,
+      "replacement_cost_mid": 364000.0,
+      "replacement_cost_high": 451000,
+      "depreciation_pct": 61.0,
+      "depreciated_value_low": 108000.0,
+      "depreciated_value_mid": 142000.0,
+      "depreciated_value_high": 176000.0,
+      "methodology": "Replacement cost $80-130/SF \u00d7 3,467 SF, depreciated 61% (effective age from 2018)."
+    },
+    "equipment": {
+      "equipment_psf_low": 3,
+      "equipment_psf_high": 8,
+      "value_low": 10000,
+      "value_mid": 19000.0,
+      "value_high": 28000,
+      "special_equipment": [],
+      "special_equipment_value": 0,
+      "total_equipment_low": 10000,
+      "total_equipment_mid": 19000.0,
+      "total_equipment_high": 28000
+    },
+    "licenses_detected": [],
+    "license_total_value": 0,
+    "hard_asset_value_low": 122000.0,
+    "hard_asset_value_mid": 169000.0,
+    "hard_asset_value_high": 217000.0,
+    "asset_coverage_low_pct": 14.1,
+    "asset_coverage_mid_pct": 19.5,
+    "asset_coverage_high_pct": 25.1,
+    "verdict": "WEAK COVERAGE",
+    "narrative": "Hard assets (land + depreciated building + equipment) valued at $122,000\u2013$217,000 (mid: $169,000). This covers 20% of the $865,000 ask price. Hard asset coverage is below comfort \u2014 the premium is for income/intangibles."
+  },
+  "comps": {},
+  "home_price_appreciation": {
+    "nj_msa": {
+      "hpi_1yr_pct": 3.8,
+      "hpi_3yr_annualized_pct": 4.2,
+      "hpi_5yr_annualized_pct": 4.5
+    },
+    "hpa_tailwind_score": 5
+  },
+  "pro_forma": {
+    "purchase_price": 750000,
+    "exit_cap_rate": 0.0725,
+    "exit_value": 830000.0,
+    "yearly_projections": [
+      {
+        "year": 1,
+        "avg_rent_psf": 26.65,
+        "pgi": 92396,
+        "vacancy_pct": 15.0,
+        "egi": 78536,
+        "opex": 15707,
+        "property_tax": 12000,
+        "noi": 42695,
+        "cap_rate_implied": 5.7
+      },
+      {
+        "year": 2,
+        "avg_rent_psf": 27.76,
+        "pgi": 96228,
+        "vacancy_pct": 10.5,
+        "egi": 86124,
+        "opex": 17225,
+        "property_tax": 12000,
+        "noi": 48462,
+        "cap_rate_implied": 6.5
+      },
+      {
+        "year": 3,
+        "avg_rent_psf": 28.89,
+        "pgi": 100177,
+        "vacancy_pct": 8.0,
+        "egi": 92163,
+        "opex": 18433,
+        "property_tax": 12000,
+        "noi": 53051,
+        "cap_rate_implied": 7.1
+      },
+      {
+        "year": 4,
+        "avg_rent_psf": 30.9,
+        "pgi": 107130,
+        "vacancy_pct": 8.0,
+        "egi": 98560,
+        "opex": 19712,
+        "property_tax": 12000,
+        "noi": 57913,
+        "cap_rate_implied": 7.7
+      },
+      {
+        "year": 5,
+        "avg_rent_psf": 31.83,
+        "pgi": 110344,
+        "vacancy_pct": 8.0,
+        "egi": 101517,
+        "opex": 20303,
+        "property_tax": 12000,
+        "noi": 60160,
+        "cap_rate_implied": 8.0
+      }
+    ],
+    "total_5yr_noi": 262281,
+    "equity_multiple": 1.46,
+    "simple_irr_pct": 7.8,
+    "cash_on_cash_yr1_pct": 5.7
+  },
+  "business_levers": {
+    "property_type": "Retail",
+    "total_levers_catalogued": 11,
+    "top_levers": [
+      {
+        "name": "Add cell tower lease",
+        "category": "ancillary",
+        "revenue_impact_annual": 24000,
+        "capex": 0,
+        "zoning_risk": "medium",
+        "timeline_months": 12,
+        "probability": 0.15,
+        "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+        "score": 25.8,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Add drive-thru",
+        "category": "structural",
+        "revenue_impact_annual": 15000,
+        "capex": 75000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.25,
+        "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+        "score": 16.6,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add apartment unit (if zoning allows)",
+        "category": "structural",
+        "revenue_impact_annual": 12000,
+        "capex": 80000,
+        "zoning_risk": "high",
+        "timeline_months": 12,
+        "probability": 0.1,
+        "description": "Convert portion to residential. C2 zoning likely needs variance.",
+        "score": 13.0,
+        "roi_year1_pct": 15.0
+      },
+      {
+        "name": "Push rents to market",
+        "category": "operational",
+        "revenue_impact_annual": 9292,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 12,
+        "probability": 0.7,
+        "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+        "score": 12.7,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Subdivide large bay",
+        "category": "structural",
+        "revenue_impact_annual": 10000,
+        "capex": 40000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.4,
+        "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+        "score": 12.1,
+        "roi_year1_pct": 25.0
+      }
+    ],
+    "all_levers": [
+      {
+        "name": "Add cell tower lease",
+        "category": "ancillary",
+        "revenue_impact_annual": 24000,
+        "capex": 0,
+        "zoning_risk": "medium",
+        "timeline_months": 12,
+        "probability": 0.15,
+        "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+        "score": 25.8,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Add drive-thru",
+        "category": "structural",
+        "revenue_impact_annual": 15000,
+        "capex": 75000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.25,
+        "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+        "score": 16.6,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add apartment unit (if zoning allows)",
+        "category": "structural",
+        "revenue_impact_annual": 12000,
+        "capex": 80000,
+        "zoning_risk": "high",
+        "timeline_months": 12,
+        "probability": 0.1,
+        "description": "Convert portion to residential. C2 zoning likely needs variance.",
+        "score": 13.0,
+        "roi_year1_pct": 15.0
+      },
+      {
+        "name": "Push rents to market",
+        "category": "operational",
+        "revenue_impact_annual": 9292,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 12,
+        "probability": 0.7,
+        "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+        "score": 12.7,
+        "roi_year1_pct": 999
+      },
+      {
+        "name": "Subdivide large bay",
+        "category": "structural",
+        "revenue_impact_annual": 10000,
+        "capex": 40000,
+        "zoning_risk": "medium",
+        "timeline_months": 6,
+        "probability": 0.4,
+        "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+        "score": 12.1,
+        "roi_year1_pct": 25.0
+      },
+      {
+        "name": "Acquire neighboring rental house",
+        "category": "expansion",
+        "revenue_impact_annual": 9600,
+        "capex": 150000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.2,
+        "description": "Listing mentions 'neighboring rental house can potentially be included.'",
+        "score": 11.1,
+        "roi_year1_pct": 6.4
+      },
+      {
+        "name": "Convert to smoke shop / specialty retail",
+        "category": "tenant_mix",
+        "revenue_impact_annual": 8000,
+        "capex": 10000,
+        "zoning_risk": "medium",
+        "timeline_months": 3,
+        "probability": 0.3,
+        "description": "Reposition one bay as smoke shop or specialty retail. Higher rent tolerance.",
+        "score": 10.0,
+        "roi_year1_pct": 80.0
+      },
+      {
+        "name": "Convert storage to rentable SF",
+        "category": "operational",
+        "revenue_impact_annual": 5000,
+        "capex": 15000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.6,
+        "description": "Convert 500-800 SF of storage/utility space to rentable area.",
+        "score": 7.9,
+        "roi_year1_pct": 33.3
+      },
+      {
+        "name": "Add vending machines",
+        "category": "ancillary",
+        "revenue_impact_annual": 3000,
+        "capex": 2000,
+        "zoning_risk": "none",
+        "timeline_months": 1,
+        "probability": 0.9,
+        "description": "Place 2-3 vending machines in common area. $1-3K/yr net.",
+        "score": 6.8,
+        "roi_year1_pct": 150.0
+      },
+      {
+        "name": "Add outdoor seating/patio",
+        "category": "improvement",
+        "revenue_impact_annual": 4000,
+        "capex": 20000,
+        "zoning_risk": "low",
+        "timeline_months": 3,
+        "probability": 0.5,
+        "description": "Add outdoor seating for restaurant tenant. Increases rent premium.",
+        "score": 6.7,
+        "roi_year1_pct": 20.0
+      },
+      {
+        "name": "Add ATM",
+        "category": "ancillary",
+        "revenue_impact_annual": 1800,
+        "capex": 0,
+        "zoning_risk": "none",
+        "timeline_months": 1,
+        "probability": 0.85,
+        "description": "ATM surcharge revenue sharing. ~$150/mo net.",
+        "score": 5.5,
+        "roi_year1_pct": 999
+      }
+    ],
+    "recommended_phasing": {
+      "phase_1_immediate": [
+        {
+          "name": "Add vending machines",
+          "category": "ancillary",
+          "revenue_impact_annual": 3000,
+          "capex": 2000,
+          "zoning_risk": "none",
+          "timeline_months": 1,
+          "probability": 0.9,
+          "description": "Place 2-3 vending machines in common area. $1-3K/yr net.",
+          "score": 6.8,
+          "roi_year1_pct": 150.0
+        },
+        {
+          "name": "Add ATM",
+          "category": "ancillary",
+          "revenue_impact_annual": 1800,
+          "capex": 0,
+          "zoning_risk": "none",
+          "timeline_months": 1,
+          "probability": 0.85,
+          "description": "ATM surcharge revenue sharing. ~$150/mo net.",
+          "score": 5.5,
+          "roi_year1_pct": 999
+        }
+      ],
+      "phase_2_medium": [
+        {
+          "name": "Subdivide large bay",
+          "category": "structural",
+          "revenue_impact_annual": 10000,
+          "capex": 40000,
+          "zoning_risk": "medium",
+          "timeline_months": 6,
+          "probability": 0.4,
+          "description": "Split one large bay into 2 smaller units. Smaller units rent at higher $/SF.",
+          "score": 12.1,
+          "roi_year1_pct": 25.0
+        },
+        {
+          "name": "Convert to smoke shop / specialty retail",
+          "category": "tenant_mix",
+          "revenue_impact_annual": 8000,
+          "capex": 10000,
+          "zoning_risk": "medium",
+          "timeline_months": 3,
+          "probability": 0.3,
+          "description": "Reposition one bay as smoke shop or specialty retail. Higher rent tolerance.",
+          "score": 10.0,
+          "roi_year1_pct": 80.0
+        },
+        {
+          "name": "Convert storage to rentable SF",
+          "category": "operational",
+          "revenue_impact_annual": 5000,
+          "capex": 15000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.6,
+          "description": "Convert 500-800 SF of storage/utility space to rentable area.",
+          "score": 7.9,
+          "roi_year1_pct": 33.3
+        },
+        {
+          "name": "Add outdoor seating/patio",
+          "category": "improvement",
+          "revenue_impact_annual": 4000,
+          "capex": 20000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.5,
+          "description": "Add outdoor seating for restaurant tenant. Increases rent premium.",
+          "score": 6.7,
+          "roi_year1_pct": 20.0
+        }
+      ],
+      "phase_3_structural": [
+        {
+          "name": "Add cell tower lease",
+          "category": "ancillary",
+          "revenue_impact_annual": 24000,
+          "capex": 0,
+          "zoning_risk": "medium",
+          "timeline_months": 12,
+          "probability": 0.15,
+          "description": "Lease rooftop/land to cell carrier. $2K/mo typical. Requires carrier need.",
+          "score": 25.8,
+          "roi_year1_pct": 999
+        },
+        {
+          "name": "Add drive-thru",
+          "category": "structural",
+          "revenue_impact_annual": 15000,
+          "capex": 75000,
+          "zoning_risk": "medium",
+          "timeline_months": 6,
+          "probability": 0.25,
+          "description": "Add drive-thru lane for QSR tenant. Commands significant rent premium.",
+          "score": 16.6,
+          "roi_year1_pct": 20.0
+        },
+        {
+          "name": "Add apartment unit (if zoning allows)",
+          "category": "structural",
+          "revenue_impact_annual": 12000,
+          "capex": 80000,
+          "zoning_risk": "high",
+          "timeline_months": 12,
+          "probability": 0.1,
+          "description": "Convert portion to residential. C2 zoning likely needs variance.",
+          "score": 13.0,
+          "roi_year1_pct": 15.0
+        },
+        {
+          "name": "Push rents to market",
+          "category": "operational",
+          "revenue_impact_annual": 9292,
+          "capex": 0,
+          "zoning_risk": "none",
+          "timeline_months": 12,
+          "probability": 0.7,
+          "description": "In-place rents $9.99/SF, market $13-14/SF. 30-40% upside.",
+          "score": 12.7,
+          "roi_year1_pct": 999
+        },
+        {
+          "name": "Acquire neighboring rental house",
+          "category": "expansion",
+          "revenue_impact_annual": 9600,
+          "capex": 150000,
+          "zoning_risk": "low",
+          "timeline_months": 3,
+          "probability": 0.2,
+          "description": "Listing mentions 'neighboring rental house can potentially be included.'",
+          "score": 11.1,
+          "roi_year1_pct": 6.4
+        }
+      ]
+    },
+    "total_potential_revenue_uplift": 101692
+  },
+  "demographics": {
+    "population_growth": "stable",
+    "median_hhi": "$75,000"
+  },
+  "effective_frontier": {
+    "points": [
+      {
+        "purchase_price": 432500,
+        "worst_pct_capital": 28.2,
+        "best_moic": 3.2,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 457500,
+        "worst_pct_capital": 26.7,
+        "best_moic": 3.03,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 482500,
+        "worst_pct_capital": 25.3,
+        "best_moic": 2.87,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 507500,
+        "worst_pct_capital": 24.0,
+        "best_moic": 2.73,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 532500,
+        "worst_pct_capital": 22.9,
+        "best_moic": 2.6,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 557500,
+        "worst_pct_capital": 21.9,
+        "best_moic": 2.48,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 582500,
+        "worst_pct_capital": 20.9,
+        "best_moic": 2.38,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 607500,
+        "worst_pct_capital": 20.1,
+        "best_moic": 2.28,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 632500,
+        "worst_pct_capital": 19.3,
+        "best_moic": 2.19,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 657500,
+        "worst_pct_capital": 18.6,
+        "best_moic": 2.1,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 682500,
+        "worst_pct_capital": 17.9,
+        "best_moic": 2.03,
+        "zone": "Pursue aggressively"
+      },
+      {
+        "purchase_price": 707500,
+        "worst_pct_capital": 17.2,
+        "best_moic": 1.96,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 732500,
+        "worst_pct_capital": 16.7,
+        "best_moic": 1.89,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 757500,
+        "worst_pct_capital": 16.1,
+        "best_moic": 1.83,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 782500,
+        "worst_pct_capital": 15.6,
+        "best_moic": 1.77,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 807500,
+        "worst_pct_capital": 15.1,
+        "best_moic": 1.71,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 832500,
+        "worst_pct_capital": 14.7,
+        "best_moic": 1.66,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 857500,
+        "worst_pct_capital": 14.2,
+        "best_moic": 1.61,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 882500,
+        "worst_pct_capital": 13.8,
+        "best_moic": 1.57,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 907500,
+        "worst_pct_capital": 13.4,
+        "best_moic": 1.53,
+        "zone": "Acceptable selectively"
+      },
+      {
+        "purchase_price": 932500,
+        "worst_pct_capital": 13.1,
+        "best_moic": 1.48,
+        "zone": "Acceptable selectively"
+      }
+    ],
+    "attractiveness_threshold": 432500,
+    "ask_price": 865000,
+    "ask_zone": "Unknown",
+    "target_zone": "Pursue aggressively"
+  },
+  "property_specific_scenarios": {
+    "Worst Case \u2014 E-commerce Disruption + Tenant Loss": {
+      "value": 300000.0,
+      "moic_5yr": 0.4,
+      "noi": 25000,
+      "description": "Amazon effect accelerates. Two tenants close. Vacancy hits 40%. Exit cap 10% (distressed). MOIC 0.40x."
+    },
+    "Worst Case \u2014 Rate Shock / Cap Rate Expansion": {
+      "value": 413000.0,
+      "moic_5yr": 0.55,
+      "noi": 45000,
+      "description": "Fed raises rates. Cap rates expand 150bps. Exit cap 9.5%. Property value compression. MOIC 0.55x."
+    },
+    "Baseline \u2014 Tax-Adjusted Status Quo (As-Is)": {
+      "value": 662000.0,
+      "moic_5yr": 0.88,
+      "noi": 56242,
+      "description": "Tenants stay. SC post-sale tax applied ($17.3K). NOI $56.2K. Exit cap 8.5%. Modest growth."
+    },
+    "Phase 1 Optimize \u2014 Rent Push + Low-Capex Levers (Best Case)": {
+      "value": 953000.0,
+      "moic_5yr": 1.27,
+      "noi": 76242,
+      "description": "Push rents to market (+$15K). Add vending + ATM (+$5K). NOI $76K. Exit cap 8%. Active management pays."
+    },
+    "Phase 2 Expand \u2014 Renovate + Tenant Upgrade": {
+      "value": 1217000.0,
+      "moic_5yr": 1.62,
+      "noi": 91242,
+      "description": "$50K renovation to Class B. Full occupancy at $14/SF. Exit cap 7.5%. Higher quality tenant mix."
+    },
+    "Phase 3 Strategic \u2014 Parcel Assembly / Redevelop": {
+      "value": 326000.0,
+      "moic_5yr": 0.43,
+      "noi": null,
+      "description": "Assemble adjacent parcels. 1.40 acres on Augusta Rd with I-85 access. Redevelopment play. Moonshot."
+    }
+  },
+  "convexity": {
+    "divergence": {
+      "absolute_spread": 917000.0,
+      "capital_normalized_spread": 1.22,
+      "convexity_ratio": 1.53,
+      "convexity_verdict": "POSITIVE",
+      "worst_scenario_value": 300000.0,
+      "effective_worst": 300000.0,
+      "worst_case_pct_capital": 40.0,
+      "best_case_moic_5yr": 1.62,
+      "risk_reward_ratio": 4.0
+    },
+    "pwev": {
+      "pwev": 756100.0,
+      "pwev_vs_ask_pct": -12.6,
+      "is_underpriced": false
+    },
+    "frontier": {
+      "x": 40.0,
+      "y": 1.62,
+      "zone": "Walk away"
+    },
+    "verdict": {
+      "verdict": "CONDITIONAL",
+      "target_offer": 228150.00000000003,
+      "walk_away": 304200.0,
+      "convexity_ratio": 1.53,
+      "reasoning": [
+        "Frontier: Walk away \u2014 worst 40%, best MOIC 1.62x. BUT convexity positive (ratio 1.53).",
+        "CONDITIONAL \u2014 pursue at \u2264$228,150, walk above $304,200."
+      ],
+      "risk_reward_summary": "Risk: $750,000, worst 40% of capital. Best MOIC 1.62x. Convexity 1.53 (POSITIVE). Conditional \u2014 requires price discipline."
+    }
+  },
+  "enhanced": {
+    "moats": {
+      "dimensions": [
+        {
+          "name": "Tenant Diversification",
+          "score": 8
+        },
+        {
+          "name": "Renovation Quality",
+          "score": 8
+        },
+        {
+          "name": "Zoning Optionality",
+          "score": 7
+        },
+        {
+          "name": "Cash Flow Quality",
+          "score": 7
+        }
+      ],
+      "total_score": 30
+    },
+    "offers": {
+      "points": [
+        {
+          "price": 228000.0,
+          "price_per_sf": 0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 2.5,
+          "cash_on_cash_pct": 0.0,
+          "label": "AGGRESSIVE TARGET"
+        },
+        {
+          "price": 254000.0,
+          "price_per_sf": 0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 2.7,
+          "cash_on_cash_pct": 0.0,
+          "label": ""
+        },
+        {
+          "price": 279000.0,
+          "price_per_sf": 0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 3.0,
+          "cash_on_cash_pct": 0.0,
+          "label": "TARGET MIDPOINT"
+        },
+        {
+          "price": 304000.0,
+          "price_per_sf": 0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 3.3,
+          "cash_on_cash_pct": 0.0,
+          "label": "WALK AWAY"
+        },
+        {
+          "price": 865000,
+          "price_per_sf": 0,
+          "cap_rate_pct": 0.0,
+          "gross_rent_multiplier": 9.4,
+          "cash_on_cash_pct": 0.0,
+          "label": "ASK \u2014 NO VERIFIED FINANCIALS"
+        }
+      ],
+      "target_low": 228150.00000000003,
+      "target_high": 278850.0,
+      "walk_away": 304200.0,
+      "ask_price": 865000,
+      "rationale": "Anchor at hard floor ($169,000) + premium for stabilized income. At $228,150-278,850, cap rates 0.0-0.0%. Walk above $304,200."
+    },
+    "demographics": {
+      "population_growth": "stable",
+      "median_hhi": "$75,000"
+    },
+    "environmental": {
+      "flood_zone": "",
+      "in_floodplain": false,
+      "flood_risk_level": "unknown",
+      "ust_risk": "unknown",
+      "ust_sites_nearby": 0,
+      "known_contamination": false,
+      "phase_i_recommended": false,
+      "red_flags": []
+    },
+    "comps": {
+      "comps": [],
+      "price_per_sf_range": [
+        0,
+        0
+      ],
+      "subject_psf": 0,
+      "comp_count": 0
+    },
+    "legal_risk": {
+      "legal_risk_score": 0,
+      "legal_risk_severity": "MINIMAL",
+      "concealment_flags": [],
+      "concealment_count": 0,
+      "env_liability_adjustment": 0.0,
+      "tax_bomb_analysis": {
+        "current_tax_estimated": 8604,
+        "post_sale_tax_estimated": 0,
+        "tax_increase_pct": 0,
+        "tax_increase_per_sf": 0,
+        "verdict": "NJ tax bomb",
+        "tenant_impact": ""
+      },
+      "missing_data": [
+        "Tenant names and lease expiration dates",
+        "Environmental Phase I status",
+        "Property tax bill amount"
+      ],
+      "missing_data_count": 3,
+      "narrative": ""
+    },
+    "analysis_date": "2026-05-14"
+  },
+  "hard_floor_mid": 169000.0
+}

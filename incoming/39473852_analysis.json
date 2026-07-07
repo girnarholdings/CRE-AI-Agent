@@ -1,0 +1,139 @@
+{
+  "property": {
+    "listing_id": "39473852",
+    "address": "519 Millburn Ave, Short Hills, NJ 07078",
+    "city": "Short Hills",
+    "state": "NJ",
+    "property_type": "Retail",
+    "price": 1255000,
+    "sf": 3580,
+    "lot_acres": 0.10,
+    "year_built": 1943,
+    "year_renovated": null,
+    "building_class": "C",
+    "zoning": "Commercial (retail)",
+    "description": "100% leased multi-tenant retail storefront on Millburn Ave in Short Hills. Proximity to Walgreens, Wendy's, ShopRite, Trader Joe's, CVS, and NJ Transit train station. 97' frontage. 1,502 SF space available in 60 days. NOI is proposed/proforma per broker — contact for actuals. Multiple tenants. Investment or Owner User.",
+    "days_on_market": 84,
+    "property_subtype": "Storefront",
+    "tenancy": "Multiple",
+    "sale_type": "Investment or Owner User",
+    "frontage": "97 ft on Millburn Ave"
+  },
+  "tax": {
+    "current_assessment": 940500,
+    "land_assessment": 224300,
+    "improvement_assessment": 716200,
+    "effective_rate_pct": 2.5,
+    "current_tax_estimated": 23512,
+    "post_sale": {
+      "annual_tax_estimated": 31375
+    },
+    "tax_bomb_pct": 33,
+    "verdict": "MODERATE — assessment at 75% of ask, 33% increase at sale"
+  },
+  "leases": {
+    "current_rent_psf": 22.79,
+    "market_rent_psf": 28.00,
+    "occupancy": 100,
+    "lease_type": "NNN",
+    "vacant": false,
+    "note": "Broker claims 100% leased but 1,502 SF available in 60 days. Current NOI/proforma figures need verification."
+  },
+  "hard_asset_floor": {
+    "low": 550000,
+    "mid": 700000,
+    "high": 850000
+  },
+  "purchase_price": 1255000,
+  "capital_invested": 1280000,
+  "real_estate_value": 700000,
+  "exit_cap_rate": 0.07,
+  "exit_year": 5,
+  "scenarios": {
+    "Worst Case — Tenant Default + Cap Rate Expansion": {
+      "value": 750000,
+      "moic_5yr": 0.59,
+      "gross_rent": 60000,
+      "expenses": 42000,
+      "noi": 18000,
+      "description": "Key tenant vacates. Replacement tenant at lower rent. Cap rate expands to 8.5%. Post-sale tax at $31K. Vacancy drag for 12 months. Exit value compressed."
+    },
+    "Baseline — Status Quo with Tax Adjustment (As-Is)": {
+      "value": 1165000,
+      "moic_5yr": 0.91,
+      "gross_rent": 81575,
+      "expenses": 36700,
+      "noi": 44875,
+      "description": "Hold as-is. Post-sale tax of $31,375 applied. Proforma NOI of $81,575 minus tax-adjusted expenses. Exit at 7.0% cap. Modest MOIC from cash flow, not appreciation."
+    },
+    "Phase 1 Optimize — Fill Vacancy + Rent Push (Best Case)": {
+      "value": 1550000,
+      "moic_5yr": 1.21,
+      "gross_rent": 100000,
+      "expenses": 40000,
+      "noi": 60000,
+      "description": "Lease the 1,502 SF vacant space at $30/SF NNN. Push existing rents to market. Stabilized NOI $60K. Exit at 6.5% cap. Value = NOI / cap = $923K in Year 5 plus cash flow."
+    },
+    "Phase 2 Expand — Renovate to Class B + Tenant Upgrade": {
+      "value": 1850000,
+      "moic_5yr": 1.45,
+      "gross_rent": 125000,
+      "expenses": 45000,
+      "noi": 80000,
+      "description": "$100K renovation to Class B. Upgrade tenant mix to premium retail. $35/SF average rent. Exit at 6.0% cap. Short Hills market supports premium retail."
+    },
+    "Phase 3 Strategic — Owner-User Conversion / Condo Split": {
+      "value": 2200000,
+      "moic_5yr": 1.72,
+      "gross_rent": 0,
+      "expenses": 0,
+      "noi": null,
+      "description": "Sell to owner-user (medical, professional services, boutique). 0.10 AC on prime Millburn Ave corridor. Condo-split the building. Moonshot — excluded from best case."
+    }
+  },
+  "valuations": {
+    "cap_rate_method": {
+      "value": 1165571,
+      "cap_rate": 0.065,
+      "description": "Based on proforma NOI of $81,575 at 7.0% cap (adjusted up from broker's 6.5% to reflect proforma risk). $81,575 / 0.07 = $1,165,571."
+    },
+    "probability_weighted_ev": {
+      "value": 1300000,
+      "weights": {
+        "worst": 0.15,
+        "base": 0.35,
+        "best": 0.35,
+        "moonshot": 0.15
+      }
+    }
+  },
+  "income": {
+    "gross_rent": 81575,
+    "expenses": 36700,
+    "noi": 44875,
+    "description": "Proforma NOI per broker. $81,575 gross - $31,375 post-sale tax - $5,325 other expenses = $44,875. PROFORMA — needs verification with actual rent roll."
+  },
+  "red_flags": [
+    {"severity": "HIGH", "flag": "NOI is PROFORMA per broker — 'NOI is proposed, cap rate is proforma.' Actual financials not disclosed. Contact broker for real numbers."},
+    {"severity": "HIGH", "flag": "1,502 SF (42% of building) becoming available in 60 days. 100% leased claim is misleading — vacancy risk is imminent."},
+    {"severity": "MEDIUM", "flag": "84 days on market in prime Short Hills location — pricing may be aggressive for proforma numbers."},
+    {"severity": "MEDIUM", "flag": "Building Class C, 1943 construction. $351/SF is premium pricing for Class C retail."},
+    {"severity": "LOW", "flag": "0.10 AC lot is very small — no expansion or parking expansion possible."}
+  ],
+  "positives": [
+    {"severity": "HIGH", "flag": "Prime Short Hills location — Millburn Ave is the Main Street corridor. Affluent demographics (median HHI $250K+)."},
+    {"severity": "HIGH", "flag": "97' frontage on Millburn Ave with national retail anchors nearby (Trader Joe's, CVS, Walgreens, ShopRite)."},
+    {"severity": "HIGH", "flag": "NJ Transit train station proximity — commuter foot traffic. Exceptionally drivable (100/100)."},
+    {"severity": "MEDIUM", "flag": "Multiple tenants diversify income risk. Retail storefront format is flexible for various uses."},
+    {"severity": "MEDIUM", "flag": "Fee simple ownership. Owner-user option provides exit flexibility."}
+  ],
+  "market": {
+    "tier": 1,
+    "submarket": "Millburn Avenue Corridor",
+    "msa": "New York-Newark-Jersey City MSA",
+    "county": "Essex County",
+    "min_cap_stabilized": 0.06,
+    "population_growth": "stable",
+    "median_household_income": 250000
+  }
+}

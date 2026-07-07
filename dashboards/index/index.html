@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CRE Underwriting — Deal Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,300..700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0c0e;--card:#101214;--border:#1a1e24;
+  --text:#b8c8d8;--sub:#6a7a8a;--muted:#3a4a5a;
+  --green:#6aba8a;--red:#ba6a5a;--blue:#4a6a8a;--gold:#a88a6a;
+  --mono:'DM Mono','IBM Plex Mono','JetBrains Mono','Fira Code',monospace;
+  --serif:'Source Serif 4','Cormorant Garamond','Crimson Pro',Georgia,serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scrollbar-gutter:stable;-webkit-font-smoothing:antialiased}
+body{font-family:var(--serif);background:var(--bg);color:var(--text);min-height:100dvh;line-height:1.6}
+.c{max-width:900px;margin:0 auto;padding:48px 24px 64px}
+h1{font-family:var(--serif);font-size:28px;font-weight:400;margin-bottom:4px}
+.sub{font-family:var(--mono);font-size:9px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;margin-bottom:28px}
+.deal-grid{display:grid;gap:12px}
+.deal-card{
+  display:block;text-decoration:none;color:var(--text);
+  background:var(--card);border:1px solid var(--border);
+  border-left:3px solid var(--border);border-radius:2px;
+  padding:16px 20px;
+}
+.deal-card:hover{border-left-color:var(--gold)}
+.deal-top{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:4px}
+.deal-name{font-family:var(--serif);font-size:18px;font-weight:400}
+.deal-price{font-family:var(--mono);font-size:17px;font-weight:500;color:var(--gold);font-variant-numeric:tabular-nums}
+.deal-meta{font-family:var(--mono);font-size:9px;color:var(--sub);letter-spacing:0.5px;margin-bottom:6px}
+.deal-tagline{font-family:var(--serif);font-size:13px;color:var(--sub);line-height:1.55;margin-bottom:8px}
+.deal-stats{display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+.deal-stat{font-family:var(--mono);font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+.deal-stat b{color:var(--text);font-size:12px;font-weight:500;font-variant-numeric:tabular-nums}
+.verdict-tag{
+  font-family:var(--mono);font-size:8px;font-weight:500;text-transform:uppercase;letter-spacing:1.5px;
+  padding:3px 8px;border-radius:2px;
+}
+.v-pursue{color:var(--green);border:1px solid var(--green)}
+.v-conditional{color:var(--gold);border:1px solid var(--gold)}
+.v-analyze{color:var(--blue);border:1px solid var(--blue)}
+.v-pass{color:var(--red);border:1px solid var(--red)}
+.section-div{font-family:var(--mono);font-size:9px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;padding:24px 0 8px;border-bottom:1px solid var(--border);margin-bottom:12px}
+.footer{font-family:var(--mono);font-size:9px;color:var(--muted);text-align:center;margin-top:40px;padding-top:16px;border-top:1px solid var(--border)}
+@media(max-width:768px){.c{padding:32px 16px 48px}h1{font-size:22px}.deal-card{padding:14px 16px}.deal-name{font-size:16px}.deal-price{font-size:15px}}
+</style>
+</head>
+<body>
+<div class="c">
+  <h1>CRE Underwriting</h1>
+  <div class="sub">8 Properties · NJ / SC · Claude Analytical Design · Pipeline v3.2</div>
+
+  <div class="deal-grid">
+
+    <!-- NJ — Prime Retail -->
+    <div class="section-div">New Jersey — Prime Retail</div>
+
+    <a href="https://millburn.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">519 Millburn Ave</div>
+        <div class="deal-price">$1,255,000</div>
+      </div>
+      <div class="deal-meta">Short Hills, NJ · Retail · 3,580 SF · Class C</div>
+      <div class="deal-tagline">Prime Millburn Ave corridor. $250K median HHI. Proforma NOI risk at ask. Tax-adjusted returns below 6%.</div>
+      <div class="deal-stats">
+        <div class="deal-stat">Cvx <b>0.83×</b></div>
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <a href="https://irvington-nj.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">216-218 Orange Ave</div>
+        <div class="deal-price">$799,999</div>
+      </div>
+      <div class="deal-meta">Irvington, NJ · Mixed-Use Retail · 5,262 SF</div>
+      <div class="deal-tagline">Multi-tenant mixed-use on Orange Ave corridor. Residential above. Value-add through rent optimization.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <a href="https://succasunna.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">37-39 Main St</div>
+        <div class="deal-price">$699,000</div>
+      </div>
+      <div class="deal-meta">Succasunna, NJ · Retail · 3,645 SF · Morris County</div>
+      <div class="deal-tagline">Three storefronts on Main St. B-1 Mixed Use zoning. NJ tax reassessment at sale. Redevelopment project.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <a href="https://boonton.vercel.app" class="deal-card pass">
+      <div class="deal-top">
+        <div class="deal-name">6 Boonton Ave</div>
+        <div class="deal-price">$289,000</div>
+      </div>
+      <div class="deal-meta">Butler, NJ · Retail · 1,500 SF · 1905 Build</div>
+      <div class="deal-tagline">NNN lease at ~7% cap. Structural age risk from 1905. Low absolute exposure — $289K ask.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-pass">PASS</span>
+      </div>
+    </a>
+
+    <a href="https://urban-nj.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">4 Market St</div>
+        <div class="deal-price">$865,000</div>
+      </div>
+      <div class="deal-meta">Passaic, NJ · Mixed-Use · 3,467 SF · 2018 Reno</div>
+      <div class="deal-tagline">8%+ cap. Restaurant + 2 apartments. Full renovation. Opportunity Zone. MSRA redevelopment zone.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <a href="https://hoboken-nj.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">87 Jefferson St</div>
+        <div class="deal-price">$399,000</div>
+      </div>
+      <div class="deal-meta">Hoboken, NJ · Retail Condo · 748 SF · Walk Score 100</div>
+      <div class="deal-tagline">Ground-floor white box at 1st & Jefferson. New construction, new HVAC. Premium $533/SF — lease-up required.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <!-- Special Situations -->
+    <div class="section-div">Special Situations</div>
+
+    <a href="https://crown-point.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">6 Crown Point Rd</div>
+        <div class="deal-price">$99,000</div>
+      </div>
+      <div class="deal-meta">West Deptford, NJ · Former Gas Station · 2,500 SF</div>
+      <div class="deal-tagline">Hard asset floor 303% of ask. UST environmental liability. Dual M-2/R-4 zoning. Distress sale.</div>
+      <div class="deal-stats">
+        <div class="deal-stat">PWEV <b>$142K</b></div>
+        <div class="deal-stat">MOIC <b>2.04×</b></div>
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+    <!-- South Carolina -->
+    <div class="section-div">South Carolina</div>
+
+    <a href="https://augusta-greenville.vercel.app" class="deal-card conditional">
+      <div class="deal-top">
+        <div class="deal-name">3904-3914 Augusta Rd</div>
+        <div class="deal-price">$825,000</div>
+      </div>
+      <div class="deal-meta">Greenville, SC · Retail Strip · 7,500 SF · 1.40 AC</div>
+      <div class="deal-tagline">Land banking optionality. SC tax favorable (6% assessment). Corridor growth positive.</div>
+      <div class="deal-stats">
+        <span class="verdict-tag v-conditional">CONDITIONAL</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">CRE Underwriting Pipeline v3.2 · Claude Analytical Design · DM Mono + Source Serif 4</div>
+</div>
+</body>
+</html>
