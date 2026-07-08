@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import json, os, re
+import os
+import re
 
 st.set_page_config(
     page_title="NJ CRE Pipeline",
@@ -256,11 +257,11 @@ with st.sidebar:
     if st.button("Analyze Selected"):
         listing = df[df['num'] == selected]
         if not listing.empty:
-            l = listing.iloc[0]
+            row = listing.iloc[0]
             st.success(f"Deep dive #{selected}")
-            st.write(f"**{l['title']}**")
-            st.write(f"{l['address']}")
-            st.write(f"Type: {l['type']}")
-            st.write(f"Price: {l['price']}")
-            st.write(f"SF: {l['sf']}")
-            st.write(f"ID: {l['id']}")
+            st.write(f"**{row['title']}**")
+            st.write(f"{row['address']}")
+            st.write(f"Type: {row['type']}")
+            st.write(f"Price: {row['price']}")
+            st.write(f"SF: {row['sf']}")
+            st.write(f"ID: {row['id']}")

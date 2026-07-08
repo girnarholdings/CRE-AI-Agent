@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install tooling
+        run: pip install ruff pandas
+
+      - name: Lint with ruff
+        run: ruff check .
+
+      - name: Syntax-check entry points
+        run: python -m py_compile nj_dashboard.py scraper.py rebuild_all.py
+
+      - name: Smoke-test data.csv loads
+        run: |
+          python - <<'EOF'
+          import pandas as pd
+          df = pd.read_csv("data.csv")
+          assert len(df) > 0, "data.csv is empty"
+          print(f"data.csv OK: {len(df)} rows, {len(df.columns)} columns")
+          EOF
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v

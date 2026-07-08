@@ -27,7 +27,7 @@ Underwriting playbook (per-deal deep dive)
 firefox --remote-debugging-port=9222 &
 
 # 2. Scrape NJ listings
-python3 ~/.hermes/scripts/loopnet_nj_full_scrape.py
+python3 scraper.py
 
 # 3. Launch dashboard
 streamlit run nj_dashboard.py --server.port 8502
@@ -39,7 +39,7 @@ streamlit run nj_dashboard.py --server.port 8502
 |------|---------|
 | `nj_dashboard.py` | Streamlit dashboard — 475 NJ listings with search, filter, sort |
 | `nj-dashboard.html` | Static HTML version (Linear-inspired dark theme) |
-| `~/.hermes/scripts/loopnet_nj_full_scrape.py` | Multi-page LoopNet scraper via Firefox CDP |
+| `scraper.py` | Multi-page LoopNet scraper via Firefox CDP |
 | `incoming/nj-full/nj_all_listings.csv` | Full NJ dataset (475 rows) |
 | `incoming/nj-full/nj_all_listings.json` | JSON export |
 

@@ -6,7 +6,6 @@ on deal data and deploying to Vercel.
 import json
 import sys
 import os
-from pathlib import Path
 
 # Add the cre-underwriting src to path
 sys.path.insert(0, "/home/nima/cre-underwriting/src")
@@ -184,13 +183,13 @@ def main():
         
         # Determine format and get deal_data
         if is_pipeline_format(raw_data):
-            print(f"  → Pipeline format detected. Extracting deal_data...")
+            print("  → Pipeline format detected. Extracting deal_data...")
             deal_data = extract_deal_from_pipeline(raw_data)
             print(f"    Extracted: price=${deal_data['property']['price']:,.0f}, "
                   f"sf={deal_data['property']['sf']}, "
                   f"noi=${deal_data['income']['noi']:,.0f}")
         else:
-            print(f"  → Analysis format detected. Using directly...")
+            print("  → Analysis format detected. Using directly...")
             deal_data = raw_data
             print(f"    price=${deal_data.get('property',{}).get('price',0):,.0f}, "
                   f"sf={deal_data.get('property',{}).get('sf',0)}")
@@ -198,7 +197,7 @@ def main():
         # Run pipeline
         try:
             result = orch.run_dict(deal_data)
-            print(f"  ✓ Pipeline complete")
+            print("  ✓ Pipeline complete")
         except Exception as e:
             print(f"  ❌ Pipeline error: {e}")
             import traceback
@@ -254,7 +253,7 @@ def main():
     
     # ── Summary ──
     print(f"\n{'='*60}")
-    print(f"SUMMARY")
+    print("SUMMARY")
     print(f"{'='*60}")
     for r in results:
         print(f"  {r['name']:25s} | {r['status']:40s} | {r['url']}")
