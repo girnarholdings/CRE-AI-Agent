@@ -22,3 +22,7 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Regenerable per-deal sidecar written by rebuild_all.py from the tracked
+# incoming/*.json inputs; the deployed deliverable is index.html, not this.
+dashboards/**/pipeline_result.json
